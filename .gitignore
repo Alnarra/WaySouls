@@ -21,3 +21,18 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+*.jar
+.minecraft/backups
+.minecraft/journeymap
+.minecraft/local
+.minecraft/llibrary
+.minecraft/logs
+.minecraft/saves
+.minecraft/usercache.json
+.minecraft/screenshots
+natives/
+.minecraft/usernamecache.json
+.minecraft/icon.png
+.minecraft/crafttweaker.log
+.minecraft/BotaniaVars.dat
+.minecraft/astralsorcery
