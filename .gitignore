@@ -36,3 +36,4 @@ natives/
 .minecraft/crafttweaker.log
 .minecraft/BotaniaVars.dat
 .minecraft/astralsorcery
+.minecraft/realms_persistence.json
