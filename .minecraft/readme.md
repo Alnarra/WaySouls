@@ -1,14 +1,14 @@
 MODS: 
 
 Core Mods
-	Abyssal Craft
-	Astral Sorcery
-	Blood Magic
-	Botania
-	Embers
-	Immersive Engineering
-	Roots
-	Thaumcraft 
+	- Abyssal Craft
+	- Astral Sorcery
+	- Blood Magic
+	- Botania
+	- Embers
+	- Immersive Engineering
+	- Roots
+	- Thaumcraft 
 	
 Library Mods
 	MTLib 
