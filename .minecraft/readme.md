@@ -100,7 +100,7 @@ Changelog
 Version 0.0.5 
 -------------
 
-###Description 
+### Description 
 This patch is intended to clean up a lot of the useless underground / ore clutter that was taking place. I noticed that a lot of the ores either utterly didn't serve a purpose, or that they were one off ores that had a single recipie. I've put a lot heavier emphasis on silver as a result. In addition I've added some baseline quest to help players get started on a number of quest. 
 
 Infernal mobs was proving during playtesting to be iincredibly frustrating and there was no way I could make use of it without some form of griefing or simply feeling like in the early stages the player would be left hiding for their lives. This behavior was not intended. The Khndrel Keght (Dirt slime) was also removed as it felt like a silly punishment for using a non shovel to clear dirt
