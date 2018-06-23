@@ -64,6 +64,7 @@ Mods
 	- Totemic 
 	- Realbench 
 	- Nutrition 
+	- Iron Backpacks
 
 ### UI Mods
 	- Waila
