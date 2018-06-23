@@ -42,10 +42,10 @@ Mods
 	
 ### Helper Mods
 	- Waystones
-	- Storage Drwers
+	- Storage Drawers
 	- Rustic
 	- Ruins Spawning System
-	- Roguelike Dugneons
+	- Roguelike Dungeons
 	- Quark 
 	- Gravestone Mob
 	- FastLeafDecay
@@ -53,7 +53,7 @@ Mods
 	- Simple Bed Rolls
 	- Chisel
 	- Nature's Compass
-	- Resurect Complex
+	- Resurrect Complex
 	- Battletowers 
 	- NetherEx	
 	- Cooking for Blockheads
@@ -109,10 +109,10 @@ With rustic lacking support for Modtweaker in regards to alchemy, it is difficul
 
 Totemic has been added as a small support mod because I believe it fit the theme, and realbench is a QoL improvement. Nutrtion is intended to help reward the player 
 
-###Modpack Core
+### Modpack Core
 	- Fixed the resource pack not being shipped with the client version (Whoopsie daisy) 
 
-###Config Changes
+### Config Changes
 	- Turned off Tomato / Chili Pepper generation for Harvestcraft (so Rustic can handle them) 
 	- Turned of RPG Hud Compass and Entity inspect 
 	- Toned down Abysallcraft biome generation by half (this should be as low as it can possibly go) 
@@ -122,14 +122,14 @@ Totemic has been added as a small support mod because I believe it fit the theme
 	- Turned off Uranium Ore generation 
 	- Prevented market from selling animals that can't spawn 
 
-###Mod's Added
+### Mod's Added
 _Helper_
 
 		- Totemic 
 		- Realbench 
 		- Nutrition 
 
-###Mods Updated
+### Mods Updated
 _Core_
 
 		- Abyssal Craft
@@ -153,7 +153,7 @@ _Modpack_
 
 		- FTBUtilities
 
-###Mod's Removed
+### Mod's Removed
 _Library_
 
 		- B.A.S.E
@@ -162,14 +162,14 @@ _Helper_
 
 		- Infernal Mobs
 
-###Questing
+### Questing
 	- Added images for quest booklet 
 	- Made a number of small updates to try and correct issues with the quest booklet 
 	- Added 100+ Quest to help the player begin to settle in 
  	- Bug where quest book was sent in edit mode should now be corrected
 	- Numerous quest updated / rewards changed / etc. 
 
-###Scripting
+### Scripting
 	- Removed Uranium from JEI / Recipies where possible
 	- Removed Tin from JEI / Recipies where possible
 	- Removed Mithril from JEI 
@@ -179,7 +179,7 @@ _Helper_
 	- Changed Apple Juice recipie to not drop apple seeds
 	- Removed references to Pam's Grapes / Tomatoes / Chilli Peppers
 
-###Modpack 
+### Modpack 
 	- Github profile page updated.
 
 Version 0.0.4 
