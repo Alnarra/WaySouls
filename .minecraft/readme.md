@@ -4,9 +4,13 @@ Wayward Souls
 Info
 ------------
 Current Version: 	0.0.5
+
 Minecraft Version: 	1.1.12 
+
 Modpack Author:		Alnarra
+
 Issues:				https://github.com/fullphaser/WaySouls/issues
+
 Discord:			https://discord.gg/hZp7sfh
 
 Description
