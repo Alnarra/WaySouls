@@ -4,6 +4,7 @@
 <rustic:beeswax>.displayName = "Southern Beeswax";
 <rustic:beehive>.displayName = "Southern Beehive";
 <rustic:apiary>.displayName = "Southern Bee Apiary";
+mods.rustic.CrushingTub.addRecipe(<liquid:honey>,null,<harvestcraft:honeycombitem>);
 
 #Fixing the "Basalt issues" 
 mods.chisel.Carving.addVariation("basalt",<nex:block_basalt:0>);
@@ -41,12 +42,12 @@ mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:15>);
 recipes.remove(<abyssalcraft:crystalcluster2>);
 recipes.remove(<abyssalcraft:crystal:16>); 
 recipes.remove(<abyssalcraft:crystalshard:16>);
-recipes.remove(<abyssalcraft:crystalfragment:16);
+recipes.remove(<abyssalcraft:crystalfragment:16>);
 recipes.remove(<abyssalcraft:tiningot>);
 recipes.remove(<thaumcraft:nugget:2>); 
 recipes.remove(<thaumcraft:cluster:3>);
 furnace.remove(<abyssalcraft:tiningot>); 
-mods.chisel.Carving.removeGroup("blockTin"); 
+#mods.chisel.Carving.removeGroup("blockTin"); - Also doesn't work 
 mods.jei.JEI.hide(<chisel:blocktin:*>);
 mods.jei.JEI.hide(<abyssalcraft:crystalcluster2>);
 mods.jei.JEI.hide(<abyssalcraft:crystal:16>); 
@@ -56,7 +57,7 @@ mods.jei.JEI.hide(<thaumcraft:nugget:2>);
 mods.jei.JEI.hide(<thaumcraft:cluster:3>);
 mods.jei.JEI.hide(<abyssalcraft:tiningot>); 
 mods.jei.JEI.hide(<abyssalcraft:abytinore>);
-mods.jei.JEI.hide(<abyssalcraft:crystalfragment:16);
+mods.jei.JEI.hide(<abyssalcraft:crystalfragment:16>);
 var tinIng = <ore:ingotTin>; 
 tinIng.add(<embers:ingot_silver>); 
 
@@ -106,8 +107,8 @@ var conNug = <ore:nuggetConstantan>;
 conNug.add(<embers:nugget_electrum>);
 
 #Apple Related Issues
-mods.rustic.CrushingTub.removeRecipe(<rustic:apple_juice>,<minecraft:apple>);
-mods.rustic.CrushingTub.addRecipie(<rustic:apple_juice>,<minecraft:apple>,null);
+mods.rustic.CrushingTub.removeRecipe(<liquid:applejuice>,<minecraft:apple>);
+mods.rustic.CrushingTub.addRecipe(<liquid:applejuice>,null,<minecraft:apple>);
 mods.jei.JEI.hide(<rustic:apple_seeds>); 
 
 #Grape Issues
@@ -119,3 +120,21 @@ seed.remove(<harvestcraft:grapeseeditem>);
 recipes.remove(<harvestcraft:grapeseeditem>); 
 mods.jei.JEI.hide(<harvestcraft:grapeseeditem>); 
 mods.jei.JEI.hide(<harvestcraft:grapeitem>);
+
+#tomato Issues
+var tomato = <ore:cropTomato>; 
+seed.remove(<harvestcraft:tomatoseeditem>); 
+seed.add(<rustic:tomato_seeds>); 
+tomato.remove(<harvestcraft:tomatoitem>); 
+recipes.remove(<harvestcraft:tomatoseeditem>);
+mods.jei.JEI.hide(<harvestcraft:tomatoseeditem>); 
+mods.jei.JEI.hide(<harvestcraft:tomatoitem>);
+
+#Pepper Issues
+var chili = <ore:cropChiliPepper>; 
+seed.remove(<harvestcraft:chilipepperseeditem>); 
+seed.add(<rustic:chili_pepper_seeds>); 
+chili.remove(<harvestcraft:chilipepperitem>); 
+recipes.remove(<harvestcraft:chilipepperseeditem>);
+mods.jei.JEI.hide(<harvestcraft:chilipepperitem>); 
+mods.jei.JEI.hide(<harvestcraft:chilipepperseeditem>);
