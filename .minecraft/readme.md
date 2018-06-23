@@ -39,7 +39,6 @@ Mods
 	- Baubles
 	- AutoRegLib 
 	- GuideAPI
-	- BASE
 	
 ### Helper Mods
 	- Waystones
@@ -60,9 +59,11 @@ Mods
 	- Cooking for Blockheads
 	- Pam's Harvestcraft
 	- Animania 
-	- Infernal Mobs
 	- EnderZoo
 	- Reliquery 
+	- Totemic 
+	- Realbench 
+	- Nutrition 
 
 ### UI Mods
 	- Waila
