@@ -1,5 +1,21 @@
-Descrption
+Wayward Souls 
 =========== 
+
+Info
+------------
+Current Version: 	0.0.5
+Minecraft Version: 	1.1.12 
+Modpack Author:		Alnarra
+Issues:				https://github.com/fullphaser/WaySouls/issues
+Discord:			https://discord.gg/hZp7sfh
+
+Description
+------------
+They say in a more ancient time that there were great and powerful spirits that guided the path of those who walked the square world. That there was a time when the very essence of magic is what controlled the living and the damned. Allow me to be your guide on an adventure to control the very nature of magic itself! We will walk amongst the stars and the depths of all the realms of hell. No land is without our touch! Join me as my apprentice as I teach you... the ways of magic
+
+Wayward Souls is a light Modpack with a focus on teaching newer and younger players the various ways to progress through a number of popular magical mods. The intention is to provide the player with a simple and understandable aesthetic that isn't too cluttered with overlap between the various mods and ensures relative stability and compatibility while trying to also ensure that the various component mods remain up to date in coordination with mod authors. 
+
+Inspired by Mage Quest and Minecraft Mage, the idea is to try and leave AS MUCH of the core Minecraft philosophy intact while adding new layers of adventure and difficulty. To help the player along a quest book (Provided through the Better Questing series of mods) is also provided. 
 
 Mods 
 ----------
@@ -73,22 +89,93 @@ Mods
 	- Morpheus
 	- ModTweaker
 
-Core Focus
------------
-Wayward Souls is a version 1.12 modpack that is attempting to stay with a lighthearted and very core approach. The focus will be on keeping a general aestetic as well as enhancing gameply by making the player feel like the world they are in is powered with ancient and powerful magics. Questing is in place to help the player understand any minor alterations made to the world from base minecraft as well as getting intot he bas. The modpack should meet high quality standards expected of Modpacks ensuring that player expirience is ranked first. The modpack should be kept up to date and also be visually appealing, the aeastic of the modpack should be concise and only mods which adhere to that aeastetic should be considered. 
-
-Technology should be secondary to magic in terms of the overall look and feel.The general feeling should be one of good versus evil. Minimal considriations for extreme difficulty or Player versus player have been considered.
-
-Anyway
-
-The long and short of it is that I wanted a modpack that let me explore a few core mods that was still pretty to look at but didn't suffer from "Useless Stuff" syndrome (Something I find problematic about Biomes O' Plenty). I wanted every mod in the mod pack to matter in some small way, to have a fairly sizable impact. At this point, the only thing it's missing is an HQM Equivilant
-
-I didn't want this pack to be nearly as difficult as my Tame the World Pack, and so it's difficulty curve is more relaxed. Horrible abominations will not come from beyond the world to murderlate you, but at the same time Embers, Enderzoo, and Abysalcraft should still keep you awake.
-
-Also for the love of all that is holy, trying to keep one and only one kind of ore in the world. There is nothing that drives my OCD up a wall faster then 13 different kinds of lead ore.
-
 Changelog 
 ============ 
+Version 0.0.5 
+-------------
+
+###Description 
+This patch is intended to clean up a lot of the useless underground / ore clutter that was taking place. I noticed that a lot of the ores either utterly didn't serve a purpose, or that they were one off ores that had a single recipie. I've put a lot heavier emphasis on silver as a result. In addition I've added some baseline quest to help players get started on a number of quest. 
+
+Infernal mobs was proving during playtesting to be iincredibly frustrating and there was no way I could make use of it without some form of griefing or simply feeling like in the early stages the player would be left hiding for their lives. This behavior was not intended. The Khndrel Keght (Dirt slime) was also removed as it felt like a silly punishment for using a non shovel to clear dirt
+
+With rustic lacking support for Modtweaker in regards to alchemy, it is difficult to clean up the bee issue, and so the "Southern" bees need remain. Embers and Abyssalcraft's lack of support also leaves a few stray recipies here and there. 
+
+Totemic has been added as a small support mod because I believe it fit the theme, and realbench is a QoL improvement. Nutrtion is intended to help reward the player 
+
+###Modpack Core
+	- Fixed the resource pack not being shipped with the client version (Whoopsie daisy) 
+
+###Config Changes
+	- Turned off Tomato / Chili Pepper generation for Harvestcraft (so Rustic can handle them) 
+	- Turned of RPG Hud Compass and Entity inspect 
+	- Toned down Abysallcraft biome generation by half (this should be as low as it can possibly go) 
+	- Turned off Khndrel Keght (Dire slime) from enderzoo 
+	- Turned off Bronze, Nickel from Embers
+	- Turned off Thaumcraft Quartz Generation (Embers makes more then enough). 
+	- Turned off Uranium Ore generation 
+	- Prevented market from selling animals that can't spawn 
+
+###Mod's Added
+_Helper_
+
+		- Totemic 
+		- Realbench 
+		- Nutrition 
+
+###Mods Updated
+_Core_
+
+		- Abyssal Craft
+		- Astral Sorcery 
+
+_Library_
+
+		- AutoRegLib
+		- FTBLib
+
+_Helper_
+
+		- Reliquery 
+		- Quark 
+_UI_
+
+		- JEI
+		- Clumps 
+
+_Modpack_
+
+		- FTBUtilities
+
+###Mod's Removed
+_Library_
+
+		- B.A.S.E
+
+_Helper_
+
+		- Infernal Mobs
+
+###Questing
+	- Added images for quest booklet 
+	- Made a number of small updates to try and correct issues with the quest booklet 
+	- Added 100+ Quest to help the player begin to settle in 
+ 	- Bug where quest book was sent in edit mode should now be corrected
+	- Numerous quest updated / rewards changed / etc. 
+
+###Scripting
+	- Removed Uranium from JEI / Recipies where possible
+	- Removed Tin from JEI / Recipies where possible
+	- Removed Mithril from JEI 
+	- Removed Constantan from JEI / Recipies where possible
+	- Substituded Electrum for the two recipie which requires Constantan 
+	- Substituded Silver in the off chance that Tin is neede din Abyssalcraft
+	- Changed Apple Juice recipie to not drop apple seeds
+	- Removed references to Pam's Grapes / Tomatoes / Chilli Peppers
+
+###Modpack 
+	- Github profile page updated.
+
 Version 0.0.4 
 ------------- 
 ### Core Changes 
