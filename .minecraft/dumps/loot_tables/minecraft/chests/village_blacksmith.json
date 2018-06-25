@@ -1,0 +1,408 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "minecraft:iron_sword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "entryName": "minecraft:iron_chestplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "entryName": "minecraft:iron_helmet",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "entryName": "minecraft:iron_leggings",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "entryName": "minecraft:iron_boots",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "entryName": "minecraft:obsidian",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sapling"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "abyssalcraft:oblivion_catalyst",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:oc"
+        },
+        {
+          "entryName": "abyssalcraft:abyssalnite_ingot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:abyingot"
+        },
+        {
+          "entryName": "abyssalcraft:copper_ingot",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:copperingot"
+        },
+        {
+          "entryName": "abyssalcraft:tin_ingot",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:tiningot"
+        },
+        {
+          "entryName": "abyssalcraft:crystallized_zinc",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 24.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "abyssalcraft:crystal"
+        },
+        {
+          "entryName": "abyssalcraft:abyssalnite_pickaxe",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:apick"
+        },
+        {
+          "entryName": "abyssalcraft:abyssalnite_helmet",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:ahelmet"
+        },
+        {
+          "entryName": "abyssalcraft:abyssalnite_chestplate",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:aplate"
+        },
+        {
+          "entryName": "abyssalcraft:abyssalnite_leggings",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:alegs"
+        },
+        {
+          "entryName": "abyssalcraft:abyssalnite_boots",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "abyssalcraft:aboots"
+        },
+        {
+          "entryName": "abyssalcraft:cobblestone_upgrade_kit",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:cobbleu"
+        },
+        {
+          "entryName": "abyssalcraft:iron_upgrade_kit",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:ironu"
+        },
+        {
+          "entryName": "abyssalcraft:gold_upgrade_kit",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:goldu"
+        },
+        {
+          "entryName": "abyssalcraft:diamond_upgrade_kit",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "abyssalcraft:diamondu"
+        },
+        {
+          "entryName": "blueprint_electrode",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{blueprint:\"electrode\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "immersiveengineering:blueprint"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 8.0
+      }
+    },
+    {
+      "name": "xreliquary_inject_pool",
+      "entries": [
+        {
+          "entryName": "xreliquary_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "xreliquary:inject/chests/village_blacksmith"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "botania_inject_pool",
+      "entries": [
+        {
+          "entryName": "botania_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "botania:inject/village_blacksmith"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
