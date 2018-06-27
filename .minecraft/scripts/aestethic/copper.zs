@@ -11,9 +11,9 @@ furnace.remove(<abyssalcraft:copperingot>);
 furnace.remove(<immersiveengineering:metal:0>);
 
 #Add them back
-furnace.addRecipe(<embers:ingot_copper>,<immersiveengineering:metal:9>,100);
-furnace.addRecipe(<embers:ingot_copper>,<immersiveengineering:ore:0>,100);
-furnace.addRecipe(<embers:ingot_copper>,<abyssalcraft:abycopore>,100);
+furnace.addRecipe(<embers:ingot_copper>,<immersiveengineering:metal:9>,0.7);
+furnace.addRecipe(<embers:ingot_copper>,<immersiveengineering:ore:0>,0.7);
+furnace.addRecipe(<embers:ingot_copper>,<abyssalcraft:abycopore>,0.7);
 
 #Remove / Readd ArcFurnace Recipie
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:0>);
