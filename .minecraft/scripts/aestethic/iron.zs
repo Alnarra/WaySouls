@@ -54,3 +54,7 @@ mods.jei.JEI.hide(<immersiveengineering:metal:29>);
 mods.jei.JEI.hide(<immersiveengineering:metal:39>);
 mods.jei.JEI.hide(<thaumcraft:plate:1>);
 mods.jei.JEI.hide(<minecraft:iron_nugget>);
+
+#This is a nickel related fix but affects the iron recipies
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:18>);
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>, <ore:oreIron>, 2048, <immersiveengineering:metal:9>, 0.1);
