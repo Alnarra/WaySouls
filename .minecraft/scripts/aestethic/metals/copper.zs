@@ -66,3 +66,20 @@ mods.jei.JEI.hide(<immersiveengineering:metal:20>);
 mods.jei.JEI.hide(<immersiveengineering:metal:30>);
 mods.jei.JEI.hide(<abyssalcraft:copperingot>);
 mods.jei.JEI.hide(<thaumcraft:nugget:1>);
+
+#Add description
+mods.jei.JEI.addDescription(<immersiveengineering:ore:0>,["This item's use has been removed by the modpack, place in a crafting table to convert to a more useful item."]);
+mods.jei.JEI.addDescription(<immersiveengineering:storage:0>,["This item's use has been removed by the modpack, place in a crafting table to convert to a more useful item."]);
+mods.jei.JEI.addDescription(<immersiveengineering:metal:0>,["This item's use has been removed by the modpack, place in a crafting table to convert to a more useful item."]);
+mods.jei.JEI.addDescription(<immersiveengineering:metal:20>,["This item's use has been removed by the modpack, place in a crafting table to convert to a more useful item."]);
+mods.jei.JEI.addDescription(<immersiveengineering:metal:30>,["This item's use has been removed by the modpack, place in a crafting table to convert to a more useful item."]);
+mods.jei.JEI.addDescription(<abyssalcraft:copperingot>,["This item's use has been removed by the modpack, place in a crafting table to convert to a more useful item."]);
+mods.jei.JEI.addDescription(<thaumcraft:nugget:1>,["This item's use has been removed by the modpack, place in a crafting table to convert to a more useful item."]);
+
+#1 Transmutation Recipies
+mods.abyssalcraft.Transmutator.removeTransmutation(<abyssalcraft:crystal:17>);
+mods.abyssalcraft.Transmutator.addTransmutation(<abyssalcraft:crystal:17>,<embers:ingot_copper>,0.2);
+
+#1 Materializer Recipies
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:copperingot>);
+mods.abyssalcraft.Materializer.addMaterialization(<embers:ingot_copper>,[<abyssalcraft:crystal:17>]);

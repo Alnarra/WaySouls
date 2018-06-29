@@ -13,7 +13,7 @@ recipes.addShapeless(prefDustSulfer,[<bloodmagic:component:23>]);
 
 #1 Dawnstone Anvil Recipie
 var eitr = <soot:eitr>.withDamage(256);
-mods.embers.DawnstoneAnvil.remove(null, <soot:sulfur>*2);
+mods.embers.DawnstoneAnvil.remove(<soot:eitr>,null);
 mods.embers.DawnstoneAnvil.add([prefDustSulfer*2], eitr ,null);
 
 #1 Stamper recipie
