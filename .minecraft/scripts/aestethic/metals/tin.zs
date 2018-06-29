@@ -10,7 +10,7 @@ furnace.remove(<abyssalcraft:tiningot>);
 
 recipes.removeByRecipeName("abyssalcraft:coin_2");
 
-#mods.chisel.Carving.removeGroup("blockTin"); - Also doesn't work
+#mods.chisel.Carving.removeGroup("chisel:blockTin");
 
 #Remove Crysalization
 mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:0>);
