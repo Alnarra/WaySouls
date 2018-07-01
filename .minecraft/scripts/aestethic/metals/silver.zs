@@ -58,7 +58,7 @@ furnace.addRecipe(prefSilverIngot,<thaumcraft:cluster:4>,0.7);
 furnace.addRecipe(prefSilverIngot,<ore:oreSilver>,0.7);
 
 #Re-Add Immersive Engineering Recipies
-mods.immersiveengineering.ArcFurnace.addRecipe(prefSilverIngot,<ore:oreSilver>,<immersiveengineering:material:7>,200,512);
+mods.immersiveengineering.ArcFurnace.addRecipe(prefSilverIngot*2,<ore:oreSilver>,<immersiveengineering:material:7>,200,512);
 mods.immersiveengineering.ArcFurnace.addRecipe(prefSilverIngot,<ore:dustSilver>,null,100,512);
 mods.immersiveengineering.MetalPress.addRecipe(prefSilverPlate,<ore:ingotSilver>,<immersiveengineering:mold:0>,2400);
 
