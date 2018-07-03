@@ -1,0 +1,219 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "RichVillageHouse",
+  "items": [
+    {
+      "weight": 0.31,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.31,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.31,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.38,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:arrow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.65,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.51,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.58,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_axe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.04,
+      "min": 1,
+      "max": 23,
+      "item": {
+        "id": "minecraft:bread",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 29,
+      "item": {
+        "id": "minecraft:potato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.41,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:pumpkin_pie",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.86,
+      "min": 1,
+      "max": 37,
+      "item": {
+        "id": "minecraft:carrot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.9,
+      "min": 1,
+      "max": 29,
+      "item": {
+        "id": "minecraft:potato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ironbackpacks:backpack",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "packInfo": {
+              "nbtType": "compound",
+              "nbt": {
+                "upgrade": {
+                  "nbtType": "list",
+                  "nbt": []
+                },
+                "type": {
+                  "nbtType": "string",
+                  "nbt": "ironbackpacks:basic"
+                },
+                "spec": {
+                  "nbtType": "string",
+                  "nbt": "NONE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "harvestcraft:chickenpotpieitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "animania:cooked_prime_bacon",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0403180830180645,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "animania:truffle_omelette",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.22887276019901E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cookingforblockheads:cow_jar",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.016732392832636833,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "abyssalcraft:mre",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

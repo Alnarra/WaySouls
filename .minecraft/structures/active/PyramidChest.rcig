@@ -1,0 +1,296 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "PyramidChest",
+  "items": [
+    {
+      "weight": 0.54,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.54,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.14,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:diamond",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:emerald",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.71,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:name_tag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.31,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:golden_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "minecraft:coal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.38,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "storagedrawers:upgrade_storage",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "bloodmagic:slate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0403180830180645,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ironbackpacks:backpack",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "packInfo": {
+              "nbtType": "compound",
+              "nbt": {
+                "upgrade": {
+                  "nbtType": "list",
+                  "nbt": []
+                },
+                "type": {
+                  "nbtType": "string",
+                  "nbt": "ironbackpacks:basic"
+                },
+                "spec": {
+                  "nbtType": "string",
+                  "nbt": "NONE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bloodmagic:monster_soul",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 16,
+      "max": 64,
+      "item": {
+        "id": "astralsorcery:itemcraftingcomponent",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "thaumcraft:curio",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.004506520461291075,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "enderzoo:owlegg",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.08515378087759018,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "storagedrawers:upgrade_storage",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "embers:ingot_lead",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.011213661171495914,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bloodmagic:component",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "embers:ingot_copper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05511390045285225,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "xreliquary:mob_ingredient",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 9,
+      "item": {
+        "id": "thaumcraft:amber",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.005751589313149452,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "rustic:elixir",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ElixirEffects": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "Effect": {
+                      "nbtType": "string",
+                      "nbt": "minecraft:fire_resistance"
+                    },
+                    "Duration": {
+                      "nbtType": "int",
+                      "nbt": 3600
+                    },
+                    "Amplifier": {
+                      "nbtType": "int",
+                      "nbt": 0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "xreliquary:mob_ingredient",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "abyssalcraft:shadowfragment",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
