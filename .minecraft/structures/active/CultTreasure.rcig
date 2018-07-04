@@ -25,9 +25,9 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 3,
+      "max": 16,
       "item": {
-        "id": "minecraft:wool",
+        "id": "abyssalcraft:corflesh",
         "damage": 0,
         "count": 1
       }
@@ -37,9 +37,88 @@
       "min": 1,
       "max": 2,
       "item": {
-        "id": "minecraft:fence",
+        "id": "abyssalcraft:coralium",
         "damage": 0,
         "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thaumcraft:banner_crimson_cult",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bloodmagic:monster_soul",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7087690830230713,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bloodmagic:arcane_ashes",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "thaumcraft:brain",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18405085802078247,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thaumcraft:curio",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7087690830230713,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "abyssalcraft:shadowfragment",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "abyssalcraft:necronomicon",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "PotEnergy": {
+              "nbtType": "float",
+              "nbt": 0.0
+            }
+          }
+        }
       }
     }
   ],

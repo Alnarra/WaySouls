@@ -1,23 +1,13 @@
 {
   "version": 2,
-  "inventoryGeneratorID": "EarthShrine",
+  "inventoryGeneratorID": "WheatFieldMillTools",
   "items": [
     {
-      "weight": 0.020207388326525688,
+      "weight": 3.68,
       "min": 1,
-      "max": 2,
+      "max": 1,
       "item": {
-        "id": "thaumcraft:nugget",
-        "damage": 10,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.7087690830230713,
-      "min": 1,
-      "max": 12,
-      "item": {
-        "id": "embers:ore_copper",
+        "id": "minecraft:iron_hoe",
         "damage": 0,
         "count": 1
       }
@@ -25,29 +15,9 @@
     {
       "weight": 0.5354365706443787,
       "min": 1,
-      "max": 8,
+      "max": 1,
       "item": {
-        "id": "embers:ore_lead",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.3978064954280853,
-      "min": 1,
-      "max": 4,
-      "item": {
-        "id": "embers:ore_silver",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.7755888104438782,
-      "min": 1,
-      "max": 12,
-      "item": {
-        "id": "embers:ore_aluminum",
+        "id": "animania:item_cart",
         "damage": 0,
         "count": 1
       }
@@ -55,9 +25,49 @@
     {
       "weight": 0.4858947992324829,
       "min": 1,
-      "max": 8,
+      "max": 4,
       "item": {
-        "id": "minecraft:gold_ore",
+        "id": "animania:block_trough",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "animania:block_nest",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "animania:cheese_mold",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:potitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.646636426448822,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:mixingbowlitem",
         "damage": 0,
         "count": 1
       }
@@ -65,9 +75,19 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 16,
+      "max": 1,
       "item": {
-        "id": "minecraft:iron_ore",
+        "id": "harvestcraft:mortarandpestleitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:bakewareitem",
         "damage": 0,
         "count": 1
       }
@@ -77,37 +97,7 @@
       "min": 1,
       "max": 32,
       "item": {
-        "id": "minecraft:coal",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.32298368215560913,
-      "min": 1,
-      "max": 4,
-      "item": {
-        "id": "minecraft:lapis_ore",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.4400899410247803,
-      "min": 1,
-      "max": 4,
-      "item": {
-        "id": "minecraft:redstone_ore",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.0976562350988388,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:diamond_ore",
+        "id": "minecraft:wheat",
         "damage": 0,
         "count": 1
       }
