@@ -84,8 +84,8 @@
     },
     {
       "weight": 0.4858947992324829,
-      "min": 8,
-      "max": 64,
+      "min": 1,
+      "max": 8,
       "item": {
         "id": "thaumcraft:amber",
         "damage": 0,

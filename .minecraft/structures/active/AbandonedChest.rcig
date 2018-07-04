@@ -55,7 +55,7 @@
     {
       "weight": 0.20703016221523285,
       "min": 8,
-      "max": 64,
+      "max": 16,
       "item": {
         "id": "minecraft:iron_ingot",
         "damage": 0,
