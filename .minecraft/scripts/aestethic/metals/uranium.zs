@@ -1,6 +1,4 @@
 #remove Uranium
-#mods.chisel.Carving.removeGroup("blockUranium"); - This doesn't work for whatever reason
-mods.jei.JEI.hide(<chisel:blockuranium:*>);
 mods.jei.JEI.hide(<immersiveengineering:storage:5>);
 mods.jei.JEI.hide(<immersiveengineering:storage_slab:5>);
 mods.jei.JEI.hide(<immersiveengineering:sheetmetal:5>);

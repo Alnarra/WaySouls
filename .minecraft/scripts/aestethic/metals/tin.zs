@@ -10,16 +10,7 @@ furnace.remove(<abyssalcraft:tiningot>);
 
 recipes.removeByRecipeName("abyssalcraft:coin_2");
 
-#mods.chisel.Carving.removeGroup("chisel:blockTin");
-
 #Remove Crysalization
-mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:0>);
-mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:1>);
-mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:2>);
-mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:3>);
-mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:4>);
-mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:5>);
-mods.abyssalcraft.Crystallizer.removeCrystallization(<chisel:blocktin:6>);
 mods.abyssalcraft.Crystallizer.removeCrystallization(<thaumcraft:nugget:8>);
 mods.abyssalcraft.Crystallizer.removeCrystallization(<thaumcraft:nugget:2>);
 mods.abyssalcraft.Crystallizer.removeCrystallization(<abyssalcraft:tiningot>);
@@ -39,7 +30,6 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<abyssalcraft:tiningot>);
 
 
 #Hide In JEI
-mods.jei.JEI.hide(<chisel:blocktin:*>);
 mods.jei.JEI.hide(<abyssalcraft:crystalcluster2>);
 mods.jei.JEI.hide(<abyssalcraft:crystal:16>);
 mods.jei.JEI.hide(<abyssalcraft:crystalshard:16>);
@@ -51,7 +41,6 @@ mods.jei.JEI.hide(<abyssalcraft:abytinore>);
 mods.jei.JEI.hide(<abyssalcraft:crystalfragment:16>);
 
 #Add descriptions
-mods.jei.JEI.addDescription(<chisel:blocktin:*>,["This item has been removed in this modpack, you are safe to throw this away"]);
 mods.jei.JEI.addDescription(<abyssalcraft:crystalcluster2>,["This item has been removed in this modpack, you are safe to throw this away"]);
 mods.jei.JEI.addDescription(<abyssalcraft:crystal:16>,["This item has been removed in this modpack, you are safe to throw this away"]);
 mods.jei.JEI.addDescription(<abyssalcraft:crystalshard:16>,["This item has been removed in this modpack, you are safe to throw this away"]);

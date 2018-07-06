@@ -40,4 +40,3 @@ mods.jei.JEI.hide(<immersiveengineering:metal:4>);
 mods.jei.JEI.hide(<immersiveengineering:metal:24>);
 mods.jei.JEI.hide(<immersiveengineering:metal:34>);
 mods.jei.JEI.hide(<immersiveengineering:metal:13>);
-mods.jei.JEI.hide(<chisel:blocknickel:*>);
