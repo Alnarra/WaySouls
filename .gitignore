@@ -39,3 +39,4 @@ natives/
 .minecraft/realms_persistence.json
 .minecraft/dumps
 .minecraft/crafttweaker_dump
+.minecraft/mods

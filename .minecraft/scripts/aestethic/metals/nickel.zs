@@ -40,3 +40,8 @@ mods.jei.JEI.hide(<immersiveengineering:metal:4>);
 mods.jei.JEI.hide(<immersiveengineering:metal:24>);
 mods.jei.JEI.hide(<immersiveengineering:metal:34>);
 mods.jei.JEI.hide(<immersiveengineering:metal:13>);
+
+#Nickel got used in the Vaccum Tube recipie in build 84, have to Fix
+var plateNickel = <ore:plateNickel>;
+plateNickel.add(<embers:plate_silver>);
+plateNickel.remove(<immersiveengineering:metal:34>);
