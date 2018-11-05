@@ -4,29 +4,14 @@ var ironNugget = <ore:nuggetIron>;
 #remove our "Other Nuggets" from the OreDict
 ironNugget.remove(<thaumcraft:nugget:0>);
 ironNugget.remove(<immersiveengineering:metal:29>);
-ironNugget.remove(<minecraft:iron_nugget>);
 
 #remove iron nugget recipies
 recipes.remove(<immersiveengineering:metal:29>);
-recipes.remove(<minecraft:iron_nugget>);
-furnace.remove(<minecraft:iron_nugget>);
-furnace.addRecipe(<embers:nugget_iron>,<rustic:dust_tiny_iron>,0.1);
-
-#Fix Rustic Condenser recipies
-var hasteElixerBonus = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 1800, Amplifier: 1}]});
-var hasteElixerBase = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 3600, Amplifier: 0}]});
-var hasteElixerLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:haste", Duration: 9600, Amplifier: 0}]});
-mods.rustic.Condenser.removeRecipe(hasteElixerBase);
-mods.rustic.Condenser.removeRecipe(hasteElixerLong);
-mods.rustic.Condenser.removeRecipe(hasteElixerBonus);
-mods.rustic.Condenser.addRecipe(hasteElixerBase,null,[<minecraft:redstone>,<embers:nugget_iron>,<rustic:core_root>]);
-mods.rustic.Condenser.addRecipe(hasteElixerLong,<rustic:horsetail>,[<minecraft:redstone>,<embers:nugget_iron>,<rustic:core_root>]);
-mods.rustic.Condenser.addRecipe(hasteElixerBonus,<rustic:marsh_mallow>,[<minecraft:redstone>,<embers:nugget_iron>,<rustic:core_root>]);
+furnace.addRecipe(<minecraft:iron_nugget>,<rustic:dust_tiny_iron>,0.1);
 
 #Add "Transition" recipies
-recipes.addShapeless(<embers:nugget_iron>,[<thaumcraft:nugget:0>]);
-recipes.addShapeless(<embers:nugget_iron>,[<immersiveengineering:metal:29>]);
-recipes.addShapeless(<embers:nugget_iron>,[<minecraft:iron_nugget>]);
+recipes.addShapeless(<minecraft:iron_nugget>,[<thaumcraft:nugget:0>]);
+recipes.addShapeless(<minecraft:iron_nugget>,[<immersiveengineering:metal:29>]);
 recipes.addShaped(<minecraft:iron_ingot>,[
   [ironNugget,ironNugget,ironNugget],
   [ironNugget,ironNugget,ironNugget],
@@ -53,7 +38,6 @@ mods.jei.JEI.hide(<thaumcraft:nugget:0>);
 mods.jei.JEI.hide(<immersiveengineering:metal:29>);
 mods.jei.JEI.hide(<immersiveengineering:metal:39>);
 mods.jei.JEI.hide(<thaumcraft:plate:1>);
-mods.jei.JEI.hide(<minecraft:iron_nugget>);
 
 #This is a nickel related fix but affects the iron recipies
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:18>);
