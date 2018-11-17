@@ -121,15 +121,19 @@ Plates have been balanced (including thaumcraft plates) requiring at minimum tha
 	- updated Battletowers loot
 	- Turned off tin, Uranium, nickel, and few other chisel patterns that weren't relevant to help cut down on texture load times
 	- turned off limestone generation (Quark already does it).
+	
 ### Mod's Added
 _Library_
 		-Forgelin
 		-Libex
+		
 _Helper_
 		- Soot
+		
 _Modpack_
 		- Loottweaker
 		- Abyssalcraft Intergration
+		
 ### Mod's Updated
 _Core_
 		- Abyssalcraft
@@ -138,11 +142,13 @@ _Core_
 		- Thaumcraft
 		- Immersive Engineering
 		- Botania
+		
 _Library_
 		- Connected Textures Mod
 		- FTB Lib
 		- AutoRegLib
 		- GuideAPI
+		
 _Helper_
 		- Storage Drawers
 		- Rustic
@@ -157,6 +163,7 @@ _Helper_
 		- Totemic
 		- Rustic
 		- Waystones
+		
 _UI_
 		- Clumps
 		- JEI
@@ -166,12 +173,14 @@ _UI_
 		- More Overlays
 		- Mouse Tweaks
 		- ThaumicJEI
+		
 _Modpack_
 		- Crafttweaker
 		- Better Questing
 		- Standard Expansion
 		- FTB Utilies
 		- ModTweaker
+		
 ### Mod's Removed
 
 ### Questing
