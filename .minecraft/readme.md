@@ -124,18 +124,22 @@ Plates have been balanced (including thaumcraft plates) requiring at minimum tha
 	
 ### Mod's Added
 _Library_
+
 		-Forgelin
 		-Libex
 		
 _Helper_
+
 		- Soot
 		
 _Modpack_
+
 		- Loottweaker
 		- Abyssalcraft Intergration
 		
 ### Mod's Updated
 _Core_
+
 		- Abyssalcraft
 		- Blood Magic
 		- Astral Sorcery
@@ -144,12 +148,14 @@ _Core_
 		- Botania
 		
 _Library_
+
 		- Connected Textures Mod
 		- FTB Lib
 		- AutoRegLib
 		- GuideAPI
 		
 _Helper_
+
 		- Storage Drawers
 		- Rustic
 		- Animania
@@ -165,6 +171,7 @@ _Helper_
 		- Waystones
 		
 _UI_
+
 		- Clumps
 		- JEI
 		- Just enough Resources
@@ -175,6 +182,7 @@ _UI_
 		- ThaumicJEI
 		
 _Modpack_
+
 		- Crafttweaker
 		- Better Questing
 		- Standard Expansion
