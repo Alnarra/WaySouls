@@ -119,9 +119,11 @@ As development will now be handled through the twitch interface, you can assume 
 This will be created as a new branch of the Github repo to help seperate it.
 ### Mods Added:
 _Helper Mods_
+
 	- Millénaire
 ### Mods Updated
 _Helper Mods_
+
 	- Nutrition
 ### Mods Removed:
 
@@ -157,15 +159,19 @@ Plates have been balanced (including thaumcraft plates) requiring at minimum tha
 	- turned off limestone generation (Quark already does it).
 ### Mod's Added
 _Library_
+
 		-Forgelin
 		-Libex
 _Helper_
+
 		- Soot
 _Modpack_
+
 		- Loottweaker
 		- Abyssalcraft Intergration
 ### Mod's Updated
 _Core_
+
 		- Abyssalcraft
 		- Blood Magic
 		- Astral Sorcery
@@ -173,11 +179,13 @@ _Core_
 		- Immersive Engineering
 		- Botania
 _Library_
+
 		- Connected Textures Mod
 		- FTB Lib
 		- AutoRegLib
 		- GuideAPI
 _Helper_
+
 		- Storage Drawers
 		- Rustic
 		- Animania
@@ -192,6 +200,7 @@ _Helper_
 		- Rustic
 		- Waystones
 _UI_
+
 		- Clumps
 		- JEI
 		- Just enough Resources
@@ -201,6 +210,7 @@ _UI_
 		- Mouse Tweaks
 		- ThaumicJEI
 _Modpack_
+
 		- Crafttweaker
 		- Better Questing
 		- Standard Expansion
