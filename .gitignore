@@ -40,3 +40,8 @@ realms_persistence.json
 dumps/
 crafttweaker_dump/
 mods/
+options.txt
+mmc-pack.json
+minecraftinstance.json
+instance.cfg
+.curseclient
