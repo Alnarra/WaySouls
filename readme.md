@@ -43,6 +43,7 @@ Mods
 	- GuideAPI
 	- Forgelin
 	- libex
+
 ### Helper Mods
 	- Waystones
 	- Storage Drawers
@@ -69,6 +70,8 @@ Mods
 	- Nutrition
 	- Iron Backpacks
 	- Soot
+	- Millénaire
+
 ### UI Mods
 	- Waila
 	- Waila Harvestability
@@ -103,6 +106,37 @@ Mods
 
 Changelog
 ============
+
+Patch 0.0.7
+-------------
+### Description
+This particular update is intended to take a more serious look at the quest book and some of the more problematic mods including totemic, abyssalcraft, and roots. The truth is that I wanted to tackle each of these but they all present their own unique difficulties whent it comes to quest surrounding them. As such I've tuned back the modification made to Totemic's central element opting to leave the mod intact. In addition this will begin to work on the abyssalcraft quest line. I will not touch the roots quest line until the newer version of the mod is published.
+
+In addition to that, I will be working to try and include "Out of Character" information for each and every quest. This can include a number of things including why the quest exist in the first place, or how to accomplish the quest (as some can be more difficult to understand then others). I'm MOSTLY settled on the mods that are in place and feel comfertable simply updating them.
+
+As development will now be handled through the twitch interface, you can assume that all mods are updated as updates become available.
+
+This will be created as a new branch of the Github repo to help seperate it.
+### Mods Added:
+_Helper Mods_
+	- Millénaire
+### Mods Updated
+_Helper Mods_
+	- Nutrition
+### Mods Removed:
+
+### Quest:
+	- Added Questline for Animania
+	- Quest:
+		- "The Ultimate Compass" now retrieval vs crafting (Fixes Issue#1)
+		- "Let the ritual...begin" now retrieval vs crafting (Fixes Issue#1)
+		- "The man with the Golden Ticket" Now correctly associated with Golden Bone Hoe
+### Configuration
+	- Animania told not to spawn bee hives
+
+### Scripting
+	- Animania Hive recipie altered to use Harvestcraft queen bee rather then wild hive 	
+
 Version 0.0.6
 -------------
 ### Description
