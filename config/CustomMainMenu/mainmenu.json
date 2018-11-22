@@ -1,0 +1,236 @@
+{
+
+     "images":
+    {
+        "modpack":
+        {
+            "image" : "mainmenu:modpack.png",
+            "posX" : -53,
+            "posY" : -40,
+            "width" : 269,
+            "height" : 58,
+            "alignment" : "center"
+        },
+
+		"background_trans":
+
+		{
+		"image" : "mainmenu:transparent.png",
+            "posX" : -200,
+            "posY" : -200,
+            "width" : 125,
+            "height" : 2000,
+            "alignment" : "center"
+		}
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -188,
+            "posY" : -24,
+            "width" : 100,
+            "height" : 20,
+			"tooltip" : "Play Singleplayer",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -188,
+            "posY" : 0,
+            "width" : 100,
+            "height" : 20,
+			"tooltip" : "Play Multiplayer",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -188,
+            "posY" : 24,
+            "width" : 100,
+            "height" : 20,
+			"tooltip" : "Mods Loaded: #modsloaded# | Mods Active: #modsactive#",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -188,
+            "posY" : 48,
+            "width" : 100,
+            "height" : 20,
+			"tooltip" : "Options Menu",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -188,
+            "posY" : 96,
+            "width" : 100,
+            "height" : 20,
+			"tooltip" : "Exit Game",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+
+		"changelog":
+		{
+		"text": "Changelog",
+		    "posX" : -188,
+            "posY" : 72,
+            "width" : 100,
+            "height" : 20,
+			"tooltip" : "Full Changelog",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/fullphaser/WaySouls/tree/master/.minecraft#changelog"
+            }
+		},
+
+		"issues":
+		{
+		"text": "",
+		"texture": "mainmenu:issues.png",
+		"posX" : -195,
+            "posY" : 150,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "128",
+			"imageHeight": "128",
+			"tooltip" : "Report Issues",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/fullphaser/WaySouls/issues"
+            }
+		},
+
+		"forumThread":
+		{
+		"text": "",
+		"texture": "mainmenu:forums.png",
+		    "posX" : -163,
+            "posY" : 150,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "128",
+			"imageHeight": "128",
+			"tooltip" : "Forum Thread",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://forum.feed-the-beast.com/threads/12-2-2-wayward-souls-the-simple-magic-mod.264645/"
+			}
+		},
+
+		"discord":
+		{
+		"text": "",
+		"texture": "mainmenu:discord.png",
+		    "posX" : -129,
+            "posY" : 150,
+            "width" : 20,
+            "height" :20,
+			"imageWidth": "128",
+			"imageHeight": "128",
+			"tooltip" : "Discord Channel",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/hZp7sfh"
+            }
+		},
+		"language":
+        {
+            "text": "",
+			"texture": "mainmenu:language.png",
+            "posX" : -100,
+            "posY" : 150,
+            "width" : 20,
+            "height" : 20,
+					"imageWidth": "128",
+			"imageHeight": "128",
+			"tooltip" : "Select Language",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		"openEye":
+		{
+				"text": "",
+		"texture": "mainmenu:openeye.png",
+		    "posX" : -146,
+            "posY" : -50,
+            "width" : 20,
+            "height" :20,
+			"imageWidth": "128",
+			"imageHeight": "128",
+			"tooltip" : "Open Eye",
+			"wrappedButton" : 666
+		}
+    },
+
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -110,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        "modpack":
+		{
+		"text" : "Wayward Soul Version: 0.0.7", 
+            "posX" : -144,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right"
+		}
+    },
+
+    "other":
+    {
+
+        "panorama":
+        {
+            "images" : "mainmenu:pan%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
