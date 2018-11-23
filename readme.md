@@ -135,6 +135,7 @@ _Helper Mods_
 		- "The man with the Golden Ticket" Now correctly associated with Golden Bone Hoe
 ### Configuration
 	- Animania told not to spawn bee hives
+	- AbyssalCraft no longer spawns demons when a new world starts up, that seemed rude
 
 ### Scripting
 	- Animania Hive recipie altered to use Harvestcraft queen bee rather then wild hive 	
