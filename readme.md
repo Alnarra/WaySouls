@@ -34,6 +34,7 @@ Mods
 	- Immersive Engineering
 	- Roots
 	- Thaumcraft
+	- Nature's Aura
 
 ### Library Mods
 	- MTLib
@@ -71,6 +72,7 @@ Mods
 	- Iron Backpacks
 	- Soot
 	- Millénaire
+	- Akashic Tome
 
 ### UI Mods
 	- Waila
@@ -112,15 +114,20 @@ Patch 0.0.7
 ### Description
 This particular update is intended to take a more serious look at the quest book and some of the more problematic mods including totemic, abyssalcraft, and roots. The truth is that I wanted to tackle each of these but they all present their own unique difficulties whent it comes to quest surrounding them. As such I've tuned back the modification made to Totemic's central element opting to leave the mod intact. In addition this will begin to work on the abyssalcraft quest line. I will not touch the roots quest line until the newer version of the mod is published.
 
-In addition to that, I will be working to try and include "Out of Character" information for each and every quest. This can include a number of things including why the quest exist in the first place, or how to accomplish the quest (as some can be more difficult to understand then others). I'm MOSTLY settled on the mods that are in place and feel comfertable simply updating them.
+In addition to that, I will be working to try and include "Out of Character" information for each and every quest. This can include a number of things including why the quest exist in the first place, or how to accomplish the quest (as some can be more difficult to understand then others). I'm MOSTLY settled on the mods that are in place and feel comfortable simply updating them.
 
 As development will now be handled through the twitch interface, you can assume that all mods are updated as updates become available.
 
-This will be created as a new branch of the Github repo to help seperate it.
+This will be created as a new branch of the Github repo to help separate it.
 ### Mods Added:
+_Core Mods_
+
+	- Nature's Aura
+
 _Helper Mods_
 
 	- Millénaire
+	- Akashic Tome
 ### Mods Updated
 _Helper Mods_
 
@@ -138,16 +145,16 @@ _Helper Mods_
 	- AbyssalCraft no longer spawns demons when a new world starts up, that seemed rude
 
 ### Scripting
-	- Animania Hive recipie altered to use Harvestcraft queen bee rather then wild hive 	
+	- Animania Hive recipe altered to use Harvestcraft queen bee rather then wild hive 	
 
 Version 0.0.6
 -------------
 ### Description
 This patch is intended to clean up a lot of the chest that were left laying around the world so that there is more consistency among loot (Copper / Tin / etc.) in addition I wanted to make sure each core mod added a bit to the overall loot table to accomodate this chest.zs has been created and the Loottweaker mod installed. In addition it appears I was totally incorrect about Rustic not having support for the condenser, as such we now only have one type of bee in the world and the "Southern" bee has been removed.
 
-The metals have been singled down to a single mod, legacy recipies have been left in place in the event one needs to transition from one to another. (eg immersive engineering copper plates no longer count as copper plates; however, they have a recipie that can convert them directly to ember's copper plates).
+The metals have been singled down to a single mod, legacy recipes have been left in place in the event one needs to transition from one to another. (eg immersive engineering copper plates no longer count as copper plates; however, they have a recipe that can convert them directly to ember's copper plates).
 
-Plates have been balanced (including thaumcraft plates) requiring at minimum that you have a hammer from either immersive engineering or embers. In addition Totemic's whittling knife, because of it's ability to craft a small range beacon has had it's recipie reworked to require interacting with the other mods in the pack.
+Plates have been balanced (including thaumcraft plates) requiring at minimum that you have a hammer from either immersive engineering or embers. In addition Totemic's whittling knife, because of it's ability to craft a small range beacon has had it's recipe reworked to require interacting with the other mods in the pack.
 
 ### Modpack Core
 	- Updated to Forge vs Version 14.23.5.2768
@@ -169,7 +176,7 @@ _Helper_
 _Modpack_
 
 		- Loottweaker
-		- Abyssalcraft Intergration
+		- Abyssalcraft Integration
 ### Mod's Updated
 _Core_
 
@@ -215,7 +222,7 @@ _Modpack_
 		- Crafttweaker
 		- Better Questing
 		- Standard Expansion
-		- FTB Utilies
+		- FTB Utilities
 		- ModTweaker
 ### Mod's Removed
 
@@ -324,7 +331,7 @@ Version 0.0.4
 
 ### Config Changes
 	- Shoggoths are no longer allowed to spawn outside of their little lairs
-	- Told immersive egineering excavators not to mine up immersive engineering ores because I think they're ugly
+	- Told immersive engineering excavators not to mine up immersive engineering ores because I think they're ugly
 	- Turned Harvestcraft bee's back on
 	- Told Chisel to turn off it's overwold Basalt Generation
 
@@ -384,7 +391,7 @@ _Library_
 _Helper_
 
 	-Ice and Fire
-		* Ice and Fire / LLibrary were both demonstrating unwanted behaviors, in addition while they added fauna to the game, they didn't integrate as well as I would have ilked with the overall nature of the game.
+		* Ice and Fire / LLibrary were both demonstrating unwanted behaviors, in addition while they added fauna to the game, they didn't integrate as well as I would have liked with the overall nature of the game.
 
 ### Questing
 
@@ -540,7 +547,7 @@ Version 0.0.1
 --------------
 
 ### Config Changes
-	- Decerased Abysall craft biome Creation from 5 in 100 to 2 in 100
+	- Decreased Abyssal craft biome Creation from 5 in 100 to 2 in 100
 	- Prevented Immersive engineering from spawning ore that Embers spawns
 	- Prevented Quark from spawning Marble
 	- Turned off Warp / Home commands in FTBUtils
