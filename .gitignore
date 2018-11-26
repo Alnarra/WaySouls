@@ -46,3 +46,10 @@ minecraftinstance.json
 instance.cfg
 .curseclient
 resourcepacks/
+twitch_export-win.exe
+.build.json
+GameVersions.json
+GetGameVersions.bat
+modpack_upload_settings.cfg
+ModpackUploadTool.bat
+LICENSE
