@@ -53,3 +53,5 @@ GetGameVersions.bat
 modpack_upload_settings.cfg
 ModpackUploadTool.bat
 LICENSE
+patchouli_data.json
+crash-reports/

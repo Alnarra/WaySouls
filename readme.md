@@ -127,7 +127,7 @@ _Core Mods_
 _Helper Mods_
 
 	- Millénaire
-	- Akashic Tome 
+	- Akashic Tome
 ### Mods Updated
 _Helper Mods_
 
@@ -142,7 +142,7 @@ _Helper Mods_
 		- "The man with the Golden Ticket" Now correctly associated with Golden Bone Hoe
 ### Configuration
 	- Animania told not to spawn bee hives
-	- AbyssalCraft will no longer spawn demon animals at spawn, it was rather rude.
+	- AbyssalCraft no longer spawns demons when a new world starts up, that seemed rude
 
 ### Scripting
 	- Animania Hive recipe altered to use Harvestcraft queen bee rather then wild hive 	

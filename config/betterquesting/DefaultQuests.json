@@ -25,7 +25,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Getting Wood",
-          "desc:8": "Look, when you get up in the morning sometimes you just.. have to get some wood. So get out there and punch a tree my young apprentice, you still have much to learn "
+          "desc:8": "Look, when you get up in the morning sometimes you just.. have to get some wood. So get out there and punch a tree my young apprentice, you still have much to learn\n\n§4Information: \nThis quest is simply to get you used to the various mechanics that exist within the book including retrieval quest, crafting quest, and the like. This quest will begin you on the path to all others!  "
         }
       },
       "tasks:9": {
@@ -660,7 +660,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Reedy Buisness",
-          "desc:8": "My young apprentice, you may notice down by the water that there is... a curious matter. Please pick me up some reed "
+          "desc:8": "My young apprentice, you may notice down by the water that there is... a curious matter. Please pick me up some reed \n\n§4Information: \nReed is the basis of nearly all of the quest below because it allows you to make paper. This quest is critical in nearly all of the quest lines to open all the mods that are present. "
         }
       },
       "tasks:9": {
@@ -723,7 +723,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Paper Boy",
-          "desc:8": "Now you may simply view yourself as my glorified apprentice, but I promise you there is much more! Quickly make a bit of paper with that reed! "
+          "desc:8": "Now you may simply view yourself as my glorified apprentice, but I promise you there is much more! Quickly make a bit of paper with that reed! \n\n§4Information: \nMuch like the quest gathering reed, this quest is purely to get the player down the path towards making books. This should be pretty par for the course for any regular minecraft player. "
         }
       },
       "tasks:9": {
@@ -905,7 +905,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Bookie! ",
-          "desc:8": "You\u0027ve learned to kill cows for their skin, turn reed into paper, it\u0027s time to write this all down somewhere!@"
+          "desc:8": "You\u0027ve learned to kill cows for their skin, turn reed into paper, it\u0027s time to write this all down somewhere!\n\n§4Information:\nThis is your first book, and will begin virtually all all of the mod related quest lines. Thamucraft is one of the first and most obvious. "
         }
       },
       "tasks:9": {
@@ -1014,7 +1014,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "If a tree falls?",
-          "desc:8": "My young apprentice we can\u0027t simply destroy life we must rebuild as well, collect some saplings from the tree you fell!"
+          "desc:8": "My young apprentice we can\u0027t simply destroy life we must rebuild as well, collect some saplings from the tree you fell!\n\n§4Information: \nAny tree sapling should work for this, even the sapling from the first tree that you manage to fel. This is a simple quest but it\u0027s intended to guide you down the path to a number of mods including Botania, Astral Sorcery, and Animania. "
         }
       },
       "tasks:9": {
@@ -1083,7 +1083,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Botanical Gardens",
-          "desc:8": "The very life of the earth around us can often offer clues, let the flowers of the garden and I guide you"
+          "desc:8": "The very life of the earth around us can often offer clues, let the flowers of the garden and I guide you\n\n§4Information: \nThis is the Botania Book, Botania in many ways is a mod that is based around using flowers and a sort of druidic magic. It will explore everything from new armor and weapons to interesting devices to more fine tune Redstone. "
         }
       },
       "tasks:9": {
@@ -1486,7 +1486,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Diamond in the Ruff",
-          "desc:8": "Rumor has it my apprentice, that among the sandy beaches you can find a shining blue gem is it a diamond?  "
+          "desc:8": "Rumor has it my apprentice, that among the sandy beaches you can find a shining blue gem is it a diamond?\n\n§4Information: \nAquamarine\u0027s can usually be found in the sandy shores near oceans and rivers, not too unlike clay. This is a key component of the astral socery mod. In addition if by some means you already have Lava and a bucket of starlight the collision of those two occasionally results in an aquamarine.   "
         }
       },
       "tasks:9": {
@@ -1545,7 +1545,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Something more",
-          "desc:8": "My apprentice this is no diamond that is for sure, but perhaps it has some other properties we can invetigate!"
+          "desc:8": "My apprentice this is no diamond that is for sure, but perhaps it has some other properties we can invetigate!\n\n§3§4Information: \nThis is another and key step to completing the book that astral socery uses. the recipie is fairly simple with aquarmines and normal paper. Beyond the book itself there\u0027s not too many instances where parchment gets used early game, so you shouldn\u0027t need a ton. "
         }
       },
       "tasks:9": {
@@ -1604,7 +1604,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "May the stars guide us!",
-          "desc:8": "Oh my young apprentice, you have much to learn, join me in the study of Astoronomy and I shall show you the stars!"
+          "desc:8": "Oh my young apprentice, you have much to learn, join me in the study of Astoronomy and I shall show you the stars!\n\n§4Information: \nThis is the actual astral sorcery book. I should point out that this book will have it\u0027s own internal quest line where the various components are unlocked as you progressively make bigger alters. I will try to walk you through all the various other components. "
         }
       },
       "tasks:9": {
@@ -1892,7 +1892,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Casing the Place",
-          "desc:8": "Apprentice, the room simply doesn\u0027t look nice, perhaps we could add a nice bookshelf? "
+          "desc:8": "Apprentice, the room simply doesn\u0027t look nice, perhaps we could add a nice bookshelf? \n\n§3§4Information: \nThis quest is a combination of things, one it\u0027s supposed to assist the player and start to open up additional chapters later on down the road having to do with enchanting. Beyond that, this is also a quest that\u0027s key towards opening up Thaumcraft. "
         }
       },
       "tasks:9": {
@@ -2024,7 +2024,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Magical Powers",
-          "desc:8": "The key to magic is to know it\u0027s there, the Salis Mundis is just the start, open your eyes my apprentice and see the world "
+          "desc:8": "The key to magic is to know it\u0027s there, the Salis Mundis is just the start, open your eyes my apprentice and see the world \n\n§4Information: \nMuch like previous incarnations of the mod, this mod starts by using your \"magic\" on a bookshelf. In this case you simply right click with your Salis Mundis on a bookshelf and it should transform into a book. Thaumcraft is a heavy magic mod that has principals of risk and reward. \n\nIf too much magic is used it could damage the surrounding enviroment in the form of flux. "
         }
       },
       "tasks:9": {
@@ -3192,7 +3192,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "A place to put things",
-          "desc:8": "Listen, you\u0027re going to collect a LOT of garbage on this adventure, that much I can pretty much garuntee you. So you\u0027re going to need a place to put it all right? "
+          "desc:8": "Listen, you\u0027re going to collect a LOT of garbage on this adventure, that much I can pretty much garuntee you. So you\u0027re going to need a place to put it all right? \n\n§4Information: \nThis quest is the beginning of a series of organizational and storage driven quest that primarily show up in other chapters of the book. This will include the backpacks, storage drawers, and the like! "
         }
       },
       "tasks:9": {
@@ -3608,7 +3608,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Don\u0027t be a hoe",
-          "desc:8": "Well perhaps doo... my young aprpenctice many of the natural magics will require quite a bit of work towards farming. In this respect it\u0027s best if you know what your\u0027e getting into? Let\u0027s start simple! construct a hoe "
+          "desc:8": "Well perhaps doo... my young aprpenctice many of the natural magics will require quite a bit of work towards farming. In this respect it\u0027s best if you know what your\u0027e getting into? Let\u0027s start simple! construct a hoe \n\n§4Information: \nThis should be a relatively simple quest, the objective of which is to construct a wooden hoe. This will begin you down the path of a number of more advanced mods in the modpack including Astral Sorcery and Animania. "
         }
       },
       "tasks:9": {
@@ -4870,7 +4870,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The totemic world",
-          "desc:8": "There is magic in song and dance as well my apprentice, and understanding that is no less key! "
+          "desc:8": "There is magic in song and dance as well my apprentice, and understanding that is no less key! \n\n§4Information\nTotemic is a silghtly smaller mod that has a lot of basis off of popular perception around the Native American populations. \n\nNOTE: For the purposes of balance, totemic largely requires that other quest lines be completed first. As such it\u0027s key tool will require adventuring into roots, embers, and more. "
         }
       },
       "tasks:9": {
@@ -11505,6 +11505,197 @@
           }
         }
       }
+    },
+    "171:10": {
+      "questID:3": 171,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:itemconstellationpaper",
+            "Count:3": 1,
+            "tag:10": {
+              "astralsorcery:10": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Version 0.0.7",
+          "desc:8": "This quest is simply intended to give you information on changes made in version 0.0.7: \n\nPatch 0.0.7\nDescription\nThis particular update is intended to take a more serious look at the quest book and some of the more problematic mods including totemic, abyssalcraft, and roots. The truth is that I wanted to tackle each of these but they all present their own unique difficulties whent it comes to quest surrounding them. As such I\u0027ve tuned back the modification made to Totemic\u0027s central element opting to leave the mod intact. In addition this will begin to work on the abyssalcraft quest line. I will not touch the roots quest line until the newer version of the mod is published.\n\nIn addition to that, I will be working to try and include \"Out of Character\" information for each and every quest. This can include a number of things including why the quest exist in the first place, or how to accomplish the quest (as some can be more difficult to understand then others). I\u0027m MOSTLY settled on the mods that are in place and feel comfertable simply updating them.\n\nAs development will now be handled through the twitch interface, you can assume that all mods are updated as updates become available.\n\nThis will be created as a new branch of the Github repo to help seperate it.\n\nMods Added:\nHelper Mods\n\n- Millénaire\nMods Updated\nHelper Mods\n\n- Nutrition\nMods Removed:\nQuest:\n- Added Questline for Animania\n- Quest:\n- \"The Ultimate Compass\" now retrieval vs crafting (Fixes Issue#1)\n- \"Let the ritual...begin\" now retrieval vs crafting (Fixes Issue#1)\n- \"The man with the Golden Ticket\" Now correctly associated with Golden Bone Hoe\nConfiguration\n- Animania told not to spawn bee hives\nScripting\n- Animania Hive recipie altered to use Harvestcraft queen bee rather then wild hive "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "172:10": {
+      "questID:3": 172,
+      "preRequisites:11": [
+        16,
+        12,
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "patchouli:guide_book",
+            "Count:3": 1,
+            "tag:10": {
+              "patchouli:book:8": "naturesaura:book"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "The natural world",
+          "desc:8": "There lies a magic in these forest deeper and more powerful then even the most determined thaumaterge. Like the natrual magics of botania or the powerful wizardy of Thaumcraft, it takes upon the living essance of the world aroudn it\n\n§4Information: \nThis is a quest to complete the novel required for a mod known as Nature\u0027s Aura. This is like Thaumcraft and Botania in many ways with various aura\u0027s and baubles. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "patchouli:guide_book",
+              "Count:3": 1,
+              "tag:10": {
+                "patchouli:book:8": "naturesaura:book"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:aura_bottle",
+              "Count:3": 1,
+              "tag:10": {
+                "stored_type:8": "naturesaura:overworld"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "173:10": {
+      "questID:3": 173,
+      "preRequisites:11": [
+        71,
+        28,
+        37,
+        20,
+        34,
+        18,
+        32,
+        17,
+        25,
+        72,
+        169,
+        172
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "akashictome:tome",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "All together now",
+          "desc:8": "In a world with so much knowledge, sometimes it\u0027s simply too much! This is why we are offering you the chance to carry everything in one hady book\n\n§4Information: \nTo add a book to the tome, simply place it on a crafting bench with the tome. If you wish to select a book simply right click. Note everything about the book (including NBT Tags) will be retained. To switch back to the tome simply left click "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "akashictome:tome",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
     }
   },
   "questLines:9": {
@@ -11803,6 +11994,24 @@
           "x:3": -270,
           "y:3": 78,
           "id:3": 170
+        },
+        "49:10": {
+          "size:3": 24,
+          "x:3": -234,
+          "y:3": 6,
+          "id:3": 171
+        },
+        "50:10": {
+          "size:3": 24,
+          "x:3": -342,
+          "y:3": 222,
+          "id:3": 172
+        },
+        "51:10": {
+          "size:3": 24,
+          "x:3": -126,
+          "y:3": 258,
+          "id:3": 173
         }
       },
       "lineID:3": 0,
