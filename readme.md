@@ -124,25 +124,52 @@ _Core Mods_
 
 	- Nature's Aura
 
+_Library_
+
+	- Patchouli
+
 _Helper Mods_
 
 	- Millénaire
 	- Akashic Tome
 ### Mods Updated
+_Library_
+
+	-Forgelin
+
 _Helper Mods_
 
+	- Ruins
 	- Nutrition
+	- Animania
+
+_UI_
+
+	- Journemyap
+	- JEI 
+
+_Modpack_
+
+ - CraftTweaker2
+ - BetterQuesting
+ - FTBLib
+ - FTBUtils
+
 ### Mods Removed:
 
 ### Quest:
-	- Added Questline for Animania
+	- Added Questline for Nature's Aura
 	- Quest:
 		- "The Ultimate Compass" now retrieval vs crafting (Fixes Issue#1)
 		- "Let the ritual...begin" now retrieval vs crafting (Fixes Issue#1)
 		- "The man with the Golden Ticket" Now correctly associated with Golden Bone Hoe
+	- Some quest are receiving additional information to help clarify, this process will continue for the next several patches
+	- Added a quest for Animania's book as well as Akashik Tome
+
 ### Configuration
 	- Animania told not to spawn bee hives
 	- AbyssalCraft no longer spawns demons when a new world starts up, that seemed rude
+	- Nature's aura told not to cause random explosions (Don't )
 
 ### Scripting
 	- Animania Hive recipe altered to use Harvestcraft queen bee rather then wild hive 	
