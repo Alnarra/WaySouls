@@ -11696,6 +11696,1269 @@
           "index:3": 0
         }
       }
+    },
+    "174:10": {
+      "questID:3": 174,
+      "preRequisites:11": [
+        172
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:gold_fiber",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Starting down the path",
+          "desc:8": "Natural maintanence some may call it, and others... well lets just say they like a prettier yard! but it all begins with the first step. \n\n§4§5§4Information: \nThis material can be right clicked onto the leaves of a given tree. Over time the tree\u0027s leaves will slowly change color to a more golden hue. When punched these leaves will have a chance to drop a new material explored in the next quest. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:gold_fiber",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:sapling",
+              "Count:3": 10,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "175:10": {
+      "questID:3": 175,
+      "preRequisites:11": [
+        174
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:gold_leaf",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "All the glitters is gold",
+          "desc:8": "Do you see that my young apprentice! one of the trees that you tended to in the garden is starting to mutate! You should examine it and see just what is happening!\n\n§4Information\nThese golden leaves are part of the core of Nature\u0027s Aura, these will help with a number of rituals going forward and shouldn\u0027t be tossed away casually!  "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:gold_leaf",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:gold_leaf",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "176:10": {
+      "questID:3": 176,
+      "preRequisites:11": [
+        175
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:gold_powder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Don\u0027t snort that!",
+          "desc:8": "It seems that if you grind up those leaves you\u0027re bound to get something a bit... interesting from them! Quickly my apprentice tell me what you have found! \n\n§4Information: \nThe leaves can be ground into a powder, this powder is used in a manner not unlike redstone and is used as a sort of marker in a number of rituals. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:gold_powder",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:bottle_two_the_rebottling",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "177:10": {
+      "questID:3": 177,
+      "preRequisites:11": [
+        175
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:bottle_two_the_rebottling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "All stopped up!",
+          "desc:8": "So regular bottles are nice, but I have a feeling that the natural world may require a more... delicate hand!\n\n§4Information: \nIntroduced in beta Version 4, these bottles are replacements for the normal bottles which before you could just click in the air to bottle sunlight. Now you simply need to craft these. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:bottle_two_the_rebottling",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:aura_bottle",
+              "Count:3": 1,
+              "tag:10": {
+                "stored_type:8": "naturesaura:overworld"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "178:10": {
+      "questID:3": 178,
+      "preRequisites:11": [
+        175
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:wood_stand",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Logging it! ",
+          "desc:8": "At the core of these natural rituals is the Ritual of the Forest! But to do that you\u0027re going to need something to help \n\n§4Information: \nThe ritual of the forest and it\u0027s components can be seen in your guide book. Keep in mind there is an option to visualize the ritual if you need to. This will be used frequently going forward. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:wood_stand",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "179:10": {
+      "questID:3": 179,
+      "preRequisites:11": [
+        178
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "naturesaura:eye",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "See your world through my eyes!",
+          "desc:8": "Apprentice, it is key that you begin down your path knowing your surroundings. If you continue to simply stumble around blind you will learn nothing from all of this! \n\n§4Information: \nMuch like thaumcraft, the underlying principal that governs all of Nature\u0027s aura is the concept that each individual chunk is assigned a given value in terms of \"Natural Aura\" this bauble will let you see that "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:eye",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "180:10": {
+      "questID:3": 180,
+      "preRequisites:11": [
+        178
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:ancient_sapling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Ancient Trees",
+          "desc:8": "So you\u0027ve probably noticed by now that the further you encroach upon nature the more it degrades. This is simply no good at all, and to combat it we must summon forth some of the oldest and most powerful trees in the land \n\n§4Information\nThese trees will act as the first line of defense in restoring aura to a given area. They aren\u0027t perfect but they will certainly provide some assistance. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:ancient_log",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:ancient_sapling",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "181:10": {
+      "questID:3": 181,
+      "preRequisites:11": [
+        180,
+        179
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:nature_altar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Next Level Nature",
+          "desc:8": "Apprentice! A ritual of the forest is interesting, but both you and I know that there are far more powerful forces in the world right? Well it\u0027s time to put that all to the test!\n\n§4Information: \nThis is the next level alter, and is also a multi block sturcutre, but it\u0027s going to be required in order to develop a lot of Nature\u0027s Aura\u0027s more advanced objects. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:nature_altar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:aura_bottle",
+              "Count:3": 3,
+              "tag:10": {
+                "stored_type:8": "naturesaura:nether"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "182:10": {
+      "questID:3": 182,
+      "preRequisites:11": [
+        181
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:infused_iron",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Seedy Metal ",
+          "desc:8": "What is the point of learning so much about nature if you can\u0027t get anything back from it all apprentice! Well this is your chance to really get a chance to make use of that!\n\n§4Information: \nMuch like almost any mod on the planet, Nature\u0027s Aura has it\u0027s own metal and in this case it\u0027s infused metal. Like any other metal it can be used for tools but not armor (We\u0027ll cover that more in another quest). "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:infused_iron",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:color_changer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "183:10": {
+      "questID:3": 183,
+      "preRequisites:11": [
+        182
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "naturesaura:infused_iron_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "The toolest",
+          "desc:8": "Apprentice, did you think to create such wonderful metals and not even believe they might be of some use to you? Don\u0027t be so foolish! Like every other metal in the world you should craft this into something worthwhile\n\n§4Information: \nThe tools are a bit unique in that each one of them has their own little ability (For instance the shovel can place grass anywhere [handy hm?]) It\u0027s a good chance to expiriment. The method for triggering each tools ability is listed in the guide book. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:infused_iron_pickaxe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:infused_iron_shovel",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "184:10": {
+      "questID:3": 184,
+      "preRequisites:11": [
+        177
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:aura_bottle",
+            "Count:3": 1,
+            "tag:10": {
+              "stored_type:8": "naturesaura:end"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Darkest Night",
+          "desc:8": "This one is less then simple, once you have opened a portal to the land of the Dragon you must also collect essance from that same spot. Good luck my apprentice\n\n§4Information: \nMuch like the nether and the overworld, using a Stopper and bottle in the end will result in a material that\u0027s required for a number of later game crafting recipies. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:aura_bottle",
+              "Count:3": 1,
+              "tag:10": {
+                "stored_type:8": "naturesaura:end"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 5,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "185:10": {
+      "questID:3": 185,
+      "preRequisites:11": [
+        177
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:aura_bottle",
+            "Count:3": 1,
+            "tag:10": {
+              "stored_type:8": "naturesaura:nether"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Ghostly Presence",
+          "desc:8": "The nether is quite the haunting place wouldn\u0027t you say? Listen I\u0027m just saying you should bottle up some of it\u0027s essance\n\n§4Information: \nMuch like the overworld, using a bottle and stopper in the nether will also result in gathering a sort of essance that is needed in crafting! Check it out "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:aura_bottle",
+              "Count:3": 1,
+              "tag:10": {
+                "stored_type:8": "naturesaura:nether"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_wart",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "186:10": {
+      "questID:3": 186,
+      "preRequisites:11": [
+        182
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:offering_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Bathing with the gods",
+          "desc:8": "Yes apprentice, I know very well that it looks like a bird bath, but what proof do you have that the gods aren\u0027t simply large avian creatures? Well that\u0027s right you don\u0027t so build the structure\n\n§4Information: \nA lot of the more complicated items are locked behind this particular item set. Keep in mind that you\u0027re going to need a LOT of flowers for the actual multiblock structure so get picking. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:offering_table",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:infused_iron",
+              "Count:3": 5,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "187:10": {
+      "questID:3": 187,
+      "preRequisites:11": [
+        186
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:calling_spirit",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Many Essances",
+          "desc:8": "Alright Apprentice it\u0027s time to make use of that bird--- I mean alter you made. Quickly gather the required materials and make up an offering, with that we can truely unlock the unfathomable power of nature\n\n§3§4Information: \nThe Offering\u0027s purpose is basically only for the creation of the second tier of metal within Nature\u0027s Aura and it\u0027s the first thing to require you to go to the end to get the material, so you can assume the resulting materials are well wroth your weight. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:calling_spirit",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:aura_bottle",
+              "Count:3": 3,
+              "tag:10": {
+                "stored_type:8": "naturesaura:end"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "188:10": {
+      "questID:3": 188,
+      "preRequisites:11": [
+        184,
+        187
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:sky_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Nature\u0027s Metal ++ ",
+          "desc:8": "Apprentice! I have reason to believe that if you combine the infused metal with the offering that you have given it\u0027s possible to create an even more powerful substance with the  very power of nature at it\u0027s core! you should definately give it a look "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:sky_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:infused_iron_block",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "189:10": {
+      "questID:3": 189,
+      "preRequisites:11": [
+        181
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:infused_stone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Rock on!",
+          "desc:8": "Everyone loves a rock concert apprentice, but do you also like rock that has been infused with the power of nature itself? The answer is of course yes, yes you do, so get on it!\n\n§4Information: \nNot to unlike livingrock or livingstone for Botania, this is used in a number of rituals in order to help create various later game items, also it looks nice. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:infused_stone",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:infused_iron_axe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "190:10": {
+      "questID:3": 190,
+      "preRequisites:11": [
+        188
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:spawn_lamp",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Peace be with you",
+          "desc:8": "Using your newfound powers you may call upon the ultimate power of Nature\u0027s aura and supress the spawning of the demons which haunt this world!\n\n§4Information:\nLike the book says, this will stop monster spawns in almost a 48 block radius at the cost of some of your natural aura. A very nifty tool indeed. The only trick is to remember the radius is directly proportional to the redstone signal applied. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:spawn_lamp",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "naturesaura:sky_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "191:10": {
+      "questID:3": 191,
+      "preRequisites:11": [
+        189
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:conversion_catalyst",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Fullnature Alchemist",
+          "desc:8": "Fullnature Alchemist, I mean... apprentice you should really check out the power of this rock. You can transform all manner of things\n\n§4§4Information: \nMuch like botania\u0027s alchemical catalyst, this will also offer you the means to transform various objects. It certainly has the potential to fill in some areas that may be more difficult to get. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:conversion_catalyst",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:rotten_flesh",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "192:10": {
+      "questID:3": 192,
+      "preRequisites:11": [
+        189
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:furnace_heater",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "I\u0027m burning for you! ",
+          "desc:8": "Who like using coal apprentice? The answer is of course no one, no one likes using coal, and honestly who can blame them? \n\n§4Information: \nThis tool will allow you to draw on the natural aura surrounding you in order to booste your output of burning things. Keep in mind though that furnances by their very nature drain the surrounding area, so try to keep a balance hmm? "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:furnace_heater",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "193:10": {
+      "questID:3": 193,
+      "preRequisites:11": [
+        188
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturesaura:potion_generator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Potion of Aura",
+          "desc:8": "Apprentice do you use potions? I certainly don\u0027t use potions, but it seems that the world just can\u0027t exist unless we take a look at them. Supposedly this creation can convert the raw energy of a lingering potion directly into a powerful effect. \n\n§4Information: \nThis will convert a LINGERING potion into natural aura. Keep in mind that there is a way to use this mod to get more lingering potions so it\u0027s not as difficult to obtain (no mudering a dragon). "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturesaura:potion_generator",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_brick",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -12862,6 +14125,140 @@
         }
       },
       "order:3": 8
+    },
+    "9:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": 6,
+          "id:3": 174
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": -120,
+          "y:3": 6,
+          "id:3": 175
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -120,
+          "y:3": 42,
+          "id:3": 176
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": 42,
+          "id:3": 177
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -84,
+          "y:3": 6,
+          "id:3": 178
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 6,
+          "id:3": 179
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 42,
+          "id:3": 180
+        },
+        "7:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 6,
+          "id:3": 181
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 24,
+          "y:3": 6,
+          "id:3": 182
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": 24,
+          "y:3": 42,
+          "id:3": 183
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": -120,
+          "y:3": 78,
+          "id:3": 184
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": -156,
+          "y:3": 78,
+          "id:3": 185
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 42,
+          "id:3": 186
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 78,
+          "id:3": 187
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 78,
+          "id:3": 188
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 60,
+          "y:3": 6,
+          "id:3": 189
+        },
+        "16:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 114,
+          "id:3": 190
+        },
+        "17:10": {
+          "size:3": 24,
+          "x:3": 60,
+          "y:3": 42,
+          "id:3": 191
+        },
+        "18:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 6,
+          "id:3": 192
+        },
+        "19:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 114,
+          "id:3": 193
+        }
+      },
+      "lineID:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "The Natural Aura",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "There lies in the very heart of nature a delicate balance that must be maintained, this chapter will teach you and guide you through the process of providing balance to nature! \n\n§4Information: \nNature\u0027s balance is a recently released Mod that may still be in the early beta stages, you can expect that this chapter may morph as the mod matures and develops. We urge everyone to give it a try!"
+        }
+      },
+      "order:3": 9
     }
   },
   "questSettings:10": {
@@ -12871,7 +14268,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:home_image.png",
       "pack_version:3": 0,
