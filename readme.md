@@ -55,7 +55,6 @@ Mods
 	- Gravestone Mob
 	- FastLeafDecay
 	- Backpacks
-	- Simple Bed Rolls
 	- Chisel
 	- Nature's Compass
 	- Resurrect Complex
@@ -108,6 +107,28 @@ Mods
 
 Changelog
 ============
+Patch 0.0.8
+### Modpack Core
+	- Updated to Forge vs Version 14.23.5.2776
+
+### Mods Added:
+_Helper Mods_
+
+	-Just Sleep
+	-Comforts
+
+### Mods Removed
+_Helper Mods_
+
+ 	-Simple Bed Rolls
+
+### Quests
+
+	- "Rest for the wicked" has been updated to now reflect the change from Simple Bed Rolls to Comforts
+	- "Reedy Business" no longer consumes the Reeds
+	- "Cobble Cobble" reduced from 16 cobble to 8, also now presents players with a choice
+	- "Handy Keybinds" added to help players 
+
 
 Patch 0.0.7
 -------------
@@ -146,7 +167,7 @@ _Helper Mods_
 _UI_
 
 	- Journemyap
-	- JEI 
+	- JEI
 
 _Modpack_
 

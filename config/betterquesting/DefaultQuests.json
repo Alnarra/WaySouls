@@ -97,7 +97,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Trivial Learning ",
-          "desc:8": "I know to a bright young student like yourself journeying into the world must seem very simple, but there are still yet task to compelte, use the wood you have gathered in order to build a few tools hmm? "
+          "desc:8": "I know to a bright young student like yourself journeying into the world must seem very simple, but there are still yet task to compelte, use the wood you have gathered in order to build a few tools hmm?\n\n§4Information:\nAgain admittedly not very difficult; however, this quest is supposed to illustrate the crafting mechanic of the book rather then simply the gathering requirement.  "
         }
       },
       "tasks:9": {
@@ -158,7 +158,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Cobble cobble",
-          "desc:8": "Cobblestone is a simple enough material, use your newly made wooden pickaxe to turn stone into cobble! This simple task should be nothing for you my young apprentice"
+          "desc:8": "Cobblestone is a simple enough material, use your newly made wooden pickaxe to turn stone into cobble! This simple task should be nothing for you my young apprentice\n\n§4Information:\nThis quest is to help you familiarize yourself with the \"Choice\" quest reward system, which will also be used throughout the pack. "
         }
       },
       "tasks:9": {
@@ -172,7 +172,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:cobblestone",
-              "Count:3": 16,
+              "Count:3": 8,
               "OreDict:8": "cobblestone",
               "Damage:3": 0
             }
@@ -182,20 +182,24 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
+          "rewardID:8": "bq_standard:choice",
           "index:3": 0,
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "id:8": "minecraft:stone_axe",
+              "id:8": "minecraft:stone_shovel",
               "Count:3": 1,
-              "tag:10": {},
               "OreDict:8": "",
               "Damage:3": 0
             },
             "1:10": {
               "id:8": "minecraft:stone_sword",
               "Count:3": 1,
-              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "minecraft:stone_axe",
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -282,10 +286,7 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "simplebedrolls:bedroll",
+            "id:8": "comforts:sleeping_bag",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -297,7 +298,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Rest for the Wicked",
-          "desc:8": "Perhaps you could make use of those shears you just crafted to find a sheep, or perhaps you could plant that gift of cotton to make the components required. Either way you should learn to make a bedroll"
+          "desc:8": "Perhaps you could make use of those shears you just crafted to find a sheep, or perhaps you could plant that gift of cotton to make the components required. Either way you should learn to make a bedroll\n\n§4Information: \nA bed roll effectively gives you a mobile bed so that you can travel yet still not have to worry about the night time being as much of a hassle. "
         }
       },
       "tasks:9": {
@@ -307,7 +308,7 @@
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "simplebedrolls:bedroll",
+              "id:8": "comforts:sleeping_bag",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -532,7 +533,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Will of Iron",
-          "desc:8": "Now that we have a strong enough pickaxe we might be able to make ourselves newer tools from a more powerful material, grab some iron, you may find it in a number of places. "
+          "desc:8": "Now that we have a strong enough pickaxe we might be able to make ourselves newer tools from a more powerful material, grab some iron, you may find it in a number of places. \n\n§4Information: \nWith a much richer world to explore, you may find that iron shows up in more places then you might expect, even beyond having to muck about in caves. Iron is a plentinful resource because there are so many things that require it. "
         }
       },
       "tasks:9": {
@@ -670,7 +671,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:reeds",
@@ -777,7 +778,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Holy Cow",
-          "desc:8": "Or rather it will be full of holes, please take a bit of time to practice on the local bovines, we must... increase your skill"
+          "desc:8": "Or rather it will be full of holes, please take a bit of time to practice on the local bovines, we must... increase your skill\n\n§4Information: \nCows have changed a bit, with Animania installed, almost all of the animals in the pack have some unique quirks and Cows are no different. You can learn more about Animania by purusing the Farming and Agricultural Quest lines. Be warned a bull will fight back. "
         }
       },
       "tasks:9": {
@@ -1956,7 +1957,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Culinary expert",
-          "desc:8": "What if we just burn a book? Let\u0027s find out"
+          "desc:8": "What if we just burn a book? Let\u0027s find out\n\n§4Information: \nWith the inclusion of Pam\u0027s harvestcraft and so many other cooking mods, it can be very difficult to oragnize your food. This mod sets out to help alleviate those issues and will take you down the cooking for blockheads quest line. "
         }
       },
       "tasks:9": {
@@ -9309,6 +9310,10 @@
           "icon:10": {
             "id:8": "embers:copper_cell",
             "Count:3": 1,
+            "tag:10": {
+              "emberCapacity:6": 24000.0,
+              "ember:6": 0.0
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -9331,6 +9336,10 @@
             "0:10": {
               "id:8": "embers:copper_cell",
               "Count:3": 1,
+              "tag:10": {
+                "emberCapacity:6": 24000.0,
+                "ember:6": 0.0
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -11535,7 +11544,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Version 0.0.7",
+          "name:8": "Version 0.0.8",
           "desc:8": "This quest is simply intended to give you information on changes made in version 0.0.7: \n\nPatch 0.0.7\nDescription\nThis particular update is intended to take a more serious look at the quest book and some of the more problematic mods including totemic, abyssalcraft, and roots. The truth is that I wanted to tackle each of these but they all present their own unique difficulties whent it comes to quest surrounding them. As such I\u0027ve tuned back the modification made to Totemic\u0027s central element opting to leave the mod intact. In addition this will begin to work on the abyssalcraft quest line. I will not touch the roots quest line until the newer version of the mod is published.\n\nIn addition to that, I will be working to try and include \"Out of Character\" information for each and every quest. This can include a number of things including why the quest exist in the first place, or how to accomplish the quest (as some can be more difficult to understand then others). I\u0027m MOSTLY settled on the mods that are in place and feel comfertable simply updating them.\n\nAs development will now be handled through the twitch interface, you can assume that all mods are updated as updates become available.\n\nThis will be created as a new branch of the Github repo to help seperate it.\n\nMods Added:\nHelper Mods\n\n- Millénaire\nMods Updated\nHelper Mods\n\n- Nutrition\nMods Removed:\nQuest:\n- Added Questline for Animania\n- Quest:\n- \"The Ultimate Compass\" now retrieval vs crafting (Fixes Issue#1)\n- \"Let the ritual...begin\" now retrieval vs crafting (Fixes Issue#1)\n- \"The man with the Golden Ticket\" Now correctly associated with Golden Bone Hoe\nConfiguration\n- Animania told not to spawn bee hives\nScripting\n- Animania Hive recipie altered to use Harvestcraft queen bee rather then wild hive "
         }
       },
@@ -12959,6 +12968,44 @@
           }
         }
       }
+    },
+    "194:10": {
+      "questID:3": 194,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "botania:cosmetic",
+            "Count:3": 1,
+            "Damage:2": 31,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Handy Keybinds ",
+          "desc:8": "The following are simply a set of Handy Keybinds you should be aware of that come default with the pack (you can of course change these as you see fit \n\nj - Opens Journeymap \nb - sets a waypoint in Journeymap \n~ - Opens this quest log no matter where you are\nMiddle Click - While in inventory this will sort your inventory \nr - This will also sort your inventory, when you are hovering over an item it will tell you the item\u0027s recipie \nShift Clicking the + sign in any JEI recipie will attempt to place as many mats as you have available to craft as many of the item as you can. \nEach mod may have it\u0027s own keybindings so be aware of that as well. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -13275,6 +13322,12 @@
           "x:3": -126,
           "y:3": 258,
           "id:3": 173
+        },
+        "52:10": {
+          "size:3": 24,
+          "x:3": -270,
+          "y:3": 6,
+          "id:3": 194
         }
       },
       "lineID:3": 0,
@@ -13283,7 +13336,7 @@
           "name:8": "The basics of the world",
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "You should know how to live in this world by now right? Well just to be sure we\u0027re gonna go through a bit of a refresher course ok? "
+          "desc:8": "You should know how to live in this world by now right? Well just to be sure we\u0027re gonna go through a bit of a refresher course ok? \n\n§4Information: \nThis chapter is largely only for two purposes. The first is to familiarize you with the way in which quest work and also to help you understand where in the overall Minecraft Tech tree each of these mods fall. "
         }
       },
       "order:3": 0
@@ -14268,7 +14321,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:home_image.png",
       "pack_version:3": 0,

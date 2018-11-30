@@ -55,3 +55,5 @@ ModpackUploadTool.bat
 LICENSE
 patchouli_data.json
 crash-reports/
+*.zip
+ModpackFileId.json
