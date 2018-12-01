@@ -4854,6 +4854,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5138,8 +5139,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "420 Blaze it ",
-          "desc:8": "Well no my young apprentice don\u0027t actually go to the nether, but you will need a strong material, like a binding. Search the grasess and see if some doesn\u0027t drop out"
+          "name:8": "420 Blaze it [MultiPart] ",
+          "desc:8": "Well no my young apprentice don\u0027t actually go to the nether, but you will need a strong material, like a binding. Search the grasess and see if some doesn\u0027t drop out\n\n§4Information: \nHemp is a key ingrendient for a number of cloth based products in the immersive engineering mod and allows the user to go on to construct things like better windmill blades. Beyond all that hemp seeds grow relatively quickly and can be used for a number of other things. "
         }
       },
       "tasks:9": {
@@ -5162,20 +5163,54 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:material",
               "Count:3": 1,
-              "OreDict:8": "fiberHemp",
+              "OreDict:8": "",
               "Damage:3": 4
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "minecraft:flower_pot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "harvestcraft:lettuceitem",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "minecraft:grass",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "minecraft:gold_nugget",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "77:10": {
       "questID:3": 77,
@@ -7865,7 +7900,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Copping Out",
+          "name:8": "Copping Out [Multipart] ",
           "desc:8": "There\u0027s all mater of strange new metal\u0027s in this world apprentice, with a variety of uses! Use a bit and play around with it! "
         }
       },
@@ -10529,36 +10564,6 @@
       }
     },
     "155:10": {
-      "questID:3": 155,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "partysinglereward:1": 0,
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "156:10": {
       "questID:3": 156,
       "preRequisites:11": [
         72
@@ -10622,7 +10627,7 @@
         }
       }
     },
-    "157:10": {
+    "156:10": {
       "questID:3": 157,
       "preRequisites:11": [
         156
@@ -10682,7 +10687,7 @@
         }
       }
     },
-    "158:10": {
+    "157:10": {
       "questID:3": 158,
       "preRequisites:11": [
         157
@@ -10742,7 +10747,7 @@
         }
       }
     },
-    "159:10": {
+    "158:10": {
       "questID:3": 159,
       "preRequisites:11": [
         158
@@ -10805,7 +10810,7 @@
         }
       }
     },
-    "160:10": {
+    "159:10": {
       "questID:3": 160,
       "preRequisites:11": [
         158
@@ -10868,7 +10873,7 @@
         }
       }
     },
-    "161:10": {
+    "160:10": {
       "questID:3": 161,
       "preRequisites:11": [
         158
@@ -10931,7 +10936,7 @@
         }
       }
     },
-    "162:10": {
+    "161:10": {
       "questID:3": 162,
       "preRequisites:11": [
         158
@@ -10994,7 +10999,7 @@
         }
       }
     },
-    "163:10": {
+    "162:10": {
       "questID:3": 163,
       "preRequisites:11": [
         162,
@@ -11072,7 +11077,7 @@
         }
       }
     },
-    "164:10": {
+    "163:10": {
       "questID:3": 164,
       "preRequisites:11": [
         161
@@ -11135,7 +11140,7 @@
         }
       }
     },
-    "165:10": {
+    "164:10": {
       "questID:3": 165,
       "preRequisites:11": [
         164
@@ -11198,7 +11203,7 @@
         }
       }
     },
-    "166:10": {
+    "165:10": {
       "questID:3": 166,
       "preRequisites:11": [
         162
@@ -11261,7 +11266,7 @@
         }
       }
     },
-    "167:10": {
+    "166:10": {
       "questID:3": 167,
       "preRequisites:11": [
         165
@@ -11321,7 +11326,7 @@
         }
       }
     },
-    "168:10": {
+    "167:10": {
       "questID:3": 168,
       "preRequisites:11": [
         54
@@ -11385,7 +11390,7 @@
         }
       }
     },
-    "169:10": {
+    "168:10": {
       "questID:3": 169,
       "preRequisites:11": [
         170
@@ -11451,7 +11456,7 @@
         }
       }
     },
-    "170:10": {
+    "169:10": {
       "questID:3": 170,
       "preRequisites:11": [
         168
@@ -11515,7 +11520,7 @@
         }
       }
     },
-    "171:10": {
+    "170:10": {
       "questID:3": 171,
       "preRequisites:11": [],
       "properties:10": {
@@ -11544,16 +11549,11 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Version 0.0.8",
-          "desc:8": "This quest is simply intended to give you information on changes made in version 0.0.7: \n\nPatch 0.0.7\nDescription\nThis particular update is intended to take a more serious look at the quest book and some of the more problematic mods including totemic, abyssalcraft, and roots. The truth is that I wanted to tackle each of these but they all present their own unique difficulties whent it comes to quest surrounding them. As such I\u0027ve tuned back the modification made to Totemic\u0027s central element opting to leave the mod intact. In addition this will begin to work on the abyssalcraft quest line. I will not touch the roots quest line until the newer version of the mod is published.\n\nIn addition to that, I will be working to try and include \"Out of Character\" information for each and every quest. This can include a number of things including why the quest exist in the first place, or how to accomplish the quest (as some can be more difficult to understand then others). I\u0027m MOSTLY settled on the mods that are in place and feel comfertable simply updating them.\n\nAs development will now be handled through the twitch interface, you can assume that all mods are updated as updates become available.\n\nThis will be created as a new branch of the Github repo to help seperate it.\n\nMods Added:\nHelper Mods\n\n- Millénaire\nMods Updated\nHelper Mods\n\n- Nutrition\nMods Removed:\nQuest:\n- Added Questline for Animania\n- Quest:\n- \"The Ultimate Compass\" now retrieval vs crafting (Fixes Issue#1)\n- \"Let the ritual...begin\" now retrieval vs crafting (Fixes Issue#1)\n- \"The man with the Golden Ticket\" Now correctly associated with Golden Bone Hoe\nConfiguration\n- Animania told not to spawn bee hives\nScripting\n- Animania Hive recipie altered to use Harvestcraft queen bee rather then wild hive "
+          "name:8": "Version 0.1.0",
+          "desc:8": "This quest is simply intended to give you information on changes made in version 0.1.0: \n\nPatch 1.0.0\n### Description\n\nThis patch will be addressing a number of small issues that are detected with the various quest throughout the book, attempting to squash bugs and adjust rewards as needed. In addition this will also focus on working more towards some server friendly changes (Hence Bed Rolls being removed in favor of comforts / etc.). At this point I am almost 100% set on the mods in place and more then happy with the overall weight and structure of the mod-pack, this simply becomes a polishing matter at this point. At this point I feel it is safe to describe the mod pack as no longer being in alpha but rather in the beta state. Note that several of the mods contained within are unfinished and thus are very much still considered beta (Thaumcraft / Nature\u0027s Aura); however, I feel that providing those mods with a pack in which to flourish topples any overarching need to hold the pack back.\n\nForge has been updated to compensate for requirements by comforts, and though it is not a stable release, in testing I haven\u0027t been able to produce any major bugs or issues.\n\n### Modpack Core\n\n\t- Updated to Forge vs Version 14.23.5.2776\n\n### Mods Added:\n_Library_\n\n\t-Reborn Core\n\n_Helper Mods_\n\n\t-Just Sleep\n\t-Comforts\n\n### Mods Updated:\n_Core_\n\n\t-Botania\n\t-Embers\n\n_Library_\n\n\t- Connected Textures Mod\n\t- AutoRegLib\n\n_Helper_\n\n\t-Quark\n\t-storagedrawers\n\n_UI_\n\n -Dynamic Surroundings\n\n_Modpack_\n\n\t- FTBUtillities\n\t- FTBLib\n\n### Mods Removed\n_Helper Mods_\n\n \t-Simple Bed Rolls\n\n### Quests\n\n\t- Quest which have more then one requirement will now be labled with \"Multipart\"\n\t- \"Rest for the wicked\" has been updated to now reflect the change from Simple Bed Rolls to Comforts\n\t- \"Reedy Business\" no longer consumes the Reeds\n\t- \"Cobble Cobble\" reduced from 16 cobble to 8, also now presents players with a choice\n\t- \"Handy Keybinds\" added to help players\n\t- \"420 Blaze it\" now has a reward and is possible to complete \n\t- \"The Totemic World\" now properly hidden \n\t- Added Quest \"Oh Honey\" to explain Animania Bee Hive \n\t- \"New Quest\" that was hidden somewhere and popped up on first time world load has been removed. \n\n### Configuration\n\n\t- Killing the BattleTowers golems will no longer destroy the tower \n\t- So that the special ability of the nature\u0027s Aura axe isn\u0027t totally nullified, The config of Quarks that has axes destroy leaves has been set to false"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {
         "0:10": {
           "amount:3": 1,
@@ -11563,7 +11563,7 @@
         }
       }
     },
-    "172:10": {
+    "171:10": {
       "questID:3": 172,
       "preRequisites:11": [
         16,
@@ -11638,7 +11638,7 @@
         }
       }
     },
-    "173:10": {
+    "172:10": {
       "questID:3": 173,
       "preRequisites:11": [
         71,
@@ -11706,7 +11706,7 @@
         }
       }
     },
-    "174:10": {
+    "173:10": {
       "questID:3": 174,
       "preRequisites:11": [
         172
@@ -11767,7 +11767,7 @@
         }
       }
     },
-    "175:10": {
+    "174:10": {
       "questID:3": 175,
       "preRequisites:11": [
         174
@@ -11831,7 +11831,7 @@
         }
       }
     },
-    "176:10": {
+    "175:10": {
       "questID:3": 176,
       "preRequisites:11": [
         175
@@ -11891,7 +11891,7 @@
         }
       }
     },
-    "177:10": {
+    "176:10": {
       "questID:3": 177,
       "preRequisites:11": [
         175
@@ -11955,7 +11955,7 @@
         }
       }
     },
-    "178:10": {
+    "177:10": {
       "questID:3": 178,
       "preRequisites:11": [
         175
@@ -12015,7 +12015,7 @@
         }
       }
     },
-    "179:10": {
+    "178:10": {
       "questID:3": 179,
       "preRequisites:11": [
         178
@@ -12072,7 +12072,7 @@
         }
       }
     },
-    "180:10": {
+    "179:10": {
       "questID:3": 180,
       "preRequisites:11": [
         178
@@ -12135,7 +12135,7 @@
         }
       }
     },
-    "181:10": {
+    "180:10": {
       "questID:3": 181,
       "preRequisites:11": [
         180,
@@ -12199,7 +12199,7 @@
         }
       }
     },
-    "182:10": {
+    "181:10": {
       "questID:3": 182,
       "preRequisites:11": [
         181
@@ -12262,7 +12262,7 @@
         }
       }
     },
-    "183:10": {
+    "182:10": {
       "questID:3": 183,
       "preRequisites:11": [
         182
@@ -12325,7 +12325,7 @@
         }
       }
     },
-    "184:10": {
+    "183:10": {
       "questID:3": 184,
       "preRequisites:11": [
         177
@@ -12395,7 +12395,7 @@
         }
       }
     },
-    "185:10": {
+    "184:10": {
       "questID:3": 185,
       "preRequisites:11": [
         177
@@ -12464,7 +12464,7 @@
         }
       }
     },
-    "186:10": {
+    "185:10": {
       "questID:3": 186,
       "preRequisites:11": [
         182
@@ -12524,7 +12524,7 @@
         }
       }
     },
-    "187:10": {
+    "186:10": {
       "questID:3": 187,
       "preRequisites:11": [
         186
@@ -12590,7 +12590,7 @@
         }
       }
     },
-    "188:10": {
+    "187:10": {
       "questID:3": 188,
       "preRequisites:11": [
         184,
@@ -12654,7 +12654,7 @@
         }
       }
     },
-    "189:10": {
+    "188:10": {
       "questID:3": 189,
       "preRequisites:11": [
         181
@@ -12717,7 +12717,7 @@
         }
       }
     },
-    "190:10": {
+    "189:10": {
       "questID:3": 190,
       "preRequisites:11": [
         188
@@ -12780,7 +12780,7 @@
         }
       }
     },
-    "191:10": {
+    "190:10": {
       "questID:3": 191,
       "preRequisites:11": [
         189
@@ -12843,7 +12843,7 @@
         }
       }
     },
-    "192:10": {
+    "191:10": {
       "questID:3": 192,
       "preRequisites:11": [
         189
@@ -12906,7 +12906,7 @@
         }
       }
     },
-    "193:10": {
+    "192:10": {
       "questID:3": 193,
       "preRequisites:11": [
         188
@@ -12969,7 +12969,7 @@
         }
       }
     },
-    "194:10": {
+    "193:10": {
       "questID:3": 194,
       "preRequisites:11": [],
       "properties:10": {
@@ -13006,6 +13006,67 @@
         }
       },
       "rewards:9": {}
+    },
+    "194:10": {
+      "questID:3": 195,
+      "preRequisites:11": [
+        59
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "animania:bee_hive",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Oh Honey!",
+          "desc:8": "Bee\u0027s are a very popular species for a number of reasons, but perhaps one that they are most well known for apprentice is stinging... no wait that\u0027s not it, it\u0027s honey, that\u0027s right! \n\n§4Information: \nThis object will slowly generate honey (like that used by rustic) and has a lovely little animation. It\u0027s provided by the Animania mod but it\u0027s recipie has been altered to help keep the number of bee hives in the world to a minimum. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "animania:bee_hive",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "harvestcraft:honeybreaditem",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -13596,6 +13657,12 @@
           "x:3": -84,
           "y:3": 78,
           "id:3": 111
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": -192,
+          "y:3": 42,
+          "id:3": 195
         }
       },
       "lineID:3": 2,
@@ -14321,7 +14388,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:home_image.png",
       "pack_version:3": 0,

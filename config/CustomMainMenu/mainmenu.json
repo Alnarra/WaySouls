@@ -213,7 +213,7 @@
         },
         "modpack":
 		{
-		"text" : "Wayward Soul Version: 0.0.8", 
+		"text" : "Wayward Soul Version: 0.1.0",
             "posX" : -144,
             "posY" : -20,
             "color" : -1,
@@ -226,7 +226,7 @@
 
         "panorama":
         {
-            "images" : "mainmenu:pan%c.png",
+            "images" : "mainmenu:panorama_%c.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,

@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.0.6
+Current Version: 	0.0.7
 
 Minecraft Version: 	1.1.12
 
@@ -44,6 +44,7 @@ Mods
 	- GuideAPI
 	- Forgelin
 	- libex
+	- Reborn Core
 
 ### Helper Mods
 	- Waystones
@@ -72,6 +73,8 @@ Mods
 	- Soot
 	- Millénaire
 	- Akashic Tome
+	- Just Sleep
+	- Comforts
 
 ### UI Mods
 	- Waila
@@ -107,15 +110,51 @@ Mods
 
 Changelog
 ============
-Patch 0.0.8
+Patch 0.1.0
+### Description
+
+This patch will be addressing a number of small issues that are detected with the various quest throughout the book, attempting to squash bugs and adjust rewards as needed. In addition this will also focus on working more towards some server friendly changes (Hence Bed Rolls being removed in favor of comforts / etc.). At this point I am almost 100% set on the mods in place and more then happy with the overall weight and structure of the mod-pack, this simply becomes a polishing matter at this point. At this point I feel it is safe to describe the mod pack as no longer being in alpha but rather in the beta state. Note that several of the mods contained within are unfinished and thus are very much still considered beta (Thaumcraft / Nature's Aura); however, I feel that providing those mods with a pack in which to flourish topples any overarching need to hold the pack back.
+
+Forge has been updated to compensate for requirements by comforts, and though it is not a stable release, in testing I haven't been able to produce any major bugs or issues.
+
 ### Modpack Core
+
 	- Updated to Forge vs Version 14.23.5.2776
 
 ### Mods Added:
+_Library_
+
+	-Reborn Core
+
 _Helper Mods_
 
 	-Just Sleep
 	-Comforts
+
+### Mods Updated:
+_Core_
+
+	-Botania
+	-Embers
+
+_Library_
+
+	- Connected Textures Mod
+	- AutoRegLib
+
+_Helper_
+
+	-Quark
+	-storagedrawers
+
+_UI_
+
+ -Dynamic Surroundings
+
+_Modpack_
+
+	- FTBUtillities
+	- FTBLib
 
 ### Mods Removed
 _Helper Mods_
@@ -124,11 +163,21 @@ _Helper Mods_
 
 ### Quests
 
+	- Quest which have more then one requirement will now be labled with "Multipart"
 	- "Rest for the wicked" has been updated to now reflect the change from Simple Bed Rolls to Comforts
 	- "Reedy Business" no longer consumes the Reeds
 	- "Cobble Cobble" reduced from 16 cobble to 8, also now presents players with a choice
-	- "Handy Keybinds" added to help players 
+	- "Handy Keybinds" added to help players
+	- "420 Blaze it" now has a reward and is possible to complete
+	- "The Totemic World" now properly hidden
+	- Added Quest "Oh Honey" to explain Animania Bee Hive
+	- "New Quest" that was hidden somewhere and popped up on first time world load has been removed.
 
+### Configuration
+
+	- Killing the BattleTowers golems will no longer destroy the tower
+	- So that the special ability of the nature's Aura axe isn't totally nullified, The config of Quarks that has axes destroy leaves has been set to false
+	- Panorama Picture for start changed up a bit
 
 Patch 0.0.7
 -------------
