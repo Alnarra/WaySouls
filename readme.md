@@ -26,6 +26,7 @@ Inspired by Mage Quest and Minecraft Mage, the idea is to try and leave AS MUCH 
 Mods
 ----------
 ### Core Mods
+
 	- Abyssal Craft
 	- Astral Sorcery
 	- Blood Magic
@@ -37,6 +38,7 @@ Mods
 	- Nature's Aura
 
 ### Library Mods
+
 	- MTLib
 	- Chameleon
 	- Baubles
@@ -47,6 +49,7 @@ Mods
 	- Reborn Core
 
 ### Helper Mods
+
 	- Waystones
 	- Storage Drawers
 	- Rustic
@@ -77,6 +80,7 @@ Mods
 	- Comforts
 
 ### UI Mods
+
 	- Waila
 	- Waila Harvestability
 	- Just Enough Items
@@ -93,6 +97,7 @@ Mods
 	- FoamFix
 
 ### Mod Pack Related
+
 	- Resource Loader
 	- Open Eye
 	- FTBLib
@@ -254,8 +259,10 @@ The metals have been singled down to a single mod, legacy recipes have been left
 Plates have been balanced (including thaumcraft plates) requiring at minimum that you have a hammer from either immersive engineering or embers. In addition Totemic's whittling knife, because of it's ability to craft a small range beacon has had it's recipe reworked to require interacting with the other mods in the pack.
 
 ### Modpack Core
+
 	- Updated to Forge vs Version 14.23.5.2768
 ### Config Changes
+
 	- Loading screen made a little more calming
 	- Turned off rustic bee generation
 	- Changing loot configuration for Ressurect Complex structures to better reflect loot from the modpack and encourage exploration.
@@ -267,13 +274,16 @@ _Library_
 
 		-Forgelin
 		-Libex
+
 _Helper_
 
 		- Soot
+
 _Modpack_
 
 		- Loottweaker
 		- Abyssalcraft Integration
+
 ### Mod's Updated
 _Core_
 
@@ -283,12 +293,14 @@ _Core_
 		- Thaumcraft
 		- Immersive Engineering
 		- Botania
+
 _Library_
 
 		- Connected Textures Mod
 		- FTB Lib
 		- AutoRegLib
 		- GuideAPI
+
 _Helper_
 
 		- Storage Drawers
@@ -304,6 +316,7 @@ _Helper_
 		- Totemic
 		- Rustic
 		- Waystones
+
 _UI_
 
 		- Clumps
@@ -314,6 +327,7 @@ _UI_
 		- More Overlays
 		- Mouse Tweaks
 		- ThaumicJEI
+
 _Modpack_
 
 		- Crafttweaker
@@ -321,13 +335,17 @@ _Modpack_
 		- Standard Expansion
 		- FTB Utilities
 		- ModTweaker
+
 ### Mod's Removed
 
 ### Questing
+
 	-Altered Ember's copper quest to now focus on lead instead (Also introducing the hammer). 	
 	-Added a Totemic Questline
 	-The simplicity of farming now accepts any fruit tree
+
 ### Scripting
+
 	- Removed the renaming of the rustic bees and simply made it so Harvescraft bee related items would work  
 	- Unified metal ingots / blocks /  Nuggets / Plates so that all machines only produce one type
 	- Crusher has chance to make copper instead of nickel with Iron ore.
@@ -349,9 +367,11 @@ With rustic lacking support for Modtweaker in regards to alchemy, it is difficul
 Totemic has been added as a small support mod because I believe it fit the theme, and realbench is a QoL improvement. Nutrtion is intended to help reward the player
 
 ### Modpack Core
+
 	- Fixed the resource pack not being shipped with the client version (Whoopsie daisy)
 
 ### Config Changes
+
 	- Turned off Tomato / Chili Pepper generation for Harvestcraft (so Rustic can handle them)
 	- Turned of RPG Hud Compass and Entity inspect
 	- Toned down Abysallcraft biome generation by half (this should be as low as it can possibly go)
@@ -402,6 +422,7 @@ _Helper_
 		- Infernal Mobs
 
 ### Questing
+
 	- Added images for quest booklet
 	- Made a number of small updates to try and correct issues with the quest booklet
 	- Added 100+ Quest to help the player begin to settle in
@@ -409,6 +430,7 @@ _Helper_
 	- Numerous quest updated / rewards changed / etc.
 
 ### Scripting
+
 	- Removed Uranium from JEI / Recipies where possible
 	- Removed Tin from JEI / Recipies where possible
 	- Removed Mithril from JEI
@@ -419,14 +441,17 @@ _Helper_
 	- Removed references to Pam's Grapes / Tomatoes / Chilli Peppers
 
 ### Modpack
+
 	- Github profile page updated.
 
 Version 0.0.4
 -------------
 ### Core Changes
+
 	- Forge Updated to 14.23.4.2705
 
 ### Config Changes
+
 	- Shoggoths are no longer allowed to spawn outside of their little lairs
 	- Told immersive engineering excavators not to mine up immersive engineering ores because I think they're ugly
 	- Turned Harvestcraft bee's back on
@@ -436,13 +461,16 @@ Version 0.0.4
 _Core_
 
 	- Blood Magic
+
 _Library_
 
 	- GuideAPI
+
 _Helper_
 
 	- Nature's compass
 	- Reliquery
+
 _UI_
 
 	- Thaumic JEI
@@ -503,8 +531,11 @@ _Helper_
 Version 0.0.3
 -------------
 ### Core Changes
+
 	- Forge updated to 14.23.3.2655
+
 ### Config Changes
+
 	- Lowered Overall Fire / Ice structuer spawn chance
 	- Made the world more resilliant to Shoggoth's
 	- Made Ooze a little less tainty
@@ -521,9 +552,11 @@ Version 0.0.3
 _Core_
 
 	- Thaumcraft 6 [Because DUH]
+
 _Library_
 
 	- BASE
+
 _Helper_
 
 	- Resurect Complex
@@ -534,6 +567,7 @@ _Helper_
 	- Animania
 	- Ice and Fire
 	- Infernal Mobs
+
 _UI_
 
 	- Mouse Tweaks
@@ -570,7 +604,7 @@ _Helper_
 
 ### Questing
 
-By making use of Better questing the first chapter for the modpack has been added including almost 40 quest to help the player on the path to exploring all of the game's core mods.
+	- By making use of Better questing the first chapter for the modpack has been added including almost 40 quest to help the player on the path to exploring all of the game's core mods.
 
 
 Version 0.0.2
@@ -644,6 +678,7 @@ Version 0.0.1
 --------------
 
 ### Config Changes
+
 	- Decreased Abyssal craft biome Creation from 5 in 100 to 2 in 100
 	- Prevented Immersive engineering from spawning ore that Embers spawns
 	- Prevented Quark from spawning Marble
@@ -652,4 +687,5 @@ Version 0.0.1
 	- Disabled Waystone XP Requirement
 
 ### Scripting Alterations
+
 	- added aestetic.zs
