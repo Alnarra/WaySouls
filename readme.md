@@ -146,11 +146,13 @@ _Library_
 
 	- Connected Textures Mod
 	- AutoRegLib
+	- Patchouli
 
 _Helper_
 
 	- Quark
 	- storagedrawers
+	- Millénaire
 
 _UI_
 
@@ -160,6 +162,7 @@ _Modpack_
 
 	- FTBUtillities
 	- FTBLib
+	- BetterQuesting
 
 ### Mods Removed
 _Helper Mods_
@@ -216,6 +219,7 @@ _Helper Mods_
 
 	- Millénaire
 	- Akashic Tome
+
 ### Mods Updated
 _Library_
 
