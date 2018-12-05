@@ -1,6 +1,6 @@
 {
   "modid":"millenaire",
-  "Food":{
+  "foods":{
     "Ingredients":[
       "vegcurry",
       "chickencurry",
