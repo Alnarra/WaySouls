@@ -129,18 +129,18 @@ Forge has been updated to compensate for requirements by comforts, and though it
 ### Mods Added:
 _Library_
 
-	-Reborn Core
+	- Reborn Core
 
 _Helper Mods_
 
-	-Just Sleep
-	-Comforts
+	- Just Sleep
+	- Comforts
 
 ### Mods Updated:
 _Core_
 
-	-Botania
-	-Embers
+	- Botania
+	- Embers
 
 _Library_
 
@@ -149,12 +149,12 @@ _Library_
 
 _Helper_
 
-	-Quark
-	-storagedrawers
+	- Quark
+	- storagedrawers
 
 _UI_
 
- -Dynamic Surroundings
+ - Dynamic Surroundings
 
 _Modpack_
 
@@ -164,7 +164,7 @@ _Modpack_
 ### Mods Removed
 _Helper Mods_
 
- 	-Simple Bed Rolls
+ 	- Simple Bed Rolls
 
 ### Quests
 
@@ -191,7 +191,7 @@ _Helper Mods_
 	- Killing the BattleTowers golems will no longer destroy the tower
 	- So that the special ability of the nature's Aura axe isn't totally nullified, The config of Quarks that has axes destroy leaves has been set to false
 	- Panorama Picture for start changed up a bit
-	- Animania items have been made compatiable with cooking for Blockheads 
+	- Animania, Thaumcraft, Totemic, AbyssalCraft, Rustic food has been made compatible with cooking for Blockheads
 
 Patch 0.0.7
 -------------
@@ -219,7 +219,7 @@ _Helper Mods_
 ### Mods Updated
 _Library_
 
-	-Forgelin
+	- Forgelin
 
 _Helper Mods_
 
@@ -270,6 +270,7 @@ Plates have been balanced (including thaumcraft plates) requiring at minimum tha
 ### Modpack Core
 
 	- Updated to Forge vs Version 14.23.5.2768
+
 ### Config Changes
 
 	- Loading screen made a little more calming
@@ -278,11 +279,12 @@ Plates have been balanced (including thaumcraft plates) requiring at minimum tha
 	- updated Battletowers loot
 	- Turned off tin, Uranium, nickel, and few other chisel patterns that weren't relevant to help cut down on texture load times
 	- turned off limestone generation (Quark already does it).
+
 ### Mod's Added
 _Library_
 
-		-Forgelin
-		-Libex
+		- Forgelin
+		- Libex
 
 _Helper_
 
