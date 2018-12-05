@@ -154,7 +154,7 @@ _Helper_
 
 _UI_
 
- - Dynamic Surroundings
+ 	- Dynamic Surroundings
 
 _Modpack_
 
@@ -234,10 +234,10 @@ _UI_
 
 _Modpack_
 
- - CraftTweaker2
- - BetterQuesting
- - FTBLib
- - FTBUtils
+ 	- CraftTweaker2
+ 	- BetterQuesting
+ 	- FTBLib
+ 	- FTBUtils
 
 ### Mods Removed:
 
