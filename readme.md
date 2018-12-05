@@ -191,6 +191,7 @@ _Helper Mods_
 	- Killing the BattleTowers golems will no longer destroy the tower
 	- So that the special ability of the nature's Aura axe isn't totally nullified, The config of Quarks that has axes destroy leaves has been set to false
 	- Panorama Picture for start changed up a bit
+	- Animania items have been made compatiable with cooking for Blockheads 
 
 Patch 0.0.7
 -------------
