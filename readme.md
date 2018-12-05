@@ -168,7 +168,7 @@ _Helper Mods_
 
 ### Quests
 
-	- Quest which have more then one requirement will now be labled with "Multipart"
+	- Quest which have more then one requirement will now be labeled with "Multipart"
 	- "Rest for the wicked" has been updated to now reflect the change from Simple Bed Rolls to Comforts
 	- "Reedy Business" no longer consumes the Reeds
 	- "Cobble Cobble" reduced from 16 cobble to 8, also now presents players with a choice
@@ -177,6 +177,13 @@ _Helper Mods_
 	- "The Totemic World" now properly hidden
 	- Added Quest "Oh Honey" to explain Animania Bee Hive
 	- "New Quest" that was hidden somewhere and popped up on first time world load has been removed.
+	- "The Ultimate Compass" reset to crafting quest after corrections
+	- "Let the Ritual... begin" reset to crafting quest after correction
+	- "Botanical Gardens" should now be completable
+	- "It's a zoo out there" Should now be completable
+	- "Dark Secrets" should now be completable
+	- "Just a little Prick" should now be completable
+
 
 ### Configuration
 

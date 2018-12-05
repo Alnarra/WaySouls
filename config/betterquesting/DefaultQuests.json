@@ -313,7 +313,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "betterquesting:placeholder",
-              "Count:3": 1,
+              "Count:3": 0,
               "tag:10": {
                 "orig_meta:3": 0,
                 "orig_id:8": "comforts:sleeping_bag"
@@ -1098,11 +1098,8 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:lexicon",
@@ -1112,7 +1109,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -1280,11 +1277,8 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "abyssalcraft:necronomicon",
@@ -1296,7 +1290,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -4825,11 +4819,8 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "guideapi:bloodmagic-guide",
@@ -4838,7 +4829,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -6147,11 +6138,8 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:sacrificial_dagger",
@@ -6163,7 +6151,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -6780,11 +6768,8 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturescompass:naturescompass",
@@ -6794,7 +6779,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -11449,11 +11434,8 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "animania:animania_manual",
@@ -11462,7 +11444,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
