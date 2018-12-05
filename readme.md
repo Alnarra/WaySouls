@@ -183,6 +183,7 @@ _Helper Mods_
 	- "It's a zoo out there" Should now be completable
 	- "Dark Secrets" should now be completable
 	- "Just a little Prick" should now be completable
+	- Ichor Bucket should now be properly recognized in related quest
 
 
 ### Configuration

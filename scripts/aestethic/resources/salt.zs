@@ -20,7 +20,7 @@ var prefRemove = [
 recipes.remove(prefRemove[0]);
 
 #readd recipies
-recipes.addShapeless(prefEntry[0],[<ore:toolPot>,<ore:listAllwater>]);
+recipes.addShapeless(prefEntry[0],[<harvestcraft:potitem>,<ore:listAllwater>]);
 
 #Conversion Recipes
 recipes.addShapeless(prefEntry[0],[prefRemove[0]]);
