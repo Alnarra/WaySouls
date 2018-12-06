@@ -17,21 +17,21 @@ var prefRemove = [
 ] as IItemStack[];
 
 #remove recipies
-recipes.remove(prefRemove[0]);
+#recipes.remove(prefRemove[0]);
 
 #readd recipies
-recipes.addShapeless(prefEntry[0],[<ore:toolPot>,<ore:listAllwater>]);
+#recipes.addShapeless(prefEntry[0],[<ore:toolPot>,<ore:listAllwater>]);
 
 #Conversion Recipes
-recipes.addShapeless(prefEntry[0],[prefRemove[0]]);
+#recipes.addShapeless(prefEntry[0],[prefRemove[0]]);
 
 #Cleaning Function
 for removedItem in prefRemove{
   #Clean Ore dictionary
   for oreDictEntry in prefOre{
-    if(oreDictEntry has removedItem){
-      oreDictEntry.remove(removedItem);
-    }
+    #if(oreDictEntry has removedItem){
+    #  oreDictEntry.remove(removedItem);
+    #}
   }
   #Clean up in JEI
   mods.jei.JEI.hide(removedItem);
