@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.0.7
+Current Version: 	0.1.0
 
 Minecraft Version: 	1.1.12
 
@@ -141,6 +141,7 @@ _Core_
 
 	- Botania
 	- Embers
+	- Nature's Aura 
 
 _Library_
 
