@@ -129,46 +129,49 @@ Forge has been updated to compensate for requirements by comforts, and though it
 ### Mods Added:
 _Library_
 
-	-Reborn Core
+	- Reborn Core
 
 _Helper Mods_
 
-	-Just Sleep
-	-Comforts
+	- Just Sleep
+	- Comforts
 
 ### Mods Updated:
 _Core_
 
-	-Botania
-	-Embers
+	- Botania
+	- Embers
 
 _Library_
 
 	- Connected Textures Mod
 	- AutoRegLib
+	- Patchouli
 
 _Helper_
 
-	-Quark
-	-storagedrawers
+	- Quark
+	- storagedrawers
+	- Millénaire
 
 _UI_
 
- -Dynamic Surroundings
+ 	- Dynamic Surroundings
 
 _Modpack_
 
 	- FTBUtillities
 	- FTBLib
+	- BetterQuesting
 
 ### Mods Removed
 _Helper Mods_
 
- 	-Simple Bed Rolls
+ 	- Simple Bed Rolls
 
 ### Quests
 
-	- Quest which have more then one requirement will now be labled with "Multipart"
+	- Quest which have more then one requirement will now be labeled with "Multipart"
 	- "Rest for the wicked" has been updated to now reflect the change from Simple Bed Rolls to Comforts
 	- "Reedy Business" no longer consumes the Reeds
 	- "Cobble Cobble" reduced from 16 cobble to 8, also now presents players with a choice
@@ -177,12 +180,21 @@ _Helper Mods_
 	- "The Totemic World" now properly hidden
 	- Added Quest "Oh Honey" to explain Animania Bee Hive
 	- "New Quest" that was hidden somewhere and popped up on first time world load has been removed.
+	- "The Ultimate Compass" reset to crafting quest after corrections
+	- "Let the Ritual... begin" reset to crafting quest after correction
+	- "Botanical Gardens" should now be completable
+	- "It's a zoo out there" Should now be completable
+	- "Dark Secrets" should now be completable
+	- "Just a little Prick" should now be completable
+	- Ichor Bucket should now be properly recognized in related quest
+
 
 ### Configuration
 
 	- Killing the BattleTowers golems will no longer destroy the tower
 	- So that the special ability of the nature's Aura axe isn't totally nullified, The config of Quarks that has axes destroy leaves has been set to false
 	- Panorama Picture for start changed up a bit
+	- Animania, Thaumcraft, Totemic, AbyssalCraft, Rustic food has been made compatible with cooking for Blockheads
 
 Patch 0.0.7
 -------------
@@ -211,7 +223,7 @@ _Helper Mods_
 ### Mods Updated
 _Library_
 
-	-Forgelin
+	- Forgelin
 
 _Helper Mods_
 
@@ -226,10 +238,10 @@ _UI_
 
 _Modpack_
 
- - CraftTweaker2
- - BetterQuesting
- - FTBLib
- - FTBUtils
+ 	- CraftTweaker2
+ 	- BetterQuesting
+ 	- FTBLib
+ 	- FTBUtils
 
 ### Mods Removed:
 
@@ -262,6 +274,7 @@ Plates have been balanced (including thaumcraft plates) requiring at minimum tha
 ### Modpack Core
 
 	- Updated to Forge vs Version 14.23.5.2768
+
 ### Config Changes
 
 	- Loading screen made a little more calming
@@ -270,11 +283,12 @@ Plates have been balanced (including thaumcraft plates) requiring at minimum tha
 	- updated Battletowers loot
 	- Turned off tin, Uranium, nickel, and few other chisel patterns that weren't relevant to help cut down on texture load times
 	- turned off limestone generation (Quark already does it).
+
 ### Mod's Added
 _Library_
 
-		-Forgelin
-		-Libex
+		- Forgelin
+		- Libex
 
 _Helper_
 

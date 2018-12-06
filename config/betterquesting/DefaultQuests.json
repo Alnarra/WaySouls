@@ -237,7 +237,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Something a little different",
-          "desc:8": "Alright, so maybe you don\u0027t know /all/ the tricks of the world do you? Haven\u0027t seen how to simplify some sheers, well here is your chance! "
+          "desc:8": "Alright, so maybe you don\u0027t know /all/ the tricks of the world do you? Haven\u0027t seen how to simplify some sheers, well here is your chance! \n\n§4Information: \nThis quest is to help you on understanding that this is more then just vanilla with a gentle introduction to a handy tool. In this case the concept of having a set of shears for sheeps or other similar task early on, or earlier then when the player might have iron. "
         }
       },
       "tasks:9": {
@@ -309,7 +309,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "comforts:sleeping_bag",
-              "Count:3": 1,
+              "Count:3": 0,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -409,7 +409,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Burning up",
-          "desc:8": "Sometimes a little heat is all one needs, so use the cobble you have gathered to make a furnace!"
+          "desc:8": "Sometimes a little heat is all one needs, so use the cobble you have gathered to make a furnace!\n\n§4Information: \nAgain fairly straightforward, though it is worth noting that we introduce bread as a reward, but the fact is this is one of the recipies which has been altered, in this case it has been altered by Pam\u0027s harvestcraft, so perhaps it\u0027s best to treasure this one at least for now, until we teach you how to make bread "
         }
       },
       "tasks:9": {
@@ -469,8 +469,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "The coal is",
-          "desc:8": "Having a furnace is nice and all, but what\u0027s the point if there\u0027s nothing to burn in it, quickly use your pick axe and mine up some coal from a nearby mountain or hillside! "
+          "name:8": "The coal is [Multipart]",
+          "desc:8": "Having a furnace is nice and all, but what\u0027s the point if there\u0027s nothing to burn in it, quickly use your pick axe and mine up some coal from a nearby mountain or hillside! \n\n§4Information: \nThis quest is intended to help introduce you to the concept of multi step quest or quest that have more then one simple objective. In this case your objective will be to first get coal AND THEN to also make a torch. These quest will be marked with [Multipart] in the title "
         }
       },
       "tasks:9": {
@@ -490,6 +490,20 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 1,
+              "OreDict:8": "torch",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -598,7 +612,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Forged in Iron",
-          "desc:8": "Take your knowledge of furnaces, the heat of coal, and this powerful new substance and melt it all down into a useable form for me would you? "
+          "desc:8": "Take your knowledge of furnaces, the heat of coal, and this powerful new substance and melt it all down into a useable form for me would you? \n\n§4§4Information:\nThis is the point where in general you should start seeing more and ore materials showing up from a variety of mods that alter and change the world. It is my hope that you\u0027re starting to really get into the very start of some of the mods by this point. "
         }
       },
       "tasks:9": {
@@ -845,7 +859,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "To Battle",
-          "desc:8": "This land is strange and filled with horrors, there may be times that you have no choice but to fight, it is best not to do so without a powerful weapon"
+          "desc:8": "This land is strange and filled with horrors, there may be times that you have no choice but to fight, it is best not to do so without a powerful weapon\n\n§4Information: \nCombat does have a place in this modpack, in fact in order to get started in a few of the mods you\u0027re going to need to fight. This will start you down the path towards the Embers mod. "
         }
       },
       "tasks:9": {
@@ -961,7 +975,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Fragments",
-          "desc:8": "It would seem that this iron can be broken down a bit.. quickly apprentice I have an idea! "
+          "desc:8": "It would seem that this iron can be broken down a bit.. quickly apprentice I have an idea! \n\n§4Information: \nThe Iron Nugget didn\u0027t used to be a thing in the minecraft, but it is one of the key ingredients for the Almanac which is the guide book to the Rustic Mod. To craft nuggets you can simply put an ingot in your crafting square. Note also that you will be able to use a compacting drawer (later on) "
         }
       },
       "tasks:9": {
@@ -1090,14 +1104,14 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:lexicon",
               "Count:3": 1,
               "tag:10": {},
-              "OreDict:8": "",
+              "OreDict:8": "lexicaBotania",
               "Damage:3": 0
             }
           },
@@ -1144,7 +1158,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The city Almanac",
-          "desc:8": "Hmm... it\u0027s time to learn the art of getting drunk off your butt, let me guide you in that process"
+          "desc:8": "Hmm... it\u0027s time to learn the art of getting drunk off your butt, let me guide you in that process\n\n§4Information: \nRustic is a mod that focuses on a bit of alchemy, and brewing. Outside of Pam\u0027s harvestcraft this is probably one of the most farm oriented mod\u0027s in place. This also introduces a number of trees and slate to the underground areas. "
         }
       },
       "tasks:9": {
@@ -1198,7 +1212,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Foul Beast",
-          "desc:8": "This land is run amok with terrible creatures, please smite our foes so that our camp may be safe, it is difficult to train you with all the moaning. "
+          "desc:8": "This land is run amok with terrible creatures, please smite our foes so that our camp may be safe, it is difficult to train you with all the moaning. \n\n§4Information: \nZombies are miserable, but they are also a key ingredient in a number of things, including the Abyssalcraft guide book. So you\u0027re going to need to kill at least a few to get started on this journey. "
         }
       },
       "tasks:9": {
@@ -1263,13 +1277,13 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Dark Secrets",
-          "desc:8": "I do not like this apprentice, this is a dark path from which I am not sure if there is truely a return... be careful"
+          "desc:8": "I do not like this apprentice, this is a dark path from which I am not sure if there is truely a return... be careful\n\n§4Information: \nAbyssalcraft can offer the player MANY Challenges, with a variety of monsters, biomes, dimensions, and even bosses, there is almost no end to the horrors which await you at the end of this mod. It also offers and interesting form of transmutation like alchemy "
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
@@ -1323,7 +1337,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Picking with Iron",
-          "desc:8": "Apprentice I do believe we\u0027ve hit a... gold mine with this iron stuff. Make a pick axe with the metal... I have a theory~ "
+          "desc:8": "Apprentice I do believe we\u0027ve hit a... gold mine with this iron stuff. Make a pick axe with the metal... I have a theory~ \n\n§4Information\nIron Pickaxes are the very core of the end game progression for vanilla minecraft, but it represents the early stage of most of the other more popular mod packs. This will allow you to mine redstone, diamond and more ."
         }
       },
       "tasks:9": {
@@ -1393,7 +1407,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Crystal Edge",
-          "desc:8": "There are some shimmering crystals over there apprentice perhaps they could offer us some... insight hmm? "
+          "desc:8": "There are some shimmering crystals over there apprentice perhaps they could offer us some... insight hmm? \n\n§4Information: \nThis is the starting quest for Thaumcraft, Crystals are Thaumcraft 6 version of aspected vis (in a great many ways), and you\u0027ll want to collect a fair number. When you mine your first crystal you\u0027ll receive a notification that you should sleep. Doing so SHOULD provide you with the book \"Strange Dreams\" "
         }
       },
       "tasks:9": {
@@ -1659,7 +1673,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Dusting off",
-          "desc:8": "Hmm... well it\u0027s not the fabled diamond we\u0027ve all heard about but there may be a powerful dust we should investigate, dig deep my apprentice"
+          "desc:8": "Hmm... well it\u0027s not the fabled diamond we\u0027ve all heard about but there may be a powerful dust we should investigate, dig deep my apprentice\n\n§4Information: \nRedstone is key to Thaumcraft, and largely it will be the key ingredient that allows you to start exploring that mod in more detail (it\u0027s required in one of the early steps)."
         }
       },
       "tasks:9": {
@@ -1722,7 +1736,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Turning it all on",
-          "desc:8": "So best not to ask questions on where I got that lamp, but without a switch there\u0027s not much point is there? here turn it on real quick"
+          "desc:8": "So best not to ask questions on where I got that lamp, but without a switch there\u0027s not much point is there? here turn it on real quick\n\n§4Information: \nIt may seem odd to be stepping back in terms of ingredients needed for crafting, but without Iron and Coal Immersive engineering is virtually unplayable anyway. In that vein ,this is by and large the starting quest for Immersive Engineering. "
         }
       },
       "tasks:9": {
@@ -1781,7 +1795,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Engineering Expertise",
-          "desc:8": "Power is at the very heart of the equation and I will show you the path to achiveing it"
+          "desc:8": "Power is at the very heart of the equation and I will show you the path to achiveing it\n\n§4Information: \nImmersive information is a mod which focuses on a sort of post industrial sort of lifestyle. A wide variety of items, tools, and processes to help not only automate but build a more electrified world. This is largely one of the only \"Tech\" mods within the pack. "
         }
       },
       "tasks:9": {
@@ -1836,7 +1850,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Bless You",
-          "desc:8": "You should probably sleep after collecting all those crystals, and then... maybe your dreams will lead you to the answer? Though you\u0027ll probably want to sleep somewhere comfertable, like a real bed!"
+          "desc:8": "You should probably sleep after collecting all those crystals, and then... maybe your dreams will lead you to the answer? Though you\u0027ll probably want to sleep somewhere comfertable, like a real bed!\n\n§4Information: \nThe book should provide you with the general recipie for Salis Mundis. This isn\u0027t made through alchemy in Thaumcraft as with previous versions, instead it is one of the first things which you craft. "
         }
       },
       "tasks:9": {
@@ -2083,7 +2097,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Golem! ",
-          "desc:8": "Apprentice! Please aid me, a large golem is attacking, if we do not kill it surely we will all perish!"
+          "desc:8": "Apprentice! Please aid me, a large golem is attacking, if we do not kill it surely we will all perish!\n\n§4Information: \nBe warned, the Golems are not affected by sunlight as they are not undead. They have a strong ranged attack and getting close is just as lethal. They are a formidable opponent that won\u0027t be easy to take down. This is the starting quest in the Embers Questline "
         }
       },
       "tasks:9": {
@@ -2159,7 +2173,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "An ancient power",
-          "desc:8": "That golem dropped some powerful items apprentice, we must use them to forge our own fires at the very heart of the world"
+          "desc:8": "That golem dropped some powerful items apprentice, we must use them to forge our own fires at the very heart of the world\n\n§4Information: \nThe whole concept of embers is that of a Dwarven technology mod, in which the fuel for the core of the modpack is mined up from bedrock itself, trying to encourage the player to establish a presence at the bedrock level. "
         }
       },
       "tasks:9": {
@@ -2217,7 +2231,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Knaifu",
-          "desc:8": "Well it doesn\u0027t talk, but I believe there may be a use, here quickly make a knife for me"
+          "desc:8": "Well it doesn\u0027t talk, but I believe there may be a use, here quickly make a knife for me\n§4\n§4Information: \n§4This is the opening quest in the roots quest line, the knife is a method that you can use for collecting \"Bark\" from trees across the world. Keep in mind that different trees provide different forms of bark. Simply right click to attempt to take a piece of bark at a time or left click and mine the log to get all of it at once. "
         }
       },
       "tasks:9": {
@@ -2278,7 +2292,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Stripped Down",
-          "desc:8": "Hmm... I have a theory apprentice, quickly use this knife to break off some wood from a nearby tree"
+          "desc:8": "Hmm... I have a theory apprentice, quickly use this knife to break off some wood from a nearby tree\n\n§4Information: \nONce again, this is the item you should get form an Oak tree with the Knife, and it\u0027s the early start to the Roots Mod. "
         }
       },
       "tasks:9": {
@@ -2337,7 +2351,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The root of magic",
-          "desc:8": "Apprentice the world is often filled with a powerful and ancient magic, if you know which flowers to groww~"
+          "desc:8": "Apprentice the world is often filled with a powerful and ancient magic, if you know which flowers to groww~\n\n§4Information: \nAt this time, Roots is awaiting a large revision known as version 3, it is at that time that this quest line will be completed"
         }
       },
       "tasks:9": {
@@ -2386,7 +2400,7 @@
             "id:8": "forge:bucketfilled",
             "Count:3": 1,
             "tag:10": {
-              "FluidName:8": "ichor",
+              "FluidName:8": "blood",
               "Amount:3": 1000
             },
             "Damage:2": 0,
@@ -2415,7 +2429,7 @@
               "id:8": "forge:bucketfilled",
               "Count:3": 1,
               "tag:10": {
-                "FluidName:8": "ichor",
+                "FluidName:8": "blood",
                 "Amount:3": 1000
               },
               "OreDict:8": "",
@@ -4680,7 +4694,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Dark Magics",
-          "desc:8": "There is... apprentice a magic I hesitate to speak of, but to understand it all you must know this too... craft a snare"
+          "desc:8": "There is... apprentice a magic I hesitate to speak of, but to understand it all you must know this too... craft a snare\n\n§4Information: \nThe Opening quest to Blood magic, these are fairly simple to craft and are used almost like a boala. The next quest will cover how you go about using them. "
         }
       },
       "tasks:9": {
@@ -4738,7 +4752,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The power of souls...",
-          "desc:8": "Use the snare you have created and use it against an enemy, you may find if you slay that beast it will drop it\u0027s very essance. This will be our key. "
+          "desc:8": "Use the snare you have created and use it against an enemy, you may find if you slay that beast it will drop it\u0027s very essance. This will be our key. \n\n§4Information: \nYou\u0027re going to want to use the snares a bit like a Bola, simply throwing them at the mob of your choice, they may or may not get a special graphical effect to signify they have been hit. Once this is done simply kill the mob. "
         }
       },
       "tasks:9": {
@@ -4805,17 +4819,14 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Let the ritual... begin",
-          "desc:8": "Welp, first perhaps, let\u0027s actually you know... craft some uh... instructions? "
+          "desc:8": "Welp, first perhaps, let\u0027s actually you know... craft some uh... instructions? \n\n§4Information: \nBlood magic is a mod that focuses on the concept of sacrificing blood (be it yours or anything elses really) to an alter. This mod has a large variety of tools, magic, and alchemy as a result and is one of the quintessential magic mods. "
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "guideapi:bloodmagic-guide",
@@ -4824,7 +4835,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -6133,13 +6144,15 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:sacrificial_dagger",
               "Count:3": 1,
-              "tag:10": {},
+              "tag:10": {
+                "sacrifice:1": 0
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -6755,17 +6768,14 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The ultimate compass",
-          "desc:8": "Sometimes simply knowing which direction is which doesn\u0027t help, sometimes you want to know where a jungle is... well I know just the tool. "
+          "desc:8": "Sometimes simply knowing which direction is which doesn\u0027t help, sometimes you want to know where a jungle is... well I know just the tool. \n\n§4Information: \nNature\u0027s compass is a standalone mod designed to help the player find the Biome of choice. The player simply clicks to select the compass and then chooses the biome they wish to find. The compass will not only point to the nearest one but also provide you a distance. "
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturescompass:naturescompass",
@@ -6775,7 +6785,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {
@@ -8195,7 +8205,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Rock Hard and Chiseled",
-          "desc:8": "Sometimes just having a standard array of items to decorate your cave with simply won\u0027t do, why not upgrade? "
+          "desc:8": "Sometimes just having a standard array of items to decorate your cave with simply won\u0027t do, why not upgrade? \n\n§4Information: \nChisel is a stand alone mod and this is virtually the only \"Item\" introduced by the mod. It is intended to help the player develop a wide range to make the aesthetic more enjoyable. "
         }
       },
       "tasks:9": {
@@ -11430,16 +11440,12 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "animania:animania_manual",
               "Count:3": 1,
-              "tag:10": {
-                "currentTopic:8": "animania:manual/contents.json",
-                "lastTopic:8": "animania:manual/blocks/blocks.json"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -14388,7 +14394,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:home_image.png",
       "pack_version:3": 0,

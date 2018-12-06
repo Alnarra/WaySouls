@@ -17,13 +17,13 @@ var prefRemove = [
 ] as IItemStack[];
 
 #remove recipies
-#recipes.remove(prefRemove[0]);
+recipes.remove(prefRemove[0]);
 
 #readd recipies
-#recipes.addShapeless(prefEntry[0],[<ore:toolPot>,<ore:listAllwater>]);
+recipes.addShapeless(prefEntry[0],[<ore:toolPot>,<ore:listAllwater>]);
 
 #Conversion Recipes
-#recipes.addShapeless(prefEntry[0],[prefRemove[0]]);
+recipes.addShapeless(prefEntry[0],[prefRemove[0]]);
 
 #Cleaning Function
 for removedItem in prefRemove{
