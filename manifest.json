@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2768",
+        "id": "forge-14.23.5.2776",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Wayward Souls",
-  "version": "0.0.7",
+  "version": "0.1.1",
   "author": "Alnarra",
   "files": [
     {
