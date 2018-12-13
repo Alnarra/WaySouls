@@ -3,11 +3,11 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.1.0
+Current Version: 	0.1.1 - Hotfix
 
 Minecraft Version: 	1.1.12
 
-Forge Version: 14.23.5.2768
+Forge Version: 		14.23.5.2776
 
 Modpack Author:		Alnarra
 
