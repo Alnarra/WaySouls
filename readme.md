@@ -3,11 +3,11 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.0.7
+Current Version: 	0.1.1 - Hotfix
 
 Minecraft Version: 	1.1.12
 
-Forge Version: 14.23.5.2768
+Forge Version: 		14.23.5.2776
 
 Modpack Author:		Alnarra
 
@@ -115,6 +115,15 @@ Mods
 
 Changelog
 ============
+Patch 0.1.1 - Hotfix
+### Description
+This is a hotfix to correct for the manifest file being incorrect in the twitch launcher, in addition Embers was updated to it's hotfixed version to correct for an issue with the server side of this modpack crashing
+
+### Mods Updated:
+_Core Mods_
+
+	- Embers 
+
 Patch 0.1.0
 ### Description
 
@@ -141,6 +150,7 @@ _Core_
 
 	- Botania
 	- Embers
+	- Nature's Aura
 
 _Library_
 
