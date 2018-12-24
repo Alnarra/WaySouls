@@ -10493,6 +10493,73 @@
       }
     },
     "155:10": {
+      "questID:3": 155,
+      "preRequisites:11": [
+        44
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderstorage:ender_storage",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Extra Dimensional",
+          "desc:8": "Remember apprentice, time and space are simply illusions, and we can abuse this to move items from one location to another with ease. It\u0027s time to tap into that power! \n\n§4Information: \nEnder Storage is a simple mod that makes use of the Ender Pearls and Blaze rods to make yourself a small chest. Using dye you can set the chest to various \"Channels\" (Meaning with 16 Colors and 3 selectors you can have a total of 4096 channels, interesting right?) "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 32,
+              "OreDict:8": "",
+              "Damage:3": 12
+            },
+            "1:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 32,
+              "OreDict:8": "",
+              "Damage:3": 10
+            }
+          }
+        }
+      }
+    },
+    "156:10": {
       "questID:3": 156,
       "preRequisites:11": [
         72
@@ -10556,7 +10623,7 @@
         }
       }
     },
-    "156:10": {
+    "157:10": {
       "questID:3": 157,
       "preRequisites:11": [
         156
@@ -10616,7 +10683,7 @@
         }
       }
     },
-    "157:10": {
+    "158:10": {
       "questID:3": 158,
       "preRequisites:11": [
         157
@@ -10676,7 +10743,7 @@
         }
       }
     },
-    "158:10": {
+    "159:10": {
       "questID:3": 159,
       "preRequisites:11": [
         158
@@ -10739,7 +10806,7 @@
         }
       }
     },
-    "159:10": {
+    "160:10": {
       "questID:3": 160,
       "preRequisites:11": [
         158
@@ -10802,7 +10869,7 @@
         }
       }
     },
-    "160:10": {
+    "161:10": {
       "questID:3": 161,
       "preRequisites:11": [
         158
@@ -10865,7 +10932,7 @@
         }
       }
     },
-    "161:10": {
+    "162:10": {
       "questID:3": 162,
       "preRequisites:11": [
         158
@@ -10928,7 +10995,7 @@
         }
       }
     },
-    "162:10": {
+    "163:10": {
       "questID:3": 163,
       "preRequisites:11": [
         162,
@@ -11006,7 +11073,7 @@
         }
       }
     },
-    "163:10": {
+    "164:10": {
       "questID:3": 164,
       "preRequisites:11": [
         161
@@ -11069,7 +11136,7 @@
         }
       }
     },
-    "164:10": {
+    "165:10": {
       "questID:3": 165,
       "preRequisites:11": [
         164
@@ -11132,7 +11199,7 @@
         }
       }
     },
-    "165:10": {
+    "166:10": {
       "questID:3": 166,
       "preRequisites:11": [
         162
@@ -11195,7 +11262,7 @@
         }
       }
     },
-    "166:10": {
+    "167:10": {
       "questID:3": 167,
       "preRequisites:11": [
         165
@@ -11255,7 +11322,7 @@
         }
       }
     },
-    "167:10": {
+    "168:10": {
       "questID:3": 168,
       "preRequisites:11": [
         54
@@ -11319,7 +11386,7 @@
         }
       }
     },
-    "168:10": {
+    "169:10": {
       "questID:3": 169,
       "preRequisites:11": [
         170
@@ -11381,7 +11448,7 @@
         }
       }
     },
-    "169:10": {
+    "170:10": {
       "questID:3": 170,
       "preRequisites:11": [
         168
@@ -11445,7 +11512,7 @@
         }
       }
     },
-    "170:10": {
+    "171:10": {
       "questID:3": 171,
       "preRequisites:11": [],
       "properties:10": {
@@ -11488,7 +11555,7 @@
         }
       }
     },
-    "171:10": {
+    "172:10": {
       "questID:3": 172,
       "preRequisites:11": [
         16,
@@ -11563,7 +11630,7 @@
         }
       }
     },
-    "172:10": {
+    "173:10": {
       "questID:3": 173,
       "preRequisites:11": [
         71,
@@ -11631,7 +11698,7 @@
         }
       }
     },
-    "173:10": {
+    "174:10": {
       "questID:3": 174,
       "preRequisites:11": [
         172
@@ -11692,7 +11759,7 @@
         }
       }
     },
-    "174:10": {
+    "175:10": {
       "questID:3": 175,
       "preRequisites:11": [
         174
@@ -11756,7 +11823,7 @@
         }
       }
     },
-    "175:10": {
+    "176:10": {
       "questID:3": 176,
       "preRequisites:11": [
         175
@@ -11816,7 +11883,7 @@
         }
       }
     },
-    "176:10": {
+    "177:10": {
       "questID:3": 177,
       "preRequisites:11": [
         175
@@ -11880,7 +11947,7 @@
         }
       }
     },
-    "177:10": {
+    "178:10": {
       "questID:3": 178,
       "preRequisites:11": [
         175
@@ -11940,7 +12007,7 @@
         }
       }
     },
-    "178:10": {
+    "179:10": {
       "questID:3": 179,
       "preRequisites:11": [
         178
@@ -11997,7 +12064,7 @@
         }
       }
     },
-    "179:10": {
+    "180:10": {
       "questID:3": 180,
       "preRequisites:11": [
         178
@@ -12060,7 +12127,7 @@
         }
       }
     },
-    "180:10": {
+    "181:10": {
       "questID:3": 181,
       "preRequisites:11": [
         180,
@@ -12124,7 +12191,7 @@
         }
       }
     },
-    "181:10": {
+    "182:10": {
       "questID:3": 182,
       "preRequisites:11": [
         181
@@ -12187,7 +12254,7 @@
         }
       }
     },
-    "182:10": {
+    "183:10": {
       "questID:3": 183,
       "preRequisites:11": [
         182
@@ -12250,7 +12317,7 @@
         }
       }
     },
-    "183:10": {
+    "184:10": {
       "questID:3": 184,
       "preRequisites:11": [
         177
@@ -12320,7 +12387,7 @@
         }
       }
     },
-    "184:10": {
+    "185:10": {
       "questID:3": 185,
       "preRequisites:11": [
         177
@@ -12389,7 +12456,7 @@
         }
       }
     },
-    "185:10": {
+    "186:10": {
       "questID:3": 186,
       "preRequisites:11": [
         182
@@ -12449,7 +12516,7 @@
         }
       }
     },
-    "186:10": {
+    "187:10": {
       "questID:3": 187,
       "preRequisites:11": [
         186
@@ -12515,7 +12582,7 @@
         }
       }
     },
-    "187:10": {
+    "188:10": {
       "questID:3": 188,
       "preRequisites:11": [
         184,
@@ -12579,7 +12646,7 @@
         }
       }
     },
-    "188:10": {
+    "189:10": {
       "questID:3": 189,
       "preRequisites:11": [
         181
@@ -12642,7 +12709,7 @@
         }
       }
     },
-    "189:10": {
+    "190:10": {
       "questID:3": 190,
       "preRequisites:11": [
         188
@@ -12705,7 +12772,7 @@
         }
       }
     },
-    "190:10": {
+    "191:10": {
       "questID:3": 191,
       "preRequisites:11": [
         189
@@ -12768,7 +12835,7 @@
         }
       }
     },
-    "191:10": {
+    "192:10": {
       "questID:3": 192,
       "preRequisites:11": [
         189
@@ -12831,7 +12898,7 @@
         }
       }
     },
-    "192:10": {
+    "193:10": {
       "questID:3": 193,
       "preRequisites:11": [
         188
@@ -12894,7 +12961,7 @@
         }
       }
     },
-    "193:10": {
+    "194:10": {
       "questID:3": 194,
       "preRequisites:11": [],
       "properties:10": {
@@ -12932,7 +12999,7 @@
       },
       "rewards:9": {}
     },
-    "194:10": {
+    "195:10": {
       "questID:3": 195,
       "preRequisites:11": [
         59
@@ -12988,6 +13055,70 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "196:10": {
+      "questID:3": 196,
+      "preRequisites:11": [
+        155
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "enderstorage:ender_pouch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "TARDIS",
+          "desc:8": "Sometimes you just want to carry around a lot of storage on you, and truely what better way to do so then to tear a hole in space and time itself. Well now\u0027s your chance to show the other mages you truely can go anywhere and store anything\n\n§4Information: \nMuch like the Ender chest in the prior quest, this too can make use of various dyes to set the channel. The big advantage here is that the item also acts as a backpack "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_pouch",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "enderstorage:ender_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
             }
           }
         }
@@ -13484,6 +13615,18 @@
           "x:3": -84,
           "y:3": 78,
           "id:3": 154
+        },
+        "25:10": {
+          "size:3": 24,
+          "x:3": -120,
+          "y:3": 78,
+          "id:3": 155
+        },
+        "26:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 78,
+          "id:3": 196
         }
       },
       "lineID:3": 1,
