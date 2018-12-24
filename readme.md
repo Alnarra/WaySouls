@@ -47,6 +47,7 @@ Mods
 	- Forgelin
 	- libex
 	- Reborn Core
+	- Code Chicken Lib
 
 ### Helper Mods
 
@@ -78,6 +79,7 @@ Mods
 	- Akashic Tome
 	- Just Sleep
 	- Comforts
+	- Ender Storage
 
 ### UI Mods
 
@@ -95,6 +97,7 @@ Mods
 	- Clumps
 	- RPG Hud
 	- FoamFix
+	- Vanilla Fix
 
 ### Mod Pack Related
 
@@ -115,6 +118,58 @@ Mods
 
 Changelog
 ============
+Patch 0.2.0
+---------------------
+### Description
+This update is intended to add additional quest that will expand upon some of the core magical mods including AbyssalCraft and Thaumcraft, as well as expanding the Astral Sorcery questline
+
+
+### Modpack Core:
+	- Forge Updated to 14.23.5.2871
+
+### Mods Added:
+	_Library_
+
+	- Code Chicken Lib
+
+	_Helper_
+
+	- Ender Storage
+
+	_UI_
+
+	- Vanilla Fix
+
+### Mods Updated:
+	_Core_
+
+	- Astral Sorcery
+	- Immersive Engineering 
+
+	_Library_
+
+	- Reborn Core
+
+	_Helper_
+
+	- Pam's Harvestcraft
+	- Millénaire
+	- Akashic Tome
+
+	_UI_
+
+	_Modpack Related_
+
+	- Better questing
+	- FTBLib
+
+
+### Quests
+
+### Configuration
+
+### Scripting
+
 Patch 0.1.1 - Hotfix
 ### Description
 This is a hotfix to correct for the manifest file being incorrect in the twitch launcher, in addition Embers was updated to it's hotfixed version to correct for an issue with the server side of this modpack crashing
@@ -122,7 +177,7 @@ This is a hotfix to correct for the manifest file being incorrect in the twitch 
 ### Mods Updated:
 _Core Mods_
 
-	- Embers 
+	- Embers
 
 Patch 0.1.0
 ### Description
