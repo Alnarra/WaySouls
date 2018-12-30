@@ -129,39 +129,38 @@ This update is intended to add additional quest that will expand upon some of th
 	- Forge Updated to 14.23.5.2871
 
 ### Mods Added:
-
-	_Library_
+_Library_
 
 	- Code Chicken Lib
 
-	_Helper_
+_Helper_
 
 	- Ender Storage
 	- Iron Chest
 
-	_UI_
+_UI_
 
 	- Vanilla Fix
 
 ### Mods Updated:
-	_Core_
+_Core_
 
 	- Astral Sorcery
 	- Immersive Engineering
 
-	_Library_
+_Library_
 
 	- Reborn Core
 
-	_Helper_
+_Helper_
 
 	- Pam's Harvestcraft
 	- Millénaire
 	- Akashic Tome
 
-	_UI_
+_UI_
 
-	_Modpack Related_
+_Modpack Related_
 
 	- Better questing
 	- FTBLib
@@ -177,6 +176,8 @@ This update is intended to add additional quest that will expand upon some of th
 ### Scripting
 
 Patch 0.1.1 - Hotfix
+---------------------
+
 ### Description
 This is a hotfix to correct for the manifest file being incorrect in the twitch launcher, in addition Embers was updated to it's hotfixed version to correct for an issue with the server side of this modpack crashing
 
@@ -186,6 +187,8 @@ _Core Mods_
 	- Embers
 
 Patch 0.1.0
+---------------------
+
 ### Description
 
 This patch will be addressing a number of small issues that are detected with the various quest throughout the book, attempting to squash bugs and adjust rewards as needed. In addition this will also focus on working more towards some server friendly changes (Hence Bed Rolls being removed in favor of comforts / etc.). At this point I am almost 100% set on the mods in place and more then happy with the overall weight and structure of the mod-pack, this simply becomes a polishing matter at this point. At this point I feel it is safe to describe the mod pack as no longer being in alpha but rather in the beta state. Note that several of the mods contained within are unfinished and thus are very much still considered beta (Thaumcraft / Nature's Aura); however, I feel that providing those mods with a pack in which to flourish topples any overarching need to hold the pack back.
