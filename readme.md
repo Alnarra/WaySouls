@@ -80,6 +80,7 @@ Mods
 	- Just Sleep
 	- Comforts
 	- Ender Storage
+	- Iron Chest
 
 ### UI Mods
 
@@ -128,6 +129,7 @@ This update is intended to add additional quest that will expand upon some of th
 	- Forge Updated to 14.23.5.2871
 
 ### Mods Added:
+
 	_Library_
 
 	- Code Chicken Lib
@@ -135,6 +137,7 @@ This update is intended to add additional quest that will expand upon some of th
 	_Helper_
 
 	- Ender Storage
+	- Iron Chest
 
 	_UI_
 
@@ -166,7 +169,7 @@ This update is intended to add additional quest that will expand upon some of th
 
 ### Quests
 	- Quest: "The Ender Ender" has now been placed in the first chapter to better allow for interaction with Ender Storage and Astral Sorcery
-	- Ender Storage quest now present in Chapter 2 
+	- Ender Storage quest now present in Chapter 2
 
 
 ### Configuration
