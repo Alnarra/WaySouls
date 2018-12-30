@@ -58,3 +58,4 @@ crash-reports/
 *.zip
 ModpackFileId.json
 config/thaumicjei_itemstack_aspects.json
+.mixin.out/
