@@ -122,11 +122,11 @@ Changelog
 Patch 0.2.0
 ---------------------
 ### Description
-This update is intended to add additional quest that will expand upon some of the core magical mods including AbyssalCraft and Thaumcraft, as well as expanding the Astral Sorcery questline
+This update is intended to add additional quest that will expand upon some of the core magical mods. 
 
 
 ### Modpack Core:
-	- Forge Updated to 14.23.5.2871
+	- Forge Updated to 14.23.5.2831
 
 ### Mods Added:
 _Library_
@@ -143,28 +143,11 @@ _UI_
 	- Vanilla Fix
 
 ### Mods Updated:
-_Core_
 
-	- Astral Sorcery
-	- Immersive Engineering
+	Yes 
 
-_Library_
-
-	- Reborn Core
-
-_Helper_
-
-	- Pam's Harvestcraft
-	- Millénaire
-	- Akashic Tome
-
-_UI_
-
-_Modpack Related_
-
-	- Better questing
-	- FTBLib
-
+### Config Changes
+	- Aybsallcraft no longer generates near as much warp 
 
 ### Quests
 	- Quest: "The Ender Ender" has now been placed in the first chapter to better allow for interaction with Ender Storage and Astral Sorcery
