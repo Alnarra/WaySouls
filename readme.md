@@ -152,6 +152,7 @@ _UI_
 ### Quests
 	- Quest: "The Ender Ender" has now been placed in the first chapter to better allow for interaction with Ender Storage and Astral Sorcery
 	- Ender Storage quest now present in Chapter 2
+	- None of the request consume anything 
 
 
 ### Configuration

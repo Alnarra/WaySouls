@@ -11,6 +11,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:log",
@@ -35,7 +36,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:log",
@@ -80,6 +81,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -103,8 +105,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:wooden_pickaxe",
@@ -144,6 +149,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:cobblestone",
@@ -168,7 +174,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:cobblestone",
@@ -243,8 +249,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "roots:wood_shears",
@@ -304,8 +313,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "comforts:sleeping_bag",
@@ -338,6 +350,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -361,8 +374,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:stone_pickaxe",
@@ -395,6 +411,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:furnace",
@@ -415,8 +432,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 0,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:furnace",
@@ -456,6 +476,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:coal",
@@ -480,7 +501,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:coal",
@@ -493,8 +514,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:torch",
@@ -533,6 +557,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:iron_ore",
@@ -557,7 +582,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_ore",
@@ -622,7 +647,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_ingot",
@@ -661,6 +686,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:reeds",
@@ -724,6 +750,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:paper",
@@ -744,8 +771,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:paper",
@@ -778,6 +808,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:leather",
@@ -802,7 +833,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:leather",
@@ -841,6 +872,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -865,8 +897,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 0,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_sword",
@@ -906,6 +941,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:book",
@@ -926,8 +962,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:book",
@@ -981,8 +1020,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_nugget",
@@ -1015,6 +1057,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:sapling",
@@ -1104,8 +1147,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:lexicon",
@@ -1164,8 +1210,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "rustic:book",
@@ -1198,6 +1247,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:rotten_flesh",
@@ -1222,7 +1272,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:rotten_flesh",
@@ -1283,8 +1333,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "abyssalcraft:necronomicon",
@@ -1320,6 +1373,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -1343,8 +1397,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_pickaxe",
@@ -1511,7 +1568,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemcraftingcomponent",
@@ -1566,8 +1623,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemcraftingcomponent",
@@ -1625,8 +1685,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemjournal",
@@ -1659,6 +1722,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:redstone",
@@ -1683,7 +1747,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:redstone",
@@ -1722,6 +1786,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:lever",
@@ -1742,8 +1807,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:lever",
@@ -1801,8 +1869,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:tool",
@@ -1893,6 +1964,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:bookshelf",
@@ -1913,8 +1985,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:bookshelf",
@@ -2179,8 +2254,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:codex",
@@ -2237,8 +2315,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "roots:iron_knife",
@@ -2357,8 +2438,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "roots:book_base",
@@ -2460,6 +2544,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -2483,8 +2568,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "nex:golden_wither_bone_hoe",
@@ -2615,8 +2703,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:enchanting_table",
@@ -2679,8 +2770,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:diamond_pickaxe",
@@ -2719,6 +2813,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:obsidian",
@@ -2776,6 +2871,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:blaze_rod",
@@ -2900,6 +2996,7 @@
             "CanPickUpLoot:1": 0,
             "HurtTime:2": 0
           },
+          "damageType:8": "",
           "required:3": 1,
           "taskID:8": "bq_standard:hunt",
           "target:8": "minecraft:blaze",
@@ -2920,6 +3017,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:nether_wart",
@@ -2986,6 +3084,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:brewing_stand",
@@ -3006,8 +3105,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:brewing_stand",
@@ -3049,6 +3151,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:ender_pearl",
@@ -3112,6 +3215,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:chest",
@@ -3132,8 +3236,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:chest",
@@ -3196,8 +3303,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "storagedrawers:basicdrawers",
@@ -3280,8 +3390,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "ironbackpacks:backpack",
@@ -3342,8 +3455,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "storagedrawers:compdrawers",
@@ -3383,6 +3499,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "storagedrawers:controller",
@@ -3403,8 +3520,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "storagedrawers:controller",
@@ -3475,8 +3595,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "ironbackpacks:backpack",
@@ -3525,6 +3648,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -3548,8 +3672,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:wooden_hoe",
@@ -3609,8 +3736,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:apple_sapling",
@@ -3650,6 +3780,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -3676,8 +3807,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemwand",
@@ -3807,8 +3941,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:bakewareitem",
@@ -3888,8 +4025,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:apiary",
@@ -3967,8 +4107,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:presser",
@@ -4028,8 +4171,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:fruitbaititem",
@@ -4042,8 +4188,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:groundtrap",
@@ -4103,8 +4252,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:wovencottonitem",
@@ -4117,8 +4269,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:waterfilter",
@@ -4178,8 +4333,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:market",
@@ -4239,8 +4397,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:candledeco1",
@@ -4453,8 +4614,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:altar",
@@ -4619,8 +4783,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:soul_snare",
@@ -4744,8 +4911,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "guideapi:bloodmagic-guide",
@@ -4808,8 +4978,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:totempedia",
@@ -4933,8 +5106,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:tool",
@@ -5015,8 +5191,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:treated_wood",
@@ -5175,8 +5354,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "rustic:crop_stake",
@@ -5376,8 +5558,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:spreader",
@@ -5437,8 +5622,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:pool",
@@ -5577,8 +5765,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:twigwand",
@@ -5621,6 +5812,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5724,8 +5916,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "rustic:crushing_tub",
@@ -5794,8 +5989,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:soul_forge",
@@ -5834,6 +6032,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -5973,6 +6172,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6039,6 +6239,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6063,8 +6264,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:sacrificial_dagger",
@@ -6106,6 +6310,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6165,6 +6370,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:slate",
@@ -6228,6 +6434,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:blood_rune",
@@ -6248,8 +6455,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:blood_rune",
@@ -6288,6 +6498,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:blood_rune",
@@ -6308,8 +6519,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:blood_rune",
@@ -6348,6 +6562,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6410,6 +6625,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:component",
@@ -6474,6 +6690,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6540,6 +6757,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6606,6 +6824,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bloodmagic:altar",
@@ -6626,8 +6845,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:altar",
@@ -6693,8 +6915,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturescompass:naturescompass",
@@ -6734,6 +6959,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "astralsorcery:itemusabledust",
@@ -6865,6 +7091,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -6939,6 +7166,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -7120,8 +7348,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:manatablet",
@@ -7185,8 +7416,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:manasteelpick",
@@ -7284,8 +7518,11 @@
         },
         "2:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 2,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "rustic:brewing_barrel",
@@ -7354,8 +7591,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "rustic:fertile_soil",
@@ -7415,8 +7655,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "rustic:condenser",
@@ -7494,8 +7737,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "harvestcraft:cuttingboarditem",
@@ -7586,8 +7832,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:material",
@@ -7712,8 +7961,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:material",
@@ -7774,8 +8026,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:material",
@@ -7916,8 +8171,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:metal_device1",
@@ -7956,6 +8214,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:wirecoil",
@@ -7976,8 +8235,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:tool",
@@ -7990,8 +8252,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:wirecoil",
@@ -8004,8 +8269,11 @@
         },
         "2:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 2,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:connector",
@@ -8065,8 +8333,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:metal_device0",
@@ -8129,8 +8400,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "chisel:chisel_iron",
@@ -8190,8 +8464,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:runealtar",
@@ -8315,8 +8592,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:terraplate",
@@ -8417,8 +8697,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:pylon",
@@ -8550,8 +8833,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:alfheimportal",
@@ -8615,8 +8901,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "botania:pylon",
@@ -8676,8 +8965,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:blend_caminite",
@@ -8707,8 +8999,11 @@
         },
         "2:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 2,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:stairs_caminite_brick",
@@ -8768,8 +9063,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:ember_bore",
@@ -8782,8 +9080,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:mech_core",
@@ -8843,8 +9144,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:item_pipe",
@@ -8857,8 +9161,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:item_pump",
@@ -8897,6 +9204,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:shard_ember",
@@ -8960,6 +9268,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -8983,8 +9292,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:ember_detector",
@@ -9067,8 +9379,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:boiler",
@@ -9081,8 +9396,11 @@
         },
         "2:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 2,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:block_tank",
@@ -9142,8 +9460,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:pipe",
@@ -9156,8 +9477,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:pump",
@@ -9196,6 +9520,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:ember_receiver",
@@ -9216,8 +9541,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:ember_receiver",
@@ -9293,8 +9621,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:copper_cell",
@@ -9364,8 +9695,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:block_furnace",
@@ -9411,6 +9745,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:stamper",
@@ -9431,8 +9766,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:stamper",
@@ -9477,6 +9815,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:stamp_bar",
@@ -9497,8 +9836,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:stamp_plate_raw",
@@ -9537,6 +9879,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:mixer",
@@ -9557,8 +9900,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:mixer",
@@ -9597,6 +9943,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:ingot_dawnstone",
@@ -9681,8 +10028,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:bin",
@@ -9727,6 +10077,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:ingot_lead",
@@ -9781,8 +10132,11 @@
         },
         "2:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 2,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "embers:tinker_hammer",
@@ -9846,8 +10200,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:recipe_book",
@@ -9907,8 +10264,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:cooking_table",
@@ -9947,6 +10307,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "cookingforblockheads:fridge",
@@ -9967,8 +10328,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:fridge",
@@ -10007,6 +10371,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "cookingforblockheads:oven",
@@ -10027,8 +10392,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:oven",
@@ -10092,8 +10460,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:milk_jar",
@@ -10132,6 +10503,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "cookingforblockheads:cow_jar",
@@ -10195,6 +10567,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "cookingforblockheads:toaster",
@@ -10215,8 +10588,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:toaster",
@@ -10255,6 +10631,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -10278,8 +10655,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:ice_unit",
@@ -10342,8 +10722,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "cookingforblockheads:heating_unit",
@@ -10403,8 +10786,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:ender_eye",
@@ -10464,8 +10850,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "storagedrawers:upgrade_storage",
@@ -10525,8 +10914,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "enderstorage:ender_storage",
@@ -10595,8 +10987,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:totem_whittling_knife",
@@ -10635,6 +11030,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "totemic:totem_base",
@@ -10655,8 +11051,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:totem_base",
@@ -10695,6 +11094,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "totemic:drum",
@@ -10715,8 +11115,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:drum",
@@ -10755,6 +11158,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -10778,8 +11182,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:flute",
@@ -10818,6 +11225,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -10841,8 +11249,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:jingle_dress",
@@ -10881,6 +11292,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "totemic:buffalo_items",
@@ -10944,6 +11356,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "totemic:cedar_log",
@@ -11008,6 +11421,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11034,8 +11448,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:medicine_bag",
@@ -11085,6 +11502,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11108,8 +11526,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:rattle",
@@ -11148,6 +11569,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11171,8 +11593,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:eagle_bone_whistle",
@@ -11211,6 +11636,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11234,8 +11660,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "totemic:bark_stripper",
@@ -11274,6 +11703,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11426,8 +11856,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "animania:animania_manual",
@@ -11522,6 +11955,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11596,8 +12030,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "patchouli:guide_book",
@@ -11653,6 +12090,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -11676,8 +12114,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "akashictome:tome",
@@ -11731,8 +12172,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:gold_fiber",
@@ -11835,6 +12279,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:gold_powder",
@@ -11855,8 +12300,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:gold_powder",
@@ -11916,8 +12364,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:bottle_two_the_rebottling",
@@ -11959,6 +12410,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:wood_stand",
@@ -11979,8 +12431,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:wood_stand",
@@ -12019,6 +12474,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -12042,8 +12498,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:eye",
@@ -12076,6 +12535,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:ancient_sapling",
@@ -12140,6 +12600,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:nature_altar",
@@ -12160,8 +12621,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:nature_altar",
@@ -12203,6 +12667,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:infused_iron",
@@ -12266,6 +12731,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -12289,8 +12755,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:infused_iron_pickaxe",
@@ -12399,6 +12868,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:aura_bottle",
@@ -12468,6 +12938,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:offering_table",
@@ -12488,8 +12959,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "naturesaura:offering_table",
@@ -12528,6 +13002,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:calling_spirit",
@@ -12595,6 +13070,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:sky_ingot",
@@ -12658,6 +13134,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:infused_stone",
@@ -12721,6 +13198,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:spawn_lamp",
@@ -12784,6 +13262,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:conversion_catalyst",
@@ -12847,6 +13326,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:furnace_heater",
@@ -12910,6 +13390,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "naturesaura:potion_generator",
@@ -12971,6 +13452,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -13032,8 +13514,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "animania:bee_hive",
@@ -13096,8 +13581,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "enderstorage:ender_pouch",
@@ -13129,334 +13617,395 @@
     "0:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -162,
           "y:3": 6,
-          "id:3": 0
+          "id:3": 0,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -126,
           "y:3": 6,
-          "id:3": 1
+          "id:3": 1,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -126,
           "y:3": 42,
-          "id:3": 2
+          "id:3": 2,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -90,
           "y:3": 6,
-          "id:3": 3
+          "id:3": 3,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -54,
           "y:3": 6,
-          "id:3": 4
+          "id:3": 4,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -126,
           "y:3": 78,
-          "id:3": 5
+          "id:3": 5,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -90,
           "y:3": 42,
-          "id:3": 6
+          "id:3": 6,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -90,
           "y:3": 78,
-          "id:3": 7
+          "id:3": 7,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -126,
           "y:3": 114,
-          "id:3": 8
+          "id:3": 8,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -90,
           "y:3": 114,
-          "id:3": 9
+          "id:3": 9,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -162,
           "y:3": 42,
-          "id:3": 10
+          "id:3": 10,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -162,
           "y:3": 78,
-          "id:3": 11
+          "id:3": 11,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -126,
           "y:3": 150,
-          "id:3": 12
+          "id:3": 12,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -54,
           "y:3": 114,
-          "id:3": 13
+          "id:3": 13,
+          "sizeY:3": 24
         },
         "14:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -162,
           "y:3": 150,
-          "id:3": 14
+          "id:3": 14,
+          "sizeY:3": 24
         },
         "15:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -90,
           "y:3": 150,
-          "id:3": 15
+          "id:3": 15,
+          "sizeY:3": 24
         },
         "16:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -198,
           "y:3": 42,
-          "id:3": 16
+          "id:3": 16,
+          "sizeY:3": 24
         },
         "17:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -198,
           "y:3": 222,
-          "id:3": 17
+          "id:3": 17,
+          "sizeY:3": 24
         },
         "18:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -90,
           "y:3": 222,
-          "id:3": 18
+          "id:3": 18,
+          "sizeY:3": 24
         },
         "19:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -18,
           "y:3": 114,
-          "id:3": 19
+          "id:3": 19,
+          "sizeY:3": 24
         },
         "20:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -18,
           "y:3": 222,
-          "id:3": 20
+          "id:3": 20,
+          "sizeY:3": 24
         },
         "21:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -54,
           "y:3": 78,
-          "id:3": 21
+          "id:3": 21,
+          "sizeY:3": 24
         },
         "22:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -18,
           "y:3": 78,
-          "id:3": 22
+          "id:3": 22,
+          "sizeY:3": 24
         },
         "23:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -234,
           "y:3": 78,
-          "id:3": 23
+          "id:3": 23,
+          "sizeY:3": 24
         },
         "24:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -234,
           "y:3": 114,
-          "id:3": 24
+          "id:3": 24,
+          "sizeY:3": 24
         },
         "25:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -234,
           "y:3": 222,
-          "id:3": 25
+          "id:3": 25,
+          "sizeY:3": 24
         },
         "26:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -54,
           "y:3": 42,
-          "id:3": 26
+          "id:3": 26,
+          "sizeY:3": 24
         },
         "27:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 54,
           "y:3": 42,
-          "id:3": 27
+          "id:3": 27,
+          "sizeY:3": 24
         },
         "28:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 54,
           "y:3": 222,
-          "id:3": 28
+          "id:3": 28,
+          "sizeY:3": 24
         },
         "29:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 18,
           "y:3": 78,
-          "id:3": 29
+          "id:3": 29,
+          "sizeY:3": 24
         },
         "30:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -162,
           "y:3": 186,
-          "id:3": 30
+          "id:3": 30,
+          "sizeY:3": 24
         },
         "31:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -126,
           "y:3": 222,
-          "id:3": 31
+          "id:3": 31,
+          "sizeY:3": 24
         },
         "32:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -162,
           "y:3": 222,
-          "id:3": 32
+          "id:3": 32,
+          "sizeY:3": 24
         },
         "33:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -54,
           "y:3": 150,
-          "id:3": 33
+          "id:3": 33,
+          "sizeY:3": 24
         },
         "34:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -54,
           "y:3": 222,
-          "id:3": 34
+          "id:3": 34,
+          "sizeY:3": 24
         },
         "35:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 18,
           "y:3": 114,
-          "id:3": 35
+          "id:3": 35,
+          "sizeY:3": 24
         },
         "36:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 18,
           "y:3": 150,
-          "id:3": 36
+          "id:3": 36,
+          "sizeY:3": 24
         },
         "37:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 18,
           "y:3": 222,
-          "id:3": 37
+          "id:3": 37,
+          "sizeY:3": 24
         },
         "38:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -234,
           "y:3": 150,
-          "id:3": 47
+          "id:3": 47,
+          "sizeY:3": 24
         },
         "39:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -198,
           "y:3": 6,
-          "id:3": 48
+          "id:3": 48,
+          "sizeY:3": 24
         },
         "40:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -234,
           "y:3": 42,
-          "id:3": 54
+          "id:3": 54,
+          "sizeY:3": 24
         },
         "41:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 90,
           "y:3": 42,
-          "id:3": 69
+          "id:3": 69,
+          "sizeY:3": 24
         },
         "42:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 90,
           "y:3": 78,
-          "id:3": 70
+          "id:3": 70,
+          "sizeY:3": 24
         },
         "43:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 90,
           "y:3": 222,
-          "id:3": 71
+          "id:3": 71,
+          "sizeY:3": 24
         },
         "44:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -270,
           "y:3": 222,
-          "id:3": 72
+          "id:3": 72,
+          "sizeY:3": 24
         },
         "45:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -18,
           "y:3": 6,
-          "id:3": 100
+          "id:3": 100,
+          "sizeY:3": 24
         },
         "46:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 18,
           "y:3": 6,
-          "id:3": 120
+          "id:3": 120,
+          "sizeY:3": 24
         },
         "47:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -270,
           "y:3": 42,
-          "id:3": 168
+          "id:3": 168,
+          "sizeY:3": 24
         },
         "48:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -306,
           "y:3": 222,
-          "id:3": 169
+          "id:3": 169,
+          "sizeY:3": 24
         },
         "49:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -270,
           "y:3": 78,
-          "id:3": 170
+          "id:3": 170,
+          "sizeY:3": 24
         },
         "50:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -234,
           "y:3": 6,
-          "id:3": 171
+          "id:3": 171,
+          "sizeY:3": 24
         },
         "51:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -342,
           "y:3": 222,
-          "id:3": 172
+          "id:3": 172,
+          "sizeY:3": 24
         },
         "52:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -126,
           "y:3": 258,
-          "id:3": 173
+          "id:3": 173,
+          "sizeY:3": 24
         },
         "53:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -270,
           "y:3": 6,
-          "id:3": 194
+          "id:3": 194,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "The basics of the world",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "You should know how to live in this world by now right? Well just to be sure we\u0027re gonna go through a bit of a refresher course ok? \n\n§4Information: \nThis chapter is largely only for two purposes. The first is to familiarize you with the way in which quest work and also to help you understand where in the overall Minecraft Tech tree each of these mods fall. "
@@ -13467,172 +14016,206 @@
     "1:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 114,
-          "id:3": 38
+          "id:3": 38,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 114,
-          "id:3": 39
+          "id:3": 39,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 40
+          "id:3": 40,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 6,
-          "id:3": 41
+          "id:3": 41,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 42
+          "id:3": 42,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 43
+          "id:3": 43,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 114,
-          "id:3": 44
+          "id:3": 44,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 114,
-          "id:3": 45
+          "id:3": 45,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 150,
-          "id:3": 46
+          "id:3": 46,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 6,
-          "id:3": 49
+          "id:3": 49,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 6,
-          "id:3": 50
+          "id:3": 50,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 42,
-          "id:3": 51
+          "id:3": 51,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 42,
-          "id:3": 52
+          "id:3": 52,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 42,
-          "id:3": 53
+          "id:3": 53,
+          "sizeY:3": 24
         },
         "14:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 6,
-          "id:3": 144
+          "id:3": 144,
+          "sizeY:3": 24
         },
         "15:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 42,
-          "id:3": 145
+          "id:3": 145,
+          "sizeY:3": 24
         },
         "16:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 78,
-          "id:3": 146
+          "id:3": 146,
+          "sizeY:3": 24
         },
         "17:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 24,
           "y:3": 42,
-          "id:3": 147
+          "id:3": 147,
+          "sizeY:3": 24
         },
         "18:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 24,
           "y:3": 6,
-          "id:3": 148
+          "id:3": 148,
+          "sizeY:3": 24
         },
         "19:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 60,
           "y:3": 6,
-          "id:3": 149
+          "id:3": 149,
+          "sizeY:3": 24
         },
         "20:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 24,
           "y:3": 78,
-          "id:3": 150
+          "id:3": 150,
+          "sizeY:3": 24
         },
         "21:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 114,
-          "id:3": 151
+          "id:3": 151,
+          "sizeY:3": 24
         },
         "22:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 60,
           "y:3": 42,
-          "id:3": 152
+          "id:3": 152,
+          "sizeY:3": 24
         },
         "23:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 150,
-          "id:3": 153
+          "id:3": 153,
+          "sizeY:3": 24
         },
         "24:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 78,
-          "id:3": 154
+          "id:3": 154,
+          "sizeY:3": 24
         },
         "25:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 155
+          "id:3": 155,
+          "sizeY:3": 24
         },
         "26:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 78,
-          "id:3": 196
+          "id:3": 196,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Advanced World Skills",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Alright so you\u0027ve mastered the basics, now are you ready to move on to something even more complicated? Let\u0027s get started! "
@@ -13643,100 +14226,122 @@
     "2:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 55
+          "id:3": 55,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 6,
-          "id:3": 58
+          "id:3": 58,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 59
+          "id:3": 59,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 42,
-          "id:3": 60
+          "id:3": 60,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 42,
-          "id:3": 61
+          "id:3": 61,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 6,
-          "id:3": 62
+          "id:3": 62,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 63
+          "id:3": 63,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 64
+          "id:3": 64,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 6,
-          "id:3": 77
+          "id:3": 77,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 42,
-          "id:3": 85
+          "id:3": 85,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 78,
-          "id:3": 108
+          "id:3": 108,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 6,
-          "id:3": 109
+          "id:3": 109,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 78,
-          "id:3": 110
+          "id:3": 110,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 78,
-          "id:3": 111
+          "id:3": 111,
+          "sizeY:3": 24
         },
         "14:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -192,
           "y:3": 42,
-          "id:3": 195
+          "id:3": 195,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Agriculture!",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Sometimes you must take the approach of the simple life my young apprentice, and often times that means learning a bit about farming "
@@ -13747,58 +14352,73 @@
     "3:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 56
+          "id:3": 56,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 65
+          "id:3": 65,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 66
+          "id:3": 66,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 42,
-          "id:3": 84
+          "id:3": 84,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 6,
-          "id:3": 101
+          "id:3": 101,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 6,
-          "id:3": 102
+          "id:3": 102,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 103
+          "id:3": 103,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 42,
-          "id:3": 104
+          "id:3": 104,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "To the stars",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "The power of the stars is nothing to be trifled with my young apprentice,, each constellation over head is truely a marvel. "
@@ -13809,112 +14429,136 @@
     "4:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 57
+          "id:3": 57,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 67
+          "id:3": 67,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 68
+          "id:3": 68,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 80
+          "id:3": 80,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 114,
-          "id:3": 81
+          "id:3": 81,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 114,
-          "id:3": 82
+          "id:3": 82,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 114,
-          "id:3": 83
+          "id:3": 83,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 150,
-          "id:3": 105
+          "id:3": 105,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 150,
-          "id:3": 106
+          "id:3": 106,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -192,
           "y:3": 150,
-          "id:3": 107
+          "id:3": 107,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 150,
-          "id:3": 121
+          "id:3": 121,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 150,
-          "id:3": 122
+          "id:3": 122,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 114,
-          "id:3": 123
+          "id:3": 123,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 186,
-          "id:3": 124
+          "id:3": 124,
+          "sizeY:3": 24
         },
         "14:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 114,
-          "id:3": 125
+          "id:3": 125,
+          "sizeY:3": 24
         },
         "15:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 150,
-          "id:3": 126
+          "id:3": 126,
+          "sizeY:3": 24
         },
         "16:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 186,
-          "id:3": 127
+          "id:3": 127,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Botanical Expertise",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "The very nature of the world is something unique my apprentice, perhaps we should begin making use of those tools. "
@@ -13925,94 +14569,115 @@
     "5:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 73
+          "id:3": 73,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 74
+          "id:3": 74,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 42,
-          "id:3": 75
+          "id:3": 75,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 6,
-          "id:3": 76
+          "id:3": 76,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 78
+          "id:3": 78,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 114,
-          "id:3": 79
+          "id:3": 79,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 42,
-          "id:3": 112
+          "id:3": 112,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 114,
-          "id:3": 113
+          "id:3": 113,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 114,
-          "id:3": 114
+          "id:3": 114,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 42,
-          "id:3": 115
+          "id:3": 115,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 116
+          "id:3": 116,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 78,
-          "id:3": 117
+          "id:3": 117,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 78,
-          "id:3": 118
+          "id:3": 118,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 114,
-          "id:3": 119
+          "id:3": 119,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 5,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Engineered Problems",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "My young apprentice there are times when magic needs a bit of aid, the machinations of the world! You must be familiar with this path as well"
@@ -14023,94 +14688,115 @@
     "6:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 86
+          "id:3": 86,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 6,
-          "id:3": 87
+          "id:3": 87,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 88
+          "id:3": 88,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 6,
-          "id:3": 89
+          "id:3": 89,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 42,
-          "id:3": 90
+          "id:3": 90,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 42,
-          "id:3": 91
+          "id:3": 91,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -6,
           "y:3": 42,
-          "id:3": 92
+          "id:3": 92,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -6,
           "y:3": 78,
-          "id:3": 93
+          "id:3": 93,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 78,
-          "id:3": 94
+          "id:3": 94,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 95
+          "id:3": 95,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 96
+          "id:3": 96,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 6,
-          "id:3": 97
+          "id:3": 97,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -6,
           "y:3": 114,
-          "id:3": 98
+          "id:3": 98,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 42,
-          "id:3": 99
+          "id:3": 99,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 6,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Bloody Endings",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "Sometimes we have no choice but to venture into the darkness of the world  that is darker magics, I will guide you my young apprentice. "
@@ -14121,106 +14807,129 @@
     "7:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 128
+          "id:3": 128,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 42,
-          "id:3": 129
+          "id:3": 129,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 130
+          "id:3": 130,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 42,
-          "id:3": 131
+          "id:3": 131,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 132
+          "id:3": 132,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 42,
-          "id:3": 133
+          "id:3": 133,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 6,
-          "id:3": 134
+          "id:3": 134,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 78,
-          "id:3": 135
+          "id:3": 135,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 78,
-          "id:3": 136
+          "id:3": 136,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 78,
-          "id:3": 137
+          "id:3": 137,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 42,
-          "id:3": 138
+          "id:3": 138,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 6,
-          "id:3": 139
+          "id:3": 139,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 30,
           "y:3": 42,
-          "id:3": 140
+          "id:3": 140,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 30,
           "y:3": 78,
-          "id:3": 141
+          "id:3": 141,
+          "sizeY:3": 24
         },
         "14:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 30,
           "y:3": 6,
-          "id:3": 142
+          "id:3": 142,
+          "sizeY:3": 24
         },
         "15:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 143
+          "id:3": 143,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 7,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "Going straight to the core ",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "At the very heart of this world is a power that can bend and shape energy itself, the ancients called them embers"
@@ -14231,82 +14940,101 @@
     "8:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -144,
           "y:3": 6,
-          "id:3": 156
+          "id:3": 156,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -144,
           "y:3": 42,
-          "id:3": 157
+          "id:3": 157,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -108,
           "y:3": 42,
-          "id:3": 158
+          "id:3": 158,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -108,
           "y:3": 78,
-          "id:3": 159
+          "id:3": 159,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -108,
           "y:3": 6,
-          "id:3": 160
+          "id:3": 160,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -72,
           "y:3": 42,
-          "id:3": 161
+          "id:3": 161,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -72,
           "y:3": 6,
-          "id:3": 162
+          "id:3": 162,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": 42,
-          "id:3": 163
+          "id:3": 163,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -72,
           "y:3": 78,
-          "id:3": 164
+          "id:3": 164,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": 78,
-          "id:3": 165
+          "id:3": 165,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": 6,
-          "id:3": 166
+          "id:3": 166,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": 114,
-          "id:3": 167
+          "id:3": 167,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 8,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "The ancient ones",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "There are powers that nature truely gifts on to use, using the powers from our other magics we might learn them!"
@@ -14317,130 +15045,157 @@
     "9:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 6,
-          "id:3": 174
+          "id:3": 174,
+          "sizeY:3": 24
         },
         "1:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 6,
-          "id:3": 175
+          "id:3": 175,
+          "sizeY:3": 24
         },
         "2:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 42,
-          "id:3": 176
+          "id:3": 176,
+          "sizeY:3": 24
         },
         "3:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 42,
-          "id:3": 177
+          "id:3": 177,
+          "sizeY:3": 24
         },
         "4:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 6,
-          "id:3": 178
+          "id:3": 178,
+          "sizeY:3": 24
         },
         "5:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 6,
-          "id:3": 179
+          "id:3": 179,
+          "sizeY:3": 24
         },
         "6:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 42,
-          "id:3": 180
+          "id:3": 180,
+          "sizeY:3": 24
         },
         "7:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 6,
-          "id:3": 181
+          "id:3": 181,
+          "sizeY:3": 24
         },
         "8:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 24,
           "y:3": 6,
-          "id:3": 182
+          "id:3": 182,
+          "sizeY:3": 24
         },
         "9:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 24,
           "y:3": 42,
-          "id:3": 183
+          "id:3": 183,
+          "sizeY:3": 24
         },
         "10:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -120,
           "y:3": 78,
-          "id:3": 184
+          "id:3": 184,
+          "sizeY:3": 24
         },
         "11:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -156,
           "y:3": 78,
-          "id:3": 185
+          "id:3": 185,
+          "sizeY:3": 24
         },
         "12:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 42,
-          "id:3": 186
+          "id:3": 186,
+          "sizeY:3": 24
         },
         "13:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 78,
-          "id:3": 187
+          "id:3": 187,
+          "sizeY:3": 24
         },
         "14:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 78,
-          "id:3": 188
+          "id:3": 188,
+          "sizeY:3": 24
         },
         "15:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 60,
           "y:3": 6,
-          "id:3": 189
+          "id:3": 189,
+          "sizeY:3": 24
         },
         "16:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -48,
           "y:3": 114,
-          "id:3": 190
+          "id:3": 190,
+          "sizeY:3": 24
         },
         "17:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 60,
           "y:3": 42,
-          "id:3": 191
+          "id:3": 191,
+          "sizeY:3": 24
         },
         "18:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": 96,
           "y:3": 6,
-          "id:3": 192
+          "id:3": 192,
+          "sizeY:3": 24
         },
         "19:10": {
-          "size:3": 24,
+          "sizeX:3": 24,
           "x:3": -12,
           "y:3": 114,
-          "id:3": 193
+          "id:3": 193,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 9,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "NORMAL",
           "name:8": "The Natural Aura",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "There lies in the very heart of nature a delicate balance that must be maintained, this chapter will teach you and guide you through the process of providing balance to nature! \n\n§4Information: \nNature\u0027s balance is a recently released Mod that may still be in the early beta stages, you can expect that this chapter may morph as the mod matures and develops. We urge everyone to give it a try!"
@@ -14459,6 +15214,7 @@
       "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:home_image.png",
+      "party_enable:1": 1,
       "pack_version:3": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
