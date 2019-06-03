@@ -3,11 +3,11 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.1.1 - Hotfix
+Current Version: 	0.2.1
 
 Minecraft Version: 	1.1.12
 
-Forge Version: 		14.23.5.2776
+Forge Version: 		14.23.5.2831
 
 Modpack Author:		Alnarra
 
@@ -119,6 +119,15 @@ Mods
 
 Changelog
 ============
+
+Patch 0.2.1 
+---------------------
+### Description
+Small update to fix Issue #5 
+
+### Scripting
+	- Immersive Engineering Crusher makes 2 iron grit rather then 1 
+
 Patch 0.2.0
 ---------------------
 ### Description
