@@ -5766,7 +5766,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "allowSmelt:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "allowCraft:1": 1,
           "allowAnvil:1": 0,

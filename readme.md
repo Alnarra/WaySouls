@@ -123,7 +123,7 @@ Changelog
 Patch 0.2.1 
 ---------------------
 ### Description
-Small update to fix Issue #5 
+Small update for a number of bug fixes 
 
 ### Mods Updated
 _Core_
@@ -148,6 +148,9 @@ _UI_
 _Modpack_
 	
 	- FTB Utilities
+
+### Quest
+	- The fond wand now accepts all color combinations 
 
 ### Scripting
 	- Immersive Engineering Crusher makes 2 iron grit rather then 1 
