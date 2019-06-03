@@ -125,6 +125,30 @@ Patch 0.2.1
 ### Description
 Small update to fix Issue #5 
 
+### Mods Updated
+_Core_
+
+	- Astral Sorcery
+	- Abysallcraft
+	
+_Library_
+	
+	- FTBLib
+	- AutoRegLib
+	
+_Helper_
+	
+	- Quark
+	- Pam's Harvescraft
+	
+_UI_
+
+	- Just enough Resouces
+	
+_Modpack_
+	
+	- FTB Utilities
+
 ### Scripting
 	- Immersive Engineering Crusher makes 2 iron grit rather then 1 
 
