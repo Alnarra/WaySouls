@@ -48,6 +48,9 @@ Mods
 	- libex
 	- Reborn Core
 	- Code Chicken Lib
+	- FTBLib
+	- Patchouli
+	- Mystic Lib 
 
 ### Helper Mods
 
@@ -81,6 +84,7 @@ Mods
 	- Comforts
 	- Ender Storage
 	- Iron Chest
+	- Mystic World
 
 ### UI Mods
 
@@ -104,7 +108,6 @@ Mods
 
 	- Resource Loader
 	- Open Eye
-	- FTBLib
 	- FTBUtilities
 	- CustomMainMenu
 	- Better Questing		
@@ -119,6 +122,51 @@ Mods
 
 Changelog
 ============
+Pathc 0.2.2
+---------------------
+### Description 
+This patch introduces the new version of roots that had been long awaited along with a quest series to accompany the new version of the mod 
+
+### Mods Updated
+_Core_ 
+	
+	- Roots 
+
+_Library_
+	
+	- AutoRegLib
+	- FTBLib
+	- Patchouli
+	- Mystic Lib
+	- Forgelin
+	
+_Helper_
+	
+	- Cooking for blockheads
+	- Iron Chest
+	- Millénaire
+	- Quark
+	- Mystic World
+	- Ruins
+	- Waystones
+	
+_UI_
+
+	- Just enough resource
+
+_Modpack_
+	
+	- Better Questing 
+	- Standard Expansion
+	- Craftweaker
+	- FTBUtilities
+	- Loottweaker
+	
+### Quest
+	- New chapter "The root of magic" added with ~20 new quest
+	
+### Scripting	
+	- The requirement to "Tune" totemics knife has been removed, I just felt likeit was subtractive to the overall modpack 
 
 Patch 0.2.1 
 ---------------------
