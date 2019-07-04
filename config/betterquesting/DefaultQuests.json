@@ -228,11 +228,12 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "roots:wood_shears",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:wood_shears"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -256,8 +257,12 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "roots:wood_shears",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:wood_shears"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2294,6 +2299,70 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
+            "id:8": "roots:wildroot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Seedy buisness",
+          "desc:8": "Well it doesn\u0027t talk, but I believe there may be a use, quickly start punching up a few seeds and see if something interesting doesn\u0027t pop up\n§4\n§4Information: \n§4This is the starting quest for the Root\u0027s mod. This path will help you progress through the mod so that you can learn more about it and the things it can do. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:wildroot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "harvestcraft:applesmoothieitem",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        37
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
@@ -2309,7 +2378,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Knaifu",
-          "desc:8": "Well it doesn\u0027t talk, but I believe there may be a use, here quickly make a knife for me\n§4\n§4Information: \n§4This is the opening quest in the roots quest line, the knife is a method that you can use for collecting \"Bark\" from trees across the world. Keep in mind that different trees provide different forms of bark. Simply right click to attempt to take a piece of bark at a time or left click and mine the log to get all of it at once. "
+          "desc:8": "In the start of any humble adventure we must first learn to use the tools of the world. Here you will learn how to craft not quite a sword, but a knife, which can be used for more delicate operations! \n\n§4Information: \nCrafting the knife itself is fairly simple, simply a stick and some iron ingots. To use the knife you simply right click an object with it. "
         }
       },
       "tasks:9": {
@@ -2337,8 +2406,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "harvestcraft:applesmoothieitem",
-              "Count:3": 1,
+              "id:8": "minecraft:mossy_cobblestone",
+              "Count:3": 16,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2346,9 +2415,10 @@
         }
       }
     },
-    "36:10": {
-      "questID:3": 36,
+    "37:10": {
+      "questID:3": 37,
       "preRequisites:11": [
+        12,
         35
       ],
       "properties:10": {
@@ -2361,67 +2431,14 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "roots:bark_oak",
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "patchouli:guide_book",
             "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "partysinglereward:1": 0,
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "Stripped Down",
-          "desc:8": "Hmm... I have a theory apprentice, quickly use this knife to break off some wood from a nearby tree\n\n§4Information: \nONce again, this is the item you should get form an Oak tree with the Knife, and it\u0027s the early start to the Roots Mod. "
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "roots:bark_oak",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "amount:3": 1,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 0
-        }
-      }
-    },
-    "37:10": {
-      "questID:3": 37,
-      "preRequisites:11": [
-        36,
-        12
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "UNLOCKED",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "roots:book_base",
-            "Count:3": 1,
+            "tag:10": {
+              "patchouli:book:8": "roots:roots_guide"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2432,7 +2449,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The root of magic",
-          "desc:8": "Apprentice the world is often filled with a powerful and ancient magic, if you know which flowers to groww~\n\n§4Information: \nAt this time, Roots is awaiting a large revision known as version 3, it is at that time that this quest line will be completed"
+          "desc:8": "Apprentice the world is often filled with a powerful and ancient magic, if you know which flowers to groww~\n\n§4Information: \nThe long awaited \"Roots 3\" this mod has a focus on the nature of druidism itself! It\u0027s a great way to interact with nature"
         }
       },
       "tasks:9": {
@@ -2445,8 +2462,11 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "roots:book_base",
+              "id:8": "patchouli:guide_book",
               "Count:3": 1,
+              "tag:10": {
+                "patchouli:book:8": "roots:roots_guide"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -11204,8 +11224,12 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "roots:aubergine_item",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 3,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:aubergine_item"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -11975,8 +11999,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Version 0.1.0",
-          "desc:8": "This quest is simply intended to give you information on changes made in version 0.1.0: \n\nPatch 1.0.0\n### Description\n\nThis patch will be addressing a number of small issues that are detected with the various quest throughout the book, attempting to squash bugs and adjust rewards as needed. In addition this will also focus on working more towards some server friendly changes (Hence Bed Rolls being removed in favor of comforts / etc.). At this point I am almost 100% set on the mods in place and more then happy with the overall weight and structure of the mod-pack, this simply becomes a polishing matter at this point. At this point I feel it is safe to describe the mod pack as no longer being in alpha but rather in the beta state. Note that several of the mods contained within are unfinished and thus are very much still considered beta (Thaumcraft / Nature\u0027s Aura); however, I feel that providing those mods with a pack in which to flourish topples any overarching need to hold the pack back.\n\nForge has been updated to compensate for requirements by comforts, and though it is not a stable release, in testing I haven\u0027t been able to produce any major bugs or issues.\n\n### Modpack Core\n\n\t- Updated to Forge vs Version 14.23.5.2776\n\n### Mods Added:\n_Library_\n\n\t-Reborn Core\n\n_Helper Mods_\n\n\t-Just Sleep\n\t-Comforts\n\n### Mods Updated:\n_Core_\n\n\t-Botania\n\t-Embers\n\n_Library_\n\n\t- Connected Textures Mod\n\t- AutoRegLib\n\n_Helper_\n\n\t-Quark\n\t-storagedrawers\n\n_UI_\n\n -Dynamic Surroundings\n\n_Modpack_\n\n\t- FTBUtillities\n\t- FTBLib\n\n### Mods Removed\n_Helper Mods_\n\n \t-Simple Bed Rolls\n\n### Quests\n\n\t- Quest which have more then one requirement will now be labled with \"Multipart\"\n\t- \"Rest for the wicked\" has been updated to now reflect the change from Simple Bed Rolls to Comforts\n\t- \"Reedy Business\" no longer consumes the Reeds\n\t- \"Cobble Cobble\" reduced from 16 cobble to 8, also now presents players with a choice\n\t- \"Handy Keybinds\" added to help players\n\t- \"420 Blaze it\" now has a reward and is possible to complete \n\t- \"The Totemic World\" now properly hidden \n\t- Added Quest \"Oh Honey\" to explain Animania Bee Hive \n\t- \"New Quest\" that was hidden somewhere and popped up on first time world load has been removed. \n\n### Configuration\n\n\t- Killing the BattleTowers golems will no longer destroy the tower \n\t- So that the special ability of the nature\u0027s Aura axe isn\u0027t totally nullified, The config of Quarks that has axes destroy leaves has been set to false"
+          "name:8": "Version 0.2.2",
+          "desc:8": "This quest is simply intended to give you information on changes made in version 0.2.2: \n\n"
         }
       },
       "tasks:9": {},
@@ -13611,6 +13635,1295 @@
           }
         }
       }
+    },
+    "197:10": {
+      "questID:3": 197,
+      "preRequisites:11": [
+        36
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:terra_moss",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Moss Eisly",
+          "desc:8": "Moss is the key to the decay of the world, and in it lies a rich magic. \n\n§4Information: \nUsing the provided moss stone from the last quest, you can use your knife to scrape a bit of moss off the moss stone in front of you!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:terra_moss",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "198:10": {
+      "questID:3": 198,
+      "preRequisites:11": [
+        197
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:bonfire",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "The sire of pyre",
+          "desc:8": "Using the moss you have gathered my young apprentice you may start to realize that there are magics to be had. Quickly construct a small ritual out of logs, root, and moss and you will see what lay before you\n§4\nInformation: \nUsing the moss and the Wildroot you can craft a pyre. Lighting it with the flint and steel, and dousing it with a bucket of water, this is the start of a number of key rituals \n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:bonfire",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "mysticalworld:aubergine",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "199:10": {
+      "questID:3": 199,
+      "preRequisites:11": [
+        37
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mysticalworld:aubergine",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Rene Auberdine",
+          "desc:8": "The humble Auberdine seed, you have likely seen it while trying to gather the wildroot. It too offers a number of humble and helpful properties. \n\n§4§4Information: \nJust like any number of seeds the Auberdine can be grown into a loveable edible plant. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalworld:aubergine_seed",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "mysticalworld:stuffed_aubergine",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "200:10": {
+      "questID:3": 200,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:assorted_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mix it up",
+          "desc:8": "Sometimes you are hungry and it can be hard to find food nearby. But did you know that the seeds of the world are packed full of valuable nutrients? Well it\u0027s time to get to chomping! \n\n§4Information: \nMix up any seed for a quick and edible treat"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:assorted_seeds",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:wildroot",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "201:10": {
+      "questID:3": 201,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:staff",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Staffing Yourself",
+          "desc:8": "At the heard of any good wizard is a wizard staff am I right? Well the same very much goes for a druid. You need a good druidic staff to do ~druidy things\n\n§4Information:\nThe staff on it\u0027s own is rather useless, but you can infuse it with magical powers and watch it grow into something more. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:staff",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:terra_moss",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "202:10": {
+      "questID:3": 202,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:mortar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Everyone loves to grind",
+          "desc:8": "You will find in just about any magical world that there will always be the need to extract the pure elements of magic or mana or what have you\n\n§4Information\nThe mortar and pestal are used to gather a number of items that are key for making spells. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:mortar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "roots:pestle",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:bark_oak",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "203:10": {
+      "questID:3": 203,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:petals",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Petal Power",
+          "desc:8": "Everyone loves flowers, and as you have learned from other schools of magic, flowers can be rather potent for expanding your influence over the magical world\n\n§4Information\nUse the mortar and Pestle in order to grind up flowers into petals it will become inmportant in a moment. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:petals",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:wildroot",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "204:10": {
+      "questID:3": 204,
+      "preRequisites:11": [
+        203,
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:spell_dust",
+            "Count:3": 1,
+            "tag:10": {
+              "spell_holder:10": {
+                "spell_0:8": "spell_supplication",
+                "selectedSlot:3": 0,
+                "lastCooldown:3": 0,
+                "cooldown:3": 0
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Supplication",
+          "desc:8": "Grinding a number of various things together can create TRUELY powerful magics. \n\n§4Information\nA door, a bit of moss, some wildwood, petals, and you\u0027re ready to make yourself a supplicant powder that can help summon the fey, which who doesn\u0027t love that? "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:spell_dust",
+              "Count:3": 1,
+              "tag:10": {
+                "spell_holder:10": {
+                  "spell_0:8": "spell_supplication",
+                  "selectedSlot:3": 0,
+                  "lastCooldown:3": 0,
+                  "cooldown:3": 0
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:bark_birch",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "205:10": {
+      "questID:3": 205,
+      "preRequisites:11": [
+        204,
+        201
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:imbuer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Imbune ",
+          "desc:8": "What good is spell powder and a staff if you can\u0027t make use of them? Not much good that\u0027s what it isn\u0027t! \n\n§4Information: \nTo imbue the staff, place it on the imbuner and then place the powder under it. Then WAIT until the staff pops off, it should look a bit different. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:imbuer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:diamond_knife",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "206:10": {
+      "questID:3": 206,
+      "preRequisites:11": [
+        205
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:fey_crafter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Let the ritual... begin",
+          "desc:8": "The power of the fae is not to be trifled with. Step lightly because we are starting to tamper with their realm my young apprentice! \n\n§4Information: \nCrafting this is fairly straight forward. To make use of the device you must be sure to imbue it with the spell we worked on earlier. The rituals are activated with a ritual knife "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:fey_crafter",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "roots:grove_stone",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "mysticalworld:amethyst_gem",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "207:10": {
+      "questID:3": 207,
+      "preRequisites:11": [
+        197
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:bark_spruce",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Barking up the wrong tree",
+          "desc:8": "Much like the moss, there are a number of other key ingredients that you should be aware of! The most obvious of which is bark. \n\n§4Information: \nMuch like the moss, simply right click a tree with your knife and be aware that these can be used for ingredients\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:bark_spruce",
+              "Count:3": 1,
+              "OreDict:8": "rootsBark",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:planks",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "208:10": {
+      "questID:3": 208,
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mysticalworld:amethyst_gem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Rare Earth Metals",
+          "desc:8": "Said to be rarer then diamonds, these tiny little rocks are well worth your time to find. Dig about in the world and see if you can\u0027t unearth one of these rare gems\n\n§4Information: \nThis is a lovely little rare earth metal that can be helpful for crafting more druidy things. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "mysticalworld:amethyst_gem",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "209:10": {
+      "questID:3": 209,
+      "preRequisites:11": [
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:runestone",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Baby\u0027s first ritual",
+          "desc:8": "Understanding the rituals that are before you are key. They are wonderful little things aren\u0027t they? Well lets use that first ritual to make something useful shall we? \n\n§4Information: \nTo perform this ritual, simply have at least one obelisk that has been \"supplicated\" put the 5 required ingredients in and boom right click with a knife. It\u0027s that simple. You can also craft more then one at a time. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:runestone",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:wildroot",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "210:10": {
+      "questID:3": 210,
+      "preRequisites:11": [
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:elemental_soil",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Elemental Soil!",
+          "desc:8": "Another simple ritual, this involves mixing some dirt, magical roots, and a hint of gravel to build up some worthwhile dirt\n\n§4Information: \nThis is another simple ritual to help you get started down the path. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:elemental_soil",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "mysticalworld:aubergine",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "211:10": {
+      "questID:3": 211,
+      "preRequisites:11": [
+        210
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:elemental_soil_air",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "212:10": {
+      "questID:3": 212,
+      "preRequisites:11": [
+        209
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:runestone_trample",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "213:10": {
+      "questID:3": 213,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:pereskia",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "214:10": {
+      "questID:3": 214,
+      "preRequisites:11": [
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:living_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "215:10": {
+      "questID:3": 215,
+      "preRequisites:11": [
+        209
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:runic_shears",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "216:10": {
+      "questID:3": 216,
+      "preRequisites:11": [
+        215
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:fey_leather",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "217:10": {
+      "questID:3": 217,
+      "preRequisites:11": [
+        215
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:spirit_herb",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "218:10": {
+      "questID:3": 218,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:sylvan_helmet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "219:10": {
+      "questID:3": 219,
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:wildwood_sapling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "220:10": {
+      "questID:3": 220,
+      "preRequisites:11": [
+        215
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "roots:wildewheet",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "221:10": {
+      "questID:3": 221,
+      "preRequisites:11": [
+        219,
+        218
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "roots:wildwood_helmet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -13871,123 +15184,116 @@
         "36:10": {
           "sizeX:3": 24,
           "x:3": 18,
-          "y:3": 150,
-          "id:3": 36,
-          "sizeY:3": 24
-        },
-        "37:10": {
-          "sizeX:3": 24,
-          "x:3": 18,
           "y:3": 222,
           "id:3": 37,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": -234,
           "y:3": 150,
           "id:3": 47,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": -198,
           "y:3": 6,
           "id:3": 48,
           "sizeY:3": 24
         },
-        "40:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": -234,
           "y:3": 42,
           "id:3": 54,
           "sizeY:3": 24
         },
-        "41:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 90,
           "y:3": 42,
           "id:3": 69,
           "sizeY:3": 24
         },
-        "42:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 90,
           "y:3": 78,
           "id:3": 70,
           "sizeY:3": 24
         },
-        "43:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 90,
           "y:3": 222,
           "id:3": 71,
           "sizeY:3": 24
         },
-        "44:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": -270,
           "y:3": 222,
           "id:3": 72,
           "sizeY:3": 24
         },
-        "45:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": -18,
           "y:3": 6,
           "id:3": 100,
           "sizeY:3": 24
         },
-        "46:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 18,
           "y:3": 6,
           "id:3": 120,
           "sizeY:3": 24
         },
-        "47:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": -270,
           "y:3": 42,
           "id:3": 168,
           "sizeY:3": 24
         },
-        "48:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": -306,
           "y:3": 222,
           "id:3": 169,
           "sizeY:3": 24
         },
-        "49:10": {
+        "48:10": {
           "sizeX:3": 24,
           "x:3": -270,
           "y:3": 78,
           "id:3": 170,
           "sizeY:3": 24
         },
-        "50:10": {
+        "49:10": {
           "sizeX:3": 24,
           "x:3": -234,
           "y:3": 6,
           "id:3": 171,
           "sizeY:3": 24
         },
-        "51:10": {
+        "50:10": {
           "sizeX:3": 24,
           "x:3": -342,
           "y:3": 222,
           "id:3": 172,
           "sizeY:3": 24
         },
-        "52:10": {
+        "51:10": {
           "sizeX:3": 24,
           "x:3": -126,
           "y:3": 258,
           "id:3": 173,
           "sizeY:3": 24
         },
-        "53:10": {
+        "52:10": {
           "sizeX:3": 24,
           "x:3": -270,
           "y:3": 6,
@@ -15202,6 +16508,209 @@
         }
       },
       "order:3": 9
+    },
+    "10:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -128,
+          "y:3": -64,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": -64,
+          "id:3": 197,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": -16,
+          "id:3": 198,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": -64,
+          "id:3": 199,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": -16,
+          "id:3": 200,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -128,
+          "y:3": -16,
+          "id:3": 201,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -32,
+          "y:3": -16,
+          "id:3": 202,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -32,
+          "y:3": 32,
+          "id:3": 203,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": 32,
+          "id:3": 204,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -128,
+          "y:3": 32,
+          "id:3": 205,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": 32,
+          "id:3": 206,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -32,
+          "y:3": -64,
+          "id:3": 207,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 16,
+          "y:3": -64,
+          "id:3": 208,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": 80,
+          "id:3": 209,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -224,
+          "y:3": 32,
+          "id:3": 210,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -224,
+          "y:3": -16,
+          "id:3": 211,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -128,
+          "y:3": 80,
+          "id:3": 212,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 16,
+          "y:3": -16,
+          "id:3": 213,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -224,
+          "y:3": 80,
+          "id:3": 214,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": 128,
+          "id:3": 215,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -128,
+          "y:3": 128,
+          "id:3": 216,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -224,
+          "y:3": 128,
+          "id:3": 217,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": 128,
+          "id:3": 218,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 16,
+          "y:3": 32,
+          "id:3": 219,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": 176,
+          "id:3": 220,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 16,
+          "y:3": 128,
+          "id:3": 221,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Rooted in Magic",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Roots is a mod about discovering the natural magics of the world, poitns where the world of the Fey has blessed our own. These blessing imbune otherwise mundane plant life with the magical energies, enabling clever players to become masters of the druidic arts. "
+        }
+      },
+      "order:3": 10
     }
   },
   "questSettings:10": {
