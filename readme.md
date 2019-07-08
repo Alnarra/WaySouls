@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.2.1
+Current Version: 	0.2.2
 
 Minecraft Version: 	1.1.12
 
