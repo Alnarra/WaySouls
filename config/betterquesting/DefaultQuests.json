@@ -14575,12 +14575,61 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Soiling yourself",
+          "desc:8": "There\u0027s more then just magical soil... there\u0027s also soil that\u0027s been influenced by the elements\n\n§4Information: \nSo you may wish to read up on each soil by selecting the \"R\" key over them and selecting the information tab to figure out how to make them. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:elemental_soil_air",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "roots:elemental_soil_water",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "roots:elemental_soil_fire",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "roots:elemental_soil_earth",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:moonglow_seed",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "212:10": {
       "questID:3": 212,
@@ -14608,12 +14657,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Crop Diversity",
+          "desc:8": "These ritualstones can have powerful influences on the plants around them. Try making use of them to craft something further. §4\n\nInformation:\nThese stones are fairly interesting in that they will stop animals from trampling crops AND will water crops the same distance as water, making them great for farms. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:runestone_trample",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:spirit_herb_seed",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "213:10": {
       "questID:3": 213,
@@ -14641,12 +14721,73 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Flower Power Sour",
+          "desc:8": "There are a number of flowers for which we must bargain with the world of magic in order to obtain. I suppose it\u0027s time to teach you that world. \n\n§3§4Information: \nSo this is where you are actually going to use the Pyre. You can use the \"U\" Key while hovering over the Pyre and select the \"Pyre Crafting Recipies\" in order to get an idea on how to craft each of these. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:cloud_berry",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "roots:dewgonia",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "roots:infernal_bulb",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "3:10": {
+              "id:8": "roots:stalicripe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "4:10": {
+              "id:8": "roots:pereskia",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "5:10": {
+              "id:8": "roots:moonglow_leaf",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "mysticalworld:amethyst_knife",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "214:10": {
       "questID:3": 214,
@@ -14677,12 +14818,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Tools of the forest",
+          "desc:8": "The fae world truely has much to offer, and in this regard there is the wonderful power of tools which can even repair themselves given enough time. \n\n§4Information: \nThis is fairly simple, make use of the Fae crafter in order to create yourself a simple living tool. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:living_pickaxe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:living_shovel",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "215:10": {
       "questID:3": 215,
@@ -14713,12 +14885,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Super Shears",
+          "desc:8": "Not all shears are useless, some are gifted with magical powers that can extract from them the very essance of things you might not expect. \n\n§4Information: \nThese shears can help you gather a number of items for roots. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:runic_shears",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:wildewheet_seed",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "216:10": {
       "questID:3": 216,
@@ -14746,12 +14949,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Fae Leather",
+          "desc:8": "Plants are not the only items that tend to shed more magical things when they are sheared. Try animals as well\n§4\nInformation: \nDeer, Sheep, give it a shot and sheer a few animals to get a bit of leather. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:fey_leather",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:offertory_plate",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "217:10": {
       "questID:3": 217,
@@ -14779,12 +15013,49 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Shear force",
+          "desc:8": "Using your shears apprenctice,  go about finding some of the \"rarer\" seeds and items\n\n§3§4Information: \nUsing the shears on beetroots and wheat should reward you with  these items. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:wildewheet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "roots:spirit_herb",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:living_axe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "218:10": {
       "questID:3": 218,
@@ -14815,12 +15086,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Armor of the forest. ",
+          "desc:8": "This powerful leather has an interesting side effect and it is best to craft it into some armor. \n\n§4Information: \nUsing the Fae crafter and some armor you can make use of an interesting set of armor for yourself. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:sylvan_chestplate",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:sylvan_helmet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "219:10": {
       "questID:3": 219,
@@ -14848,51 +15150,48 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "The ancient wood",
+          "desc:8": "The wildwood once flourished across this land my apprentice, but no longer. As the world was left abandoned to the restless undead these once powerful trees vanished\n\n§4Information: \nYou must make use of the Wildwood growth ritual, this should produce a single tree. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:wildwood_log",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:wildwood_sapling",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "220:10": {
-      "questID:3": 220,
-      "preRequisites:11": [
-        215
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "roots:wildewheet",
-            "Count:3": 64,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "partysinglereward:1": 0,
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "221:10": {
       "questID:3": 221,
       "preRequisites:11": [
-        219,
-        218
+        219
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14918,12 +15217,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Wildwood Armor",
+          "desc:8": "The wildwood is a powerful thing, and when combined with other items can offer you powerful protection\n\n§4Information: \nUse the fae crafter to create yourself a piece of armor. You\u0027ll find it has a few special properties. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "roots:wildwood_chestplate",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "roots:wildwood_helmet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -16680,13 +17010,6 @@
           "sizeY:3": 24
         },
         "24:10": {
-          "sizeX:3": 24,
-          "x:3": -176,
-          "y:3": 176,
-          "id:3": 220,
-          "sizeY:3": 24
-        },
-        "25:10": {
           "sizeX:3": 24,
           "x:3": 16,
           "y:3": 128,
