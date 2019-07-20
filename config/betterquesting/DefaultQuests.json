@@ -228,13 +228,12 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
-            "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:wood_shears"
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "Damage:2": 0,
+            "id:8": "minecraft:bed",
+            "Count:3": 1,
+            "Damage:2": 14,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -257,12 +256,8 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "minecraft:bed",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:wood_shears"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -3827,11 +3822,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemwand",
@@ -3843,7 +3838,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -4866,13 +4861,16 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "bloodmagic:monster_soul",
               "Count:3": 1,
+              "tag:10": {
+                "souls:6": 0.09849179924933338
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }

@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.2.2
+Current Version: 	0.2.2 - Hotfix 1 
 
 Minecraft Version: 	1.1.12
 
@@ -122,7 +122,38 @@ Mods
 
 Changelog
 ============
-Pathc 0.2.2
+Patch 0.2.2 - Hotfix 2 
+--------------------
+### Description1
+Minor bugfixes patch
+
+### Mods Updated
+
+_Library_
+
+	- FTBLib
+
+_Helper_
+	
+	- Quark
+	
+### Quest
+- Quest "Something a little different" now request a bed instead of wooden shears
+- Quest "The wand of the Stars" now set as retrieval rather then crafting	
+
+Patch 0.2.2 - Hotfix 1 
+---------------------
+### Description
+Minor bugfixes patch to clear up some issues 
+
+### Mods Updated
+
+### Quest
+- The power of souls should accept any Demonic Will 
+- Quest book taken out of edit mode 
+
+
+Patch 0.2.2
 ---------------------
 ### Description 
 This patch introduces the new version of roots that had been long awaited along with a quest series to accompany the new version of the mod 
