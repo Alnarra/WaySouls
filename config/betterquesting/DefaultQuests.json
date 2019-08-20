@@ -2562,11 +2562,12 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "nex:golden_wither_bone_hoe",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "nex:golden_wither_bone_hoe"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2590,8 +2591,12 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "nex:golden_wither_bone_hoe",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "nex:golden_wither_bone_hoe"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -11997,8 +12002,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Version 0.2.2",
-          "desc:8": "This quest is simply intended to give you information on changes made in version 0.2.2: \n\n"
+          "name:8": "Version 0.3.0",
+          "desc:8": "This quest is simply intended to give you information on changes made in version 0.3.0\n\nPatch 0.3.0\n--------------------\nThis patch introduces a few minor mods to help spice up the world a little bit, it also introduces a new core mod (wizardry), which while I believe is not quite mature compared to the other core mods (save roots and nature\u0027s aura) it serves as mature enough to be worth inclusion\n\nNote to take full advantage of both Charms and Wizardry you would need to create a new world or explore new chunks as both introduce world generation. \n\n### Mods Added\n\n_Core_\n\n\t- Wizardry\n\t- Arcane Archives\n\t- Bewitchment\n\n_Helper_\n\t\n\t- Charms\n\t\n\n### Mods Updated\n\n_Core_ \n\n\t- Roots\n\t- Astral Sorcery\n\t- Abysallcraft\n\n_Library_\n\t\n\t- Reborn Core\n\t- Mysticlib\n\t- MysticWorld \n\t- Libex\n\t- FTBLib\n\t- Code Chicken Lib \n\t- AutoRegLib\n\n_Helper_\n\t\n\t- Quark\n\t- Reliquery\n\t- NetherEx\n\t- Enderstorage\n\t- Pam\u0027s Harvescraft\n\t- Rustic\n\t- Iron Chest\n\n_UI_\n\t\n\t- Journemyap\n\t- More Overlays\n\n_Modpack_ \n\t\n\t- FTBUtilities\n\t- FTBUtilities Backups\n\t- Abysallcraft Integration\n\t\n\n### Config\n- Mysticlib no longer generates Silver, this is left top embers rekindled to handle \n\n### Scripting\n- Salt from animania now converts to bewitchment salt \n\n"
         }
       },
       "tasks:9": {},
@@ -15187,6 +15192,73 @@
       }
     },
     "220:10": {
+      "questID:3": 220,
+      "preRequisites:11": [
+        223
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "wizardry:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Raw Power",
+          "desc:8": "Now that you have access to mana, try throwing a book in there and see what you get\n\n§4Information: To get the Wizardry book you must LITERALLY throw a book into a mana pool. You can also throw wood to instantly transmute it to wisdom wood "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:book",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ore",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "221:10": {
       "questID:3": 221,
       "preRequisites:11": [
         219
@@ -15248,6 +15320,425 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "222:10": {
+      "questID:3": 222,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bucket",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Mr Bucket",
+          "desc:8": "Listen, the truth of minecraft is that not much of anything is getting done without a bucket, and the same is true here. So the name of the game is to use some of that new found iron to make a bucket. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:bucket",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 5,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "223:10": {
+      "questID:3": 223,
+      "preRequisites:11": [
+        222
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "forge:bucketfilled",
+            "Count:3": 1,
+            "tag:10": {
+              "FluidName:8": "mana_fluid",
+              "Amount:3": 1000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Legends of Mana",
+          "desc:8": "There are rumors that sprinkled throughout the world is the power of magic in it\u0027s most raw form, Mana. Collect a portion of this power \n\n§4Information:  This is the starter quest for the mod known as wizardry "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "mana_fluid",
+                "Amount:3": 1000
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:wisdom_sapling",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "224:10": {
+      "questID:3": 224,
+      "preRequisites:11": [
+        168
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "bewitchment:mandrake_root",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Seeds of a Different Breed",
+          "desc:8": "There comes a mystical magic dependent on nature, but which taps into the darkness of the natural world. In the old days for every wizard there was a witch, and if you wish to become a true ruler of magic you must know of them as well. \n\nForage for some time until you come across a Mandrake Seed\n\n§4Information: This is the starter quest for the mod bewitchment. This mod will have you punching grass and looking for seeds "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "bewitchment:mandrake_root",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "bewitchment:hellebore",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bewitchment:salt",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "225:10": {
+      "questID:3": 225,
+      "preRequisites:11": [
+        224
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "patchouli:guide_book",
+            "Count:3": 1,
+            "tag:10": {
+              "patchouli:book:8": "bewitchment:book_of_shadows"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "This isn\u0027t hogwartz",
+          "desc:8": "Unlike the child stories of old, witches are no force to be trifled or toyed with. They have a deep, powerful, and dark ancient magic to them! Be careful where you step \n\n§4Information: This book will begin you on your quest to better understanding Bewitchment. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "patchouli:guide_book",
+              "Count:3": 1,
+              "tag:10": {
+                "patchouli:book:8": "bewitchment:book_of_shadows"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bewitchment:empty_jar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "226:10": {
+      "questID:3": 226,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:gold_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "All that glitters is gold",
+          "desc:8": "There is another rare earth metal that you will find quite commonly across the world and it needs to be used in any number of task. Smelt some gold down. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 1,
+              "OreDict:8": "ingotGold",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_nugget",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "227:10": {
+      "questID:3": 227,
+      "preRequisites:11": [
+        226
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "arcanearchives:tome_arcana",
+            "Count:3": 1,
+            "tag:10": {
+              "Book:8": "arcanearchives:xml/tome.xml"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Magical Storage",
+          "desc:8": "Sometimes trying to sort things by hand can grow cumbersome and tiring, so why not allow magic to do the work for you? \n\n§4Information: This is the starer quest for the mod \"Arcane Archives\" which acts as a magical storage mod. \n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "arcanearchives:tome_arcana",
+              "Count:3": 1,
+              "tag:10": {
+                "Book:8": "arcanearchives:xml/tome.xml"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "storagedrawers:upgrade_storage",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
             }
           }
         }
@@ -15626,6 +16117,55 @@
           "x:3": -270,
           "y:3": 6,
           "id:3": 194,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 126,
+          "y:3": 222,
+          "id:3": 220,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
+          "x:3": -18,
+          "y:3": 150,
+          "id:3": 222,
+          "sizeY:3": 24
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": 126,
+          "y:3": 150,
+          "id:3": 223,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": -306,
+          "y:3": 42,
+          "id:3": 224,
+          "sizeY:3": 24
+        },
+        "57:10": {
+          "sizeX:3": 24,
+          "x:3": -342,
+          "y:3": 186,
+          "id:3": 225,
+          "sizeY:3": 24
+        },
+        "58:10": {
+          "sizeX:3": 24,
+          "x:3": 54,
+          "y:3": 6,
+          "id:3": 226,
+          "sizeY:3": 24
+        },
+        "59:10": {
+          "sizeX:3": 24,
+          "x:3": 90,
+          "y:3": 6,
+          "id:3": 227,
           "sizeY:3": 24
         }
       },

@@ -36,6 +36,9 @@ Mods
 	- Roots
 	- Thaumcraft
 	- Nature's Aura
+	- Bewitchment
+	- Arcane Archives
+	- Wizardry
 
 ### Library Mods
 
@@ -51,6 +54,7 @@ Mods
 	- FTBLib
 	- Patchouli
 	- Mystic Lib 
+	- Mystic World 
 
 ### Helper Mods
 
@@ -85,6 +89,7 @@ Mods
 	- Ender Storage
 	- Iron Chest
 	- Mystic World
+	- Charms 
 
 ### UI Mods
 
@@ -122,6 +127,71 @@ Mods
 
 Changelog
 ============
+Patch 0.3.0
+--------------------
+This patch introduces a few minor mods to help spice up the world a little bit, it also introduces a new core mod (wizardry), which while I believe is not quite mature compared to the other core mods (save roots and nature's aura) it serves as mature enough to be worth inclusion
+
+Note to take full advantage of both Charms and Wizardry you would need to create a new world or explore new chunks as both introduce world generation. 
+
+### Mods Added
+
+_Core_
+
+	- Wizardry
+	- Arcane Archives
+	- Bewitchment
+
+_Helper_
+	
+	- Charms
+	
+
+### Mods Updated
+
+_Core_ 
+
+	- Roots
+	- Astral Sorcery
+	- Abysallcraft
+
+_Library_
+	
+	- Reborn Core
+	- Mysticlib
+	- MysticWorld 
+	- Libex
+	- FTBLib
+	- Code Chicken Lib 
+	- AutoRegLib
+
+_Helper_
+	
+	- Quark
+	- Reliquery
+	- NetherEx
+	- Enderstorage
+	- Pam's Harvescraft
+	- Rustic
+	- Iron Chest
+
+_UI_
+	
+	- Journemyap
+	- More Overlays
+
+_Modpack_ 
+	
+	- FTBUtilities
+	- FTBUtilities Backups
+	- Abysallcraft Integration
+	
+
+### Config
+- Mysticlib no longer generates Silver, this is left top embers rekindled to handle 
+
+### Scripting
+- Salt from animania now converts to bewitchment salt 
+
 Patch 0.2.2 - Hotfix 2 
 --------------------
 ### Description1

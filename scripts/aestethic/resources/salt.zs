@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 var prefEntry = [
-  <animania:salt>
+  <bewitchment:salt>
 ] as IItemStack[];
 
 var prefOre = [
@@ -13,17 +13,20 @@ var prefOre = [
 ] as IOreDictEntry[];
 
 var prefRemove = [
-  <harvestcraft:saltitem>
+  <harvestcraft:saltitem>,
+  <animania:salt>
 ] as IItemStack[];
 
 #remove recipies
 recipes.remove(prefRemove[0]);
+recipes.remove(prefRemove[1]);
 
 #readd recipies
 recipes.addShapeless(prefEntry[0],[<ore:toolPot>,<ore:listAllwater>]);
 
 #Conversion Recipes
 recipes.addShapeless(prefEntry[0],[prefRemove[0]]);
+recipes.addShapeless(prefEntry[0],[prefRemove[1]]);
 
 #Cleaning Function
 for removedItem in prefRemove{
