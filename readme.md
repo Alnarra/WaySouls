@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.2.2 - Hotfix 2 
+Current Version: 	0.3.1 
 
 Minecraft Version: 	1.1.12
 
@@ -82,7 +82,6 @@ Mods
 	- Nutrition
 	- Iron Backpacks
 	- Soot
-	- Millénaire
 	- Akashic Tome
 	- Just Sleep
 	- Comforts
@@ -129,7 +128,18 @@ Changelog
 ============
 Patch 0.3.1 
 --------------------
-Some cleaning of a few bugs 
+Some cleaning of a few bugs
+
+### Mods Updated
+	
+_Core_
+
+	- Bewitchment
+	
+_Helper_ 
+
+	- Arcane Archives
+	- Charms
 
 ### Config 
 - Now properly introduces user to 0.3.0 rather then 0.2.0
