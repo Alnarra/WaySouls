@@ -321,7 +321,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "comforts:sleeping_bag",
-              "Count:3": 0,
+              "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -14293,8 +14293,12 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "mysticalworld:amethyst_gem",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "mysticalworld:amethyst_gem"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -14381,8 +14385,12 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "mysticalworld:amethyst_gem",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "mysticalworld:amethyst_gem"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14406,8 +14414,12 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "mysticalworld:amethyst_gem",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "mysticalworld:amethyst_gem"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -17581,7 +17593,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:home_image.png",
       "party_enable:1": 1,

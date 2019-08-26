@@ -140,12 +140,16 @@ _Helper_
 
 	- Arcane Archives
 	- Charms
+	
+### Quest
+- Rest for the Wicked now properly looks for 1 sleeping bag rather then 0 
 
 ### Config 
 - Now properly introduces user to 0.3.0 rather then 0.2.0
 - Bewitchment now creates Amerthyst (not Mystic LIb) 
 - Pams Harvestcraft no longer generates Eggplant / Garlic (Bewitchment / Roots have their own version) 
 - Pams Gardens no longer spread 
+- Journemyap Server Configuration updated 
 
 
 Patch 0.3.0
