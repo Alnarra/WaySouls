@@ -127,11 +127,28 @@ Mods
 
 Changelog
 ============
+Patch 0.3.1 
+--------------------
+Some cleaning of a few bugs 
+
+### Config 
+- Now properly introduces user to 0.3.0 rather then 0.2.0
+- Bewitchment now creates Amerthyst (not Mystic LIb) 
+- Pams Harvestcraft no longer generates Eggplant / Garlic (Bewitchment / Roots have their own version) 
+- Pams Gardens no longer spread 
+
+
 Patch 0.3.0
 --------------------
 This patch introduces a few minor mods to help spice up the world a little bit, it also introduces a new core mod (wizardry), which while I believe is not quite mature compared to the other core mods (save roots and nature's aura) it serves as mature enough to be worth inclusion
 
 Note to take full advantage of both Charms and Wizardry you would need to create a new world or explore new chunks as both introduce world generation. 
+
+### Mods Removed
+
+_Helper_ 
+
+	- Millénaire
 
 ### Mods Added
 
