@@ -19,7 +19,10 @@ val prefRemove = [
   <thaumcraft:nugget:3>,
   <immersiveengineering:metal:33>,
   <immersiveengineering:storage:3>,
-  <immersiveengineering:ore:3>
+  <immersiveengineering:ore:3>,
+  <bewitchment:block_of_silver>,
+  <bewitchment:silver_ingot>,
+  <bewitchment:silver_nugget>
 ] as IItemStack[];
 
 #Remove Base Recipies
@@ -29,9 +32,12 @@ recipes.remove(prefRemove[2]);
 recipes.remove(prefRemove[3]);
 recipes.remove(prefRemove[4]);
 recipes.remove(<immersiveengineering:storage_slab:3>);
+recipes.remove(prefRemove[6]);
+recipes.remove(prefRemove[8]);
 
 #Remove Furnace Recipies
 furnace.remove(prefRemove[0]);
+furnace.remove(prefRemove[7]);
 
 #Remove Immersive Engineering Recipies
 mods.immersiveengineering.ArcFurnace.removeRecipe(prefRemove[0]);
@@ -68,13 +74,19 @@ recipes.addShapeless(prefSilverNugget,[prefRemove[1]]);
 recipes.addShapeless(prefSilverNugget,[prefRemove[2]]);
 recipes.addShapeless(prefSilverPlate,[prefRemove[3]]);
 recipes.addShapeless(prefSilverBlock,[prefRemove[4]]);
+recipes.addShapeless(prefSilverBlock,[prefRemove[6]]);
+recipes.addShapeless(prefSilverIngot,[prefRemove[7]]);
+recipes.addShapeless(prefSilverNugget,[prefRemove[8]]); 
 
 #Remove from Ore Dictionary
 oreSilverIngot.remove(prefRemove[0]);
+oreSilverIngot.remove(prefRemove[7]);
 oreSilverNugget.remove(prefRemove[1]);
 oreSilverNugget.remove(prefRemove[2]);
+oreSilverNugget.remove(prefRemove[8]);
 oresilverPlate.remove(prefRemove[3]);
 oreSilverBlock.remove(prefRemove[4]);
+oreSilverBlock.remove(prefRemove[6]);
 
 #Cleaning Array
 for item in prefRemove{

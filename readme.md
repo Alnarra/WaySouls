@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.3.1 
+Current Version: 	0.3.1
 
 Minecraft Version: 	1.1.12
 
@@ -53,8 +53,8 @@ Mods
 	- Code Chicken Lib
 	- FTBLib
 	- Patchouli
-	- Mystic Lib 
-	- Mystic World 
+	- Mystic Lib
+	- Mystic World
 
 ### Helper Mods
 
@@ -88,7 +88,7 @@ Mods
 	- Ender Storage
 	- Iron Chest
 	- Mystic World
-	- Charms 
+	- Charms
 
 ### UI Mods
 
@@ -126,41 +126,79 @@ Mods
 
 Changelog
 ============
-Patch 0.3.1 
+Patch 0.3.2 (InDev)
+--------------------
+This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected
+
+### Mods updated
+_Core_
+
+	- Roots
+	- Arcane Archives
+
+_Library_
+
+	- FTBLib
+	- MysticLib 
+
+_Helper_
+
+	- Mystical World
+	- Pam's Harvestcraft
+
+_Modpack_
+
+	- FTBUtils
+
+### Quests
+
+### Configuration
+	- Charms Bookshelf Chest now properly allows the storage of various modded books
+	- Mystical World no longer injects items already injected by Embers (Silver / Copper Tools | Ores | etc)
+	- Quark Stained planks turned off to no longer compete with Rustic Painted Planks
+
+### Scripting
+	- Runic Shears may now be used to shear Animania Cows
+	- Witchery no longer spawns silver in Chest (Only Embers Silver)
+	- Witchery Silver now only set to be Embers Silver
+	- AbyssalCraft iron plate and Immersive Engineering Iron Rod should no longer have conflicting Recipes
+	- Rustic Stake and Quark Vertical Wooden slabs should no longer be in conflict
+
+Patch 0.3.1
 --------------------
 Some cleaning of a few bugs
 
 ### Mods Updated
-	
+
 _Core_
 
 	- Bewitchment
-	
-_Helper_ 
+
+_Helper_
 
 	- Arcane Archives
 	- Charms
-	
-### Quest
-	- Rest for the Wicked now properly looks for 1 sleeping bag rather then 0 
 
-### Config 
+### Quest
+	- Rest for the Wicked now properly looks for 1 sleeping bag rather then 0
+
+### Config
 	- Now properly introduces user to 0.3.0 rather then 0.2.0
-	- Bewitchment now creates Amerthyst (not Mystic LIb) 
-	- Pams Harvestcraft no longer generates Eggplant / Garlic (Bewitchment / Roots have their own version) 
-	- Pams Gardens no longer spread 
-	- Journemyap Server Configuration updated 
+	- Bewitchment now creates Amerthyst (not Mystic LIb)
+	- Pams Harvestcraft no longer generates Eggplant / Garlic (Bewitchment / Roots have their own version)
+	- Pams Gardens no longer spread
+	- Journemyap Server Configuration updated
 
 
 Patch 0.3.0
 --------------------
 This patch introduces a few minor mods to help spice up the world a little bit, it also introduces a new core mod (wizardry), which while I believe is not quite mature compared to the other core mods (save roots and nature's aura) it serves as mature enough to be worth inclusion
 
-Note to take full advantage of both Charms and Wizardry you would need to create a new world or explore new chunks as both introduce world generation. 
+Note to take full advantage of both Charms and Wizardry you would need to create a new world or explore new chunks as both introduce world generation.
 
 ### Mods Removed
 
-_Helper_ 
+_Helper_
 
 	- Millénaire
 
@@ -173,30 +211,30 @@ _Core_
 	- Bewitchment
 
 _Helper_
-	
+
 	- Charms
-	
+
 
 ### Mods Updated
 
-_Core_ 
+_Core_
 
 	- Roots
 	- Astral Sorcery
 	- Abysallcraft
 
 _Library_
-	
+
 	- Reborn Core
 	- Mysticlib
-	- MysticWorld 
+	- MysticWorld
 	- Libex
 	- FTBLib
-	- Code Chicken Lib 
+	- Code Chicken Lib
 	- AutoRegLib
 
 _Helper_
-	
+
 	- Quark
 	- Reliquery
 	- NetherEx
@@ -206,24 +244,24 @@ _Helper_
 	- Iron Chest
 
 _UI_
-	
+
 	- Journemyap
 	- More Overlays
 
-_Modpack_ 
-	
+_Modpack_
+
 	- FTBUtilities
 	- FTBUtilities Backups
 	- Abysallcraft Integration
-	
+
 
 ### Config
-- Mysticlib no longer generates Silver, this is left top embers rekindled to handle 
+- Mysticlib no longer generates Silver, this is left top embers rekindled to handle
 
 ### Scripting
-- Salt from animania now converts to bewitchment salt 
+- Salt from animania now converts to bewitchment salt
 
-Patch 0.2.2 - Hotfix 2 
+Patch 0.2.2 - Hotfix 2
 --------------------
 ### Description1
 Minor bugfixes patch
@@ -235,45 +273,45 @@ _Library_
 	- FTBLib
 
 _Helper_
-	
+
 	- Quark
-	
+
 ### Quest
 - Quest "Something a little different" now request a bed instead of wooden shears
-- Quest "The wand of the Stars" now set as retrieval rather then crafting	
+- Quest "The wand of the Stars" now set as retrieval rather then crafting
 
-Patch 0.2.2 - Hotfix 1 
+Patch 0.2.2 - Hotfix 1
 ---------------------
 ### Description
-Minor bugfixes patch to clear up some issues 
+Minor bugfixes patch to clear up some issues
 
 ### Mods Updated
 
 ### Quest
-- The power of souls should accept any Demonic Will 
-- Quest book taken out of edit mode 
+- The power of souls should accept any Demonic Will
+- Quest book taken out of edit mode
 
 
 Patch 0.2.2
 ---------------------
-### Description 
-This patch introduces the new version of roots that had been long awaited along with a quest series to accompany the new version of the mod 
+### Description
+This patch introduces the new version of roots that had been long awaited along with a quest series to accompany the new version of the mod
 
 ### Mods Updated
-_Core_ 
-	
-	- Roots 
+_Core_
+
+	- Roots
 
 _Library_
-	
+
 	- AutoRegLib
 	- FTBLib
 	- Patchouli
 	- Mystic Lib
 	- Forgelin
-	
+
 _Helper_
-	
+
 	- Cooking for blockheads
 	- Iron Chest
 	- Millénaire
@@ -281,64 +319,64 @@ _Helper_
 	- Mystic World
 	- Ruins
 	- Waystones
-	
+
 _UI_
 
 	- Just enough resource
 
 _Modpack_
-	
-	- Better Questing 
+
+	- Better Questing
 	- Standard Expansion
 	- Craftweaker
 	- FTBUtilities
 	- Loottweaker
-	
+
 ### Quest
 	- New chapter "The root of magic" added with ~20 new quest
-	
-### Scripting	
-	- The requirement to "Tune" totemics knife has been removed, I just felt likeit was subtractive to the overall modpack 
 
-Patch 0.2.1 
+### Scripting
+	- The requirement to "Tune" totemics knife has been removed, I just felt likeit was subtractive to the overall modpack
+
+Patch 0.2.1
 ---------------------
 ### Description
-Small update for a number of bug fixes 
+Small update for a number of bug fixes
 
 ### Mods Updated
 _Core_
 
 	- Astral Sorcery
 	- Abysallcraft
-	
+
 _Library_
-	
+
 	- FTBLib
 	- AutoRegLib
-	
+
 _Helper_
-	
+
 	- Quark
 	- Pam's Harvescraft
-	
+
 _UI_
 
 	- Just enough Resouces
-	
+
 _Modpack_
-	
+
 	- FTB Utilities
 
 ### Quest
-	- The fond wand now accepts all color combinations 
+	- The fond wand now accepts all color combinations
 
 ### Scripting
-	- Immersive Engineering Crusher makes 2 iron grit rather then 1 
+	- Immersive Engineering Crusher makes 2 iron grit rather then 1
 
 Patch 0.2.0
 ---------------------
 ### Description
-This update is intended to add additional quest that will expand upon some of the core magical mods. 
+This update is intended to add additional quest that will expand upon some of the core magical mods.
 
 
 ### Modpack Core:
@@ -360,15 +398,15 @@ _UI_
 
 ### Mods Updated:
 
-	Yes 
+	Yes
 
 ### Config Changes
-	- Aybsallcraft no longer generates near as much warp 
+	- Aybsallcraft no longer generates near as much warp
 
 ### Quests
 	- Quest: "The Ender Ender" has now been placed in the first chapter to better allow for interaction with Ender Storage and Astral Sorcery
 	- Ender Storage quest now present in Chapter 2
-	- None of the request consume anything 
+	- None of the request consume anything
 
 
 ### Configuration

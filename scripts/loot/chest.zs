@@ -5,6 +5,10 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 
+#Clean out the Bewitchment Silver
+LootTables.getTable("bewitchment:chests/materials").getPool("materials").removeEntry("bewitchment:silver_ingot");
+LootTables.getTable("bewitchment:chests/materials").getPool("materials").addItemEntryHelper(<embers:ingot_silver>, 1 , 1, [Functions.setCount(1,2)], []);
+
 #Clean abyssalcraft entries
 LootTables.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("abyssalcraft:tin_ingot");
 LootTables.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("abyssalcraft:copper_ingot");
