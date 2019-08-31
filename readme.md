@@ -128,7 +128,7 @@ Changelog
 ============
 Patch 0.3.2 (InDev)
 --------------------
-This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected
+This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected. To help cut down on conflicts, a rew recipies have been altered (see full list below)
 
 ### Mods updated
 _Core_
@@ -139,7 +139,7 @@ _Core_
 _Library_
 
 	- FTBLib
-	- MysticLib 
+	- MysticLib
 
 _Helper_
 
@@ -156,6 +156,9 @@ _Modpack_
 	- Charms Bookshelf Chest now properly allows the storage of various modded books
 	- Mystical World no longer injects items already injected by Embers (Silver / Copper Tools | Ores | etc)
 	- Quark Stained planks turned off to no longer compete with Rustic Painted Planks
+	- Quark Block of Charcoal Turned off (already present in Chisel)
+	- Quark Red Netherbrick Stairs Turned off (Already present in Netherex)
+	- Quark Quartz walls turned off (Already present in netherex)
 
 ### Scripting
 	- Runic Shears may now be used to shear Animania Cows

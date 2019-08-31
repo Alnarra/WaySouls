@@ -14,10 +14,10 @@ recipes.addShaped(<immersiveengineering:material:1>,[
   ]);
 
 #Wooden Stake and vertical slabs
-recipies.remove(<rustic:crop_stake>);
+recipes.remove(<rustic:crop_stake>);
 
-recipes.addShaped(<rustic.crop_stake>,[
+recipes.addShaped(<rustic:crop_stake>,[
   [null, null, <ore:plankWood>],
   [null, <ore:plankWood>, null],
   [<ore:plankWood>, null, null]
-  ])
+  ]);
