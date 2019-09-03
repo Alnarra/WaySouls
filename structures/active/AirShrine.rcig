@@ -55,20 +55,11 @@
     {
       "weight": 0.20703016221523285,
       "min": 1,
-      "max": 1,
+      "max": 8,
       "item": {
-        "id": "roots:petal_dust",
+        "id": "arcanearchives:quartz_sliver",
         "damage": 0,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "spell": {
-              "nbtType": "string",
-              "nbt": "spell_blue_orchid"
-            }
-          }
-        }
+        "count": 1
       }
     },
     {
@@ -102,6 +93,16 @@
             }
           }
         }
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:sky_dust",
+        "damage": 0,
+        "count": 1
       }
     }
   ],

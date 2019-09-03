@@ -240,6 +240,16 @@
         "damage": 0,
         "count": 1
       }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "wizardry:devil_dust",
+        "damage": 0,
+        "count": 1
+      }
     }
   ],
   "dependencyExpression": ""
