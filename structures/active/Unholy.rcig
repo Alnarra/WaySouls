@@ -47,86 +47,6 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:iron_chestplate",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:iron_helmet",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:iron_boots",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:iron_leggings",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 8.378377914428711,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_chestplate",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 7.972972869873047,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_boots",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 7.837838172912598,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_leggings",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 7.567567825317383,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_helmet",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
         "id": "minecraft:splash_potion",
         "damage": 0,
         "count": 1,
@@ -554,6 +474,36 @@
       "max": 1,
       "item": {
         "id": "xreliquary:phoenix_down",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bewitchment:hellish_bauble",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05511390045285225,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bewitchment:filled_goblet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bewitchment:pentacle",
         "damage": 0,
         "count": 1
       }

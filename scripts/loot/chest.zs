@@ -29,14 +29,14 @@ LootTables.getTable("minecraft:chests/desert_pyramid").getPool("main").addItemEn
 LootTables.getTable("minecraft:chests/simple_dungeon").getPool("main").addItemEntryHelper(<embers:ingot_copper>, 7, 1, [Functions.setCount(1, 5)], []);
 
 #Clean immersiveengineering
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("copper_ingot");
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("aluminium_ingot");
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("silver_nugget");
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("lead_nugget");
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("nugget_nickel");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").removeEntry("copper_ingot");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").removeEntry("aluminium_ingot");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").removeEntry("silver_nugget");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").removeEntry("lead_nugget");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").removeEntry("nugget_nickel");
 
 #Add back "Correct Versions"
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").addItemEntryHelper(<embers:ingot_copper>, 10, 1, [Functions.setCount(1, 4)], []);
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").addItemEntryHelper(<embers:ingot_aluminum>, 10, 1, [Functions.setCount(1, 4)], []);
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").addItemEntryHelper(<embers:nugget_silver>, 7, 1, [Functions.setCount(1, 2)], []);
-LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").addItemEntryHelper(<embers:nugget_lead>, 9, 1, [Functions.setCount(1, 4)], []);
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").addItemEntryHelper(<embers:ingot_copper>, 10, 1, [Functions.setCount(1, 4)], []);
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").addItemEntryHelper(<embers:ingot_aluminum>, 10, 1, [Functions.setCount(1, 4)], []);
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").addItemEntryHelper(<embers:nugget_silver>, 7, 1, [Functions.setCount(1, 2)], []);
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house_0").addItemEntryHelper(<embers:nugget_lead>, 9, 1, [Functions.setCount(1, 4)], []);

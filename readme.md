@@ -128,13 +128,15 @@ Changelog
 ============
 Patch 0.3.2 (InDev)
 --------------------
-This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected. To help cut down on conflicts, a rew recipies have been altered (see full list below)
+This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected. To help cut down on conflicts, a few recipies have been altered (see full list below)
 
 ### Mods updated
 _Core_
 
 	- Roots
 	- Arcane Archives
+	- Blood Magic
+	- Immersive Engineering
 
 _Library_
 
@@ -145,12 +147,22 @@ _Helper_
 
 	- Mystical World
 	- Pam's Harvestcraft
+	- Charm
+	- Netherex
+	- Reborn core
+	- Storage Drawers
 
 _Modpack_
 
 	- FTBUtils
 
 ### Quests
+	- "The wand of the stars" no longer consumes the wand
+	- "Crystal Rock" should now recognize any Astral Sorcery Rock Crystal
+	- "Tardis" now a retrieval quest rather then Crafting
+	- "Magical Storage" now request a resonating table
+	- "To the Stars" Quest Line Expanded
+	- New Arcane Archives Questline added
 
 ### Configuration
 	- Charms Bookshelf Chest now properly allows the storage of various modded books
@@ -159,6 +171,7 @@ _Modpack_
 	- Quark Block of Charcoal Turned off (already present in Chisel)
 	- Quark Red Netherbrick Stairs Turned off (Already present in Netherex)
 	- Quark Quartz walls turned off (Already present in netherex)
+	- Mystical World Squid drops turned off (Already present and replicated in Pam's Harvestcraft)
 
 ### Scripting
 	- Runic Shears may now be used to shear Animania Cows

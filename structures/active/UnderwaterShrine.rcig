@@ -134,6 +134,45 @@
           }
         }
       }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "roots:dewgonia",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "botania:specialflower",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "hydroangeas"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "roots:elemental_soil_water",
+        "damage": 0,
+        "count": 1
+      }
     }
   ],
   "dependencyExpression": ""
