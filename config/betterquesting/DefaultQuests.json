@@ -2481,7 +2481,7 @@
     "38:10": {
       "questID:3": 38,
       "preRequisites:11": [
-        45
+        39
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2490,18 +2490,11 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "CHAIN",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "forge:bucketfilled",
+            "id:8": "minecraft:nether_star",
             "Count:3": 1,
-            "tag:10": {
-              "FluidName:8": "blood",
-              "Amount:3": 1000
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2511,8 +2504,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Something\u0027s off... ",
-          "desc:8": "The old books told that the wart would simply grow in soul sand... however, I don\u0027t think this is the case here. There may be some extra work required. Travel into the vast reaches of the nether and search out a frozen section of this hellish wasteland. There you will find a liquid... "
+          "name:8": "You\u0027re the Star now!",
+          "desc:8": "My young apprentice, it is time now. Prepare yourself to face the most powerful beast that you can imagine. And you reward will be unmatched in all the realm. Be careful my young apprentice. \n\n§4Information: No time like the present eh old boy? If you\u0027ve never assembled a wither before it\u0027s fairly simple. You just need 3 wither skulls, 4 Soul Sand, and a go get em attitude. Good luck~ "
         }
       },
       "tasks:9": {
@@ -2525,12 +2518,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "forge:bucketfilled",
+              "id:8": "minecraft:nether_star",
               "Count:3": 1,
-              "tag:10": {
-                "FluidName:8": "blood",
-                "Amount:3": 1000
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2540,17 +2529,23 @@
       },
       "rewards:9": {
         "0:10": {
-          "amount:3": 1,
-          "rewardID:8": "bq_standard:xp",
-          "isLevels:1": 1,
-          "index:3": 0
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:emerald_block",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
         }
       }
     },
     "39:10": {
       "questID:3": 39,
       "preRequisites:11": [
-        38
+        45
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2562,13 +2557,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "minecraft:skull",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "nex:golden_wither_bone_hoe"
-            },
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2577,31 +2568,27 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "The man with the gold ticket",
-          "desc:8": "It seems that no normal hoe has the power to till the soul sand like one might expect, this will probably require something a bit different. Use the bones of the fallen wither and a bit of gold to make a hoe... see if that might have the magic required. "
+          "name:8": "Raise a little hell",
+          "desc:8": "My apprentice, at the very depths of the nether, their exist a creature so altered by demonic influence of it\u0027s surroundings that the once glistening pearl white bone structure has been altered and changed into a more... dangerous form\n\n§4Information: This will begin the last series of quest as they relate to the vanilla Minecraft experience. Simply kill a wither skeleton and take it\u0027s head. "
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "minecraft:skull",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "nex:golden_wither_bone_hoe"
-              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 1
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -2610,10 +2597,18 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:skull",
+              "id:8": "minecraft:enchanted_book",
               "Count:3": 1,
+              "tag:10": {
+                "StoredEnchantments:9": {
+                  "0:10": {
+                    "lvl:2": 5,
+                    "id:2": 16
+                  }
+                }
+              },
               "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:3": 0
             }
           }
         }
@@ -3821,7 +3816,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "The wand of the stars",
-          "desc:8": "In order to truely understand the stars, you must first understand the tools to tamper them with. Using the essance of a slain enderman and the purest of marble construct a tool for such a task "
+          "desc:8": "In order to truely understand the stars, you must first understand the tools to tamper them with. Using the essance of a slain enderman and the purest of marble construct a tool for such a task \n\n§4Information: Constructing this is simple enough, but note you need to place a crafting bench near an already existing temple with a crystal, close enough that a little beam of light reaches out to it. You will then be able to craft this wand. \n\nAt night when you are holding this wand you may notice little jets of white light. Those are markers for \"Rock Crystals\" which you will find of use shortly "
         }
       },
       "tasks:9": {
@@ -3831,7 +3826,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemwand",
@@ -4478,7 +4473,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Crafting by Moonlight",
-          "desc:8": "Travel my young apprentice and find one of the ancient temples, inside a powerful crystal will shine down upon the crafting table you place near to assist you! "
+          "desc:8": "Travel my young apprentice and find one of the ancient temples, inside a powerful crystal will shine down upon the crafting table you place near to assist you! \n\n§4Information: Again, this must be constructed on the table that is near the crystal in the temple. \n\nThese tables have some unqiue properties, a sort of energy bar. The simple explanation is that the closer you are to maximum height and the later in the night that it is, the strong the bar. Note you don\u0027t have to be at max height for this table to function. "
         }
       },
       "tasks:9": {
@@ -4518,8 +4513,7 @@
     "66:10": {
       "questID:3": 66,
       "preRequisites:11": [
-        65,
-        84
+        65
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4543,7 +4537,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Click the F#@*^$! Lightwell",
-          "desc:8": "Now that you have access to the power of the stars, it is important to make use of it, you may psend some time searching for the crystaline rocks that are key to this recipie, but I assure you it is well worth the wait. "
+          "desc:8": "Now that you have access to the power of the stars, it is important to make use of it, you may psend some time searching for the crystaline rocks that are key to this recipie, but I assure you it is well worth the wait.\n\n§4Information: The lightwell, much like practically everything else in the mod will need access to the night sky in order to function. You can use it to create Starlight which in turn can react with different liquids (like Lava and Water). For  instance, Lava and Starlight will produce sand. "
         }
       },
       "tasks:9": {
@@ -5826,7 +5820,7 @@
     "84:10": {
       "questID:3": 84,
       "preRequisites:11": [
-        56
+        65
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5872,7 +5866,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -6997,7 +6991,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Light \u0027er up",
-          "desc:8": "Having dark places is never fun, but now you can use the literal essance of the stars to keep things well lit! "
+          "desc:8": "Having dark places is never fun, but now you can use the literal essance of the stars to keep things well lit! \n\n§4Information: This can be used in a few ways, though of course the most obvious use is to make a much prettier version of the torch. As a heads up, these are difficult to remove without a wand later in the mod, otherwise you just need to put a block where they were. "
         }
       },
       "tasks:9": {
@@ -7061,7 +7055,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Grand Illumination",
-          "desc:8": "Lighting up a small area is cute... but what if you could illuminate everything beneath you. Use your luminous alter to craft a device to do just that! "
+          "desc:8": "Lighting up a small area is cute... but what if you could illuminate everything beneath you. Use your luminous alter to craft a device to do just that! \n\n§4Information: This is fairly simple, as long as this block can see the sky above it, it will start filling the areas below where light can not normally reach (Red X\u0027s with F7) and begin populating them with light. This has a rather large range and so can deal with caves for a great distance. "
         }
       },
       "tasks:9": {
@@ -7136,7 +7130,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Liquified Starlight",
-          "desc:8": "At the very core of extension into the stars is the knowledge of how to distill it. Place an appropriate gem (Aquamarine or Rock Crystal) over the recently created tub to watch the magic work"
+          "desc:8": "At the very core of extension into the stars is the knowledge of how to distill it. Place an appropriate gem (Aquamarine or Rock Crystal) over the recently created tub to watch the magic work\n\n§4Information: Like any liquid, it\u0027s worth noting that you can use both rock crytals and aquamarines in the lightwell to produce this. You can also use Arcane Archives Quartz crystals. "
         }
       },
       "tasks:9": {
@@ -7180,7 +7174,7 @@
     "104:10": {
       "questID:3": 104,
       "preRequisites:11": [
-        65
+        230
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7207,7 +7201,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "See Unto the heavens",
-          "desc:8": "The stars are a magestic place, but perhaps you could use the knowledge from the scrolls around the land to dicern more of their power"
+          "desc:8": "The stars are a magestic place, but perhaps you could use the knowledge from the scrolls around the land to dicern more of their power\n\n§5§4Information: This is IMPORTANT, you need to actually use the constellations in order to infuse and empower a great many things in this mod. So  you may wish to spend a bit of time at night hunting for stars. "
         }
       },
       "tasks:9": {
@@ -11073,21 +11067,8 @@
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "allowSmelt:1": 1,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "totemic:totem_base",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {
@@ -11096,8 +11077,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "thaumcraft:ingot",
-              "Count:3": 3,
+              "id:8": "totemic:totem_torch",
+              "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -11160,8 +11141,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 3,
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 20,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -11227,12 +11208,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "roots:wildewheet_bread",
               "Count:3": 3,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:aubergine_item"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -11298,10 +11275,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "astralsorcery:itemcraftingcomponent",
-              "Count:3": 3,
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 10,
               "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:3": 0
             }
           }
         }
@@ -11575,10 +11552,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "botania:manaresource",
+              "id:8": "minecraft:diamond",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:3": 0
             }
           }
         }
@@ -13608,11 +13585,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "enderstorage:ender_pouch",
@@ -13621,7 +13598,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -15698,14 +15675,8 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "arcanearchives:tome_arcana",
+            "id:8": "arcanearchives:radiant_resonator",
             "Count:3": 1,
-            "tag:10": {
-              "Book:8": "arcanearchives:xml/tome.xml"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -15729,11 +15700,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "arcanearchives:tome_arcana",
+              "id:8": "arcanearchives:radiant_resonator",
               "Count:3": 1,
-              "tag:10": {
-                "Book:8": "arcanearchives:xml/tome.xml"
-              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -15751,6 +15719,1681 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 2
+            }
+          }
+        }
+      }
+    },
+    "228:10": {
+      "questID:3": 228,
+      "preRequisites:11": [
+        227
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:raw_quartz",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "229:10": {
+      "questID:3": 229,
+      "preRequisites:11": [
+        103
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:blockaltar",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Arise Alter, Alter Arise",
+          "desc:8": "My apprentice, it seems the power of this alter simply isn\u0027t enough, we are going to need more in order to create even more, powerful items! Prepare the correct structure and then begin construction on the alter. \n\n§4Information: It is worth noting that most everything in Astral Sorcery has a structure that goes with it (Alters / Rituals / etc). Meaning these are multi block structuresd often 11x11x7 or more in size.  Consult the book for the exact structure details. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "230:10": {
+      "questID:3": 230,
+      "preRequisites:11": [
+        65
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:itemcraftingcomponent",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Putting on your glasses",
+          "desc:8": "My young apprentice, to truely gaze into the stars, you are going to need to sharpen your vision, and to do that I believe we can use the  very magic of the stars. Place some glass and aquamarines on your new crafting table. \n\n§4Information: These piece of starlight infused glass will be used in any number of future expiriments and items so you may wish to make a few of them just in case. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 3
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "231:10": {
+      "questID:3": 231,
+      "preRequisites:11": [
+        237
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:blockaltar",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "232:10": {
+      "questID:3": 232,
+      "preRequisites:11": [
+        229
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:itemlinkingtool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Linking it all together",
+          "desc:8": "My apprentice, are you ready to progress to the next stage? Well if so it\u0027s time to learn! Prepare yourself, you are going to need to construct a method to link the power of the collector crystals to objects around them\n\n§4Information: You\u0027re going to want to find one of the temples with a collector crystal inside. You can right click a block and then the crystal with this tool to link them. Some blocks may change (like Iron for instance). "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemlinkingtool",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:pumpkin",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "minecraft:sand",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "233:10": {
+      "questID:3": 233,
+      "preRequisites:11": [
+        232
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:itemcraftingcomponent",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Dilithium? ",
+          "desc:8": "Hmm... perhaps if we use the power of the Collector Crystall.. Yes yes I believe that will do it. Quickly! Grab your tools and place some iron ore near the crystal my young apprentice, I have a rather... brilliant idea\n\n§4Information: By linking Iron ore with the power of a collector crystal you can create a material known as star metal which is used in a number of recipies.  "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 16,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "234:10": {
+      "questID:3": 234,
+      "preRequisites:11": [
+        233
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockmachine",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "You know what grinds my gears? ",
+          "desc:8": "I do believe that there may yet be a purpose for all of this... rock we\u0027ve been toying with. I can\u0027t quite put my finger on it, but I think you should go about creating one of those wheels\n\n§4Information: Despite being from the previous chapter of the mod, the grinding wheel\u0027s purpose doesn\u0027t really come into focus (for Astral Sorcery at least) until the later stages. Still you can make one to grind down metal which is always handy "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockmachine",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 9
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:metal",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 18
+            }
+          }
+        }
+      }
+    },
+    "235:10": {
+      "questID:3": 235,
+      "preRequisites:11": [
+        234
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:itemcraftingcomponent",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "236:10": {
+      "questID:3": 236,
+      "preRequisites:11": [
+        104,
+        229
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockmachine",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Twinkle Twinkle ",
+          "desc:8": "My apprentice, it has come to my attention that simply gazing into the stars like some kind of citrus deprived sailor is going to do you no good at all! It\u0027s time to go further! Put a tripod on that thing! \n\n§5§4Information: You will learn as you progress further through Astral Sorcery that there are smaller and smaller constellations. Keep finding constellation papers throughout the world to learn about them and their effects. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockmachine",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockattunementrelay",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "237:10": {
+      "questID:3": 237,
+      "preRequisites:11": [
+        233
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockattunementaltar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "LFM Molten Core, Must be attuned ",
+          "desc:8": "Studying the ancient text, I believe there may be hope yet to convert the power of certain star patterns into something more. Quickly follow me and I shall show you what I mean\n\n§4Information: IMPORTANT, this also follows on the constellations that you\u0027ve been uncovering with the telescope. Each constellation has it\u0027s own effects (enchantments / potions / armor / etc.),  so be sure to read up on each of them. Note that once something is attuned by and large it is difficult to get the materals (or impossible) to unattune them. So choose wisely. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockattunementaltar",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockblackmarble",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "astralsorcery:blockmarble",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "238:10": {
+      "questID:3": 238,
+      "preRequisites:11": [
+        237
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockritualpedestal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "239:10": {
+      "questID:3": 239,
+      "preRequisites:11": [
+        243,
+        242
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:blockaltar",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "240:10": {
+      "questID:3": 240,
+      "preRequisites:11": [
+        230
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockattunementrelay",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "ASN:10384",
+          "desc:8": "My apprentice... I believe I have found a way to strengthen your alter! Even if you don\u0027t have the full power of the stars to guide it. This power comes through focusing starlight through the use of spectral relays \n\n§4Information: There is a recipie in the book to make a relay and they serve a number of purposes. The first and most obvious is to strengthen the alter. Note the Astral Sorcery guide will provide additional details (as there must be a structure underneath the relay). \n\nYou can use up to 4 to strengthen the alter, but note they must be able to see the night sky like the alter They will also need some distance between them. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockattunementrelay",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 3
+            }
+          }
+        }
+      }
+    },
+    "241:10": {
+      "questID:3": 241,
+      "preRequisites:11": [
+        231
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockstarlightinfuser",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "242:10": {
+      "questID:3": 242,
+      "preRequisites:11": [
+        241
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:itemcraftingcomponent",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "243:10": {
+      "questID:3": 243,
+      "preRequisites:11": [
+        231,
+        235
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:itemcelestialcrystal",
+            "Count:3": 1,
+            "tag:10": {
+              "astralsorcery:10": {
+                "crystalProperties:10": {
+                  "collectiveCapability:3": 100,
+                  "size:3": 900,
+                  "fract:3": 0,
+                  "purity:3": 100,
+                  "sizeOverride:3": -1
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "244:10": {
+      "questID:3": 244,
+      "preRequisites:11": [
+        242
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blocktreebeacon",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "245:10": {
+      "questID:3": 245,
+      "preRequisites:11": [
+        243
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:blockcelestialcollectorcrystal",
+            "Count:3": 1,
+            "tag:10": {
+              "astralsorcery:10": {
+                "constellationName:8": "astralsorcery.constellation.discidia",
+                "crystalProperties:10": {
+                  "collectiveCapability:3": 100,
+                  "size:3": 900,
+                  "fract:3": 0,
+                  "purity:3": 100,
+                  "sizeOverride:3": -1
+                },
+                "collectorType:3": 1
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "246:10": {
+      "questID:3": 246,
+      "preRequisites:11": [
+        248
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockbore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "247:10": {
+      "questID:3": 247,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:itemcape",
+            "Count:3": 1,
+            "tag:10": {
+              "astralsorcery:10": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "248:10": {
+      "questID:3": 248,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockchalice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "249:10": {
+      "questID:3": 249,
+      "preRequisites:11": [
+        228
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:quartz_sliver",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "250:10": {
+      "questID:3": 250,
+      "preRequisites:11": [
+        228
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:gemcutters_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "251:10": {
+      "questID:3": 251,
+      "preRequisites:11": [
+        250
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:shaped_quartz",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "252:10": {
+      "questID:3": 252,
+      "preRequisites:11": [
+        228
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:radiant_chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "253:10": {
+      "questID:3": 253,
+      "preRequisites:11": [
+        228
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:radiant_chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "254:10": {
+      "questID:3": 254,
+      "preRequisites:11": [
+        250
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:radiant_dust",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "255:10": {
+      "questID:3": 255,
+      "preRequisites:11": [
+        251,
+        254
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "arcanearchives:manifest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "256:10": {
+      "questID:3": 256,
+      "preRequisites:11": [
+        255
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:lectern_manifest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "257:10": {
+      "questID:3": 257,
+      "preRequisites:11": [
+        255
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:scintillating_inlay",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "258:10": {
+      "questID:3": 258,
+      "preRequisites:11": [
+        257
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:containment_field",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "259:10": {
+      "questID:3": 259,
+      "preRequisites:11": [
+        257
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:material_interface",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "260:10": {
+      "questID:3": 260,
+      "preRequisites:11": [
+        251
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:monitoring_crystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "261:10": {
+      "questID:3": 261,
+      "preRequisites:11": [
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:radiant_tank",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "262:10": {
+      "questID:3": 262,
+      "preRequisites:11": [
+        261
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "arcanearchives:radiant_amphora",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "263:10": {
+      "questID:3": 263,
+      "preRequisites:11": [
+        254
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:brazier_of_hoarding",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "264:10": {
+      "questID:3": 264,
+      "preRequisites:11": [
+        259
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arcanearchives:radiant_trove",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "265:10": {
+      "questID:3": 265,
+      "preRequisites:11": [
+        228
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "arcanearchives:scepter_revelation",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "266:10": {
+      "questID:3": 266,
+      "preRequisites:11": [
+        265
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "arcanearchives:scepter_manipulation",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "267:10": {
+      "questID:3": 267,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:beacon",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "How to reach Gondor",
+          "desc:8": "My apprentice, you have overcome perhaps your greatest challenge, as such I think it time you show the world the light of your persistence. Assemble a beacon! \n\n§4Information: This is one of the final quest for the Vanilla minecraft chain. Please be sure to explore all the various vanilla options! "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:beacon",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_block",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:gold_block",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "minecraft:diamond_block",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
             }
           }
         }
@@ -16203,14 +17846,14 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -84,
+          "x:3": -48,
           "y:3": 114,
           "id:3": 38,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -48,
+          "x:3": -84,
           "y:3": 114,
           "id:3": 39,
           "sizeY:3": 24
@@ -16389,6 +18032,13 @@
           "y:3": 78,
           "id:3": 196,
           "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 150,
+          "id:3": 267,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -16547,13 +18197,13 @@
         "1:10": {
           "sizeX:3": 24,
           "x:3": -156,
-          "y:3": 42,
+          "y:3": 78,
           "id:3": 65,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -156,
+          "x:3": -120,
           "y:3": 78,
           "id:3": 66,
           "sizeY:3": 24
@@ -16567,30 +18217,170 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": 6,
+          "x:3": -192,
+          "y:3": 78,
           "id:3": 101,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 6,
+          "x:3": -228,
+          "y:3": 78,
           "id:3": 102,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -120,
+          "x:3": -84,
           "y:3": 78,
           "id:3": 103,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 42,
+          "x:3": -156,
+          "y:3": 150,
           "id:3": 104,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 114,
+          "id:3": 229,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 114,
+          "id:3": 230,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 222,
+          "id:3": 231,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 114,
+          "id:3": 232,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 150,
+          "id:3": 233,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 150,
+          "id:3": 234,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 186,
+          "id:3": 235,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 150,
+          "id:3": 236,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 186,
+          "id:3": 237,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 186,
+          "id:3": 238,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": 252,
+          "id:3": 239,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": 114,
+          "id:3": 240,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 222,
+          "id:3": 241,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": 186,
+          "id:3": 242,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 222,
+          "id:3": 243,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": 150,
+          "id:3": 244,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 222,
+          "id:3": 245,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 288,
+          "id:3": 246,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": 288,
+          "id:3": 247,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 252,
+          "id:3": 248,
           "sizeY:3": 24
         }
       },
@@ -17584,6 +19374,160 @@
         }
       },
       "order:3": 10
+    },
+    "11:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -60,
+          "id:3": 228,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -60,
+          "id:3": 249,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -24,
+          "id:3": 250,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -24,
+          "id:3": 251,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -60,
+          "id:3": 252,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -24,
+          "id:3": 253,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 12,
+          "id:3": 254,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 12,
+          "id:3": 255,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 12,
+          "id:3": 256,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 48,
+          "id:3": 257,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 48,
+          "id:3": 258,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 48,
+          "id:3": 259,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -24,
+          "id:3": 260,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 84,
+          "id:3": 261,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 84,
+          "id:3": 262,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 12,
+          "id:3": 263,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 84,
+          "id:3": 264,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": -24,
+          "id:3": 265,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -60,
+          "id:3": 266,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Archives of the Lost",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "My young apprentice, surely you grow weary of collecting and sorting so many items? Perhaps there is a manner by which we can ease your burden?\n\n§4Information: Arcane Archives is a storage focused mod, in the vein of more tech centric mods like Applied Energistics or the like, with a magical twist. "
+        }
+      },
+      "order:3": 11
     }
   },
   "questSettings:10": {
@@ -17593,7 +19537,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:home_image.png",
       "party_enable:1": 1,
