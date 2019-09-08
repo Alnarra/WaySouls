@@ -15891,11 +15891,16 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Ascension",
+          "desc:8": "I don\u0027t think that our current altar has enough power... enough room to truely construct all that the stars have to offer. \n\n§4Information: This is your next stage. Keep in mind: Don\u0027t change the structure under the altar until you\u0027ve upgraded it. This will unlock new sections in your Astral Sorcery book as well. Plus it looks really cool "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "232:10": {
@@ -16137,12 +16142,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Dust yourself off",
+          "desc:8": "What about this my young apprentice? We can perhaps grind the star metal? By doing so we may be able to create some rather interesting effects don\u0027t you think? \n\n§4Information: Like starmetal, stardust is also used extensively as an ingredient for a number of future items throughout the rest of the mod, so you may wish to keep some handy. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 5,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          }
+        }
+      }
     },
     "236:10": {
       "questID:3": 236,
@@ -16305,12 +16341,54 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Always putting things on pedestals",
+          "desc:8": "I... I have an idea my apprentice. We can attune more then just your body to the constellations of the sky, perhaps we can attune the rock crystals as well! Here let me find one in my bag\n\n§4Information: Crystals can be attuned and then placed on a ritual pedestal (which has a structure). The effects are determined on a variety of factors including the Purity and Size of the Crystal, what type of crystal it is (celestial or normal). And of course the constellation being attuned to. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockritualpedestal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemrockcrystalsimple",
+              "Count:3": 1,
+              "tag:10": {
+                "astralsorcery:10": {
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 400,
+                    "fract:3": 0,
+                    "purity:3": 100,
+                    "sizeOverride:3": -1
+                  }
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "239:10": {
       "questID:3": 239,
@@ -16342,11 +16420,16 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Final Form",
+          "desc:8": "We must take yet one more step in order to achieve that which we truely seek, the unlimited power of the stars. To do so we must agument our altar just a bit more, a place to focus the celestiial strength it has gathered. \n\n§4§4Information: At current, this is the final form of the celestial altar, and for certain recipies it must be attuned to match a given star pattern. Keep this in mind "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "240:10": {
@@ -16439,12 +16522,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Infusing your way to victory",
+          "desc:8": "Hm...  perhaps there is a way to use the powers contained within the starlight liquid with any number of items? But we\u0027re going to need something more, some manner of infusion structure for doing so. \n\n§4Information: The infusion alter\u0027s primary purpose tends to be for infusing aquamarines. Keep in mind that this has to have all 12 starlight liquid segments filled in order to function. \n\nOh... it may also do some ore doubling "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockstarlightinfuser",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 32,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "242:10": {
       "questID:3": 242,
@@ -16472,12 +16586,43 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Shining Star",
+          "desc:8": "Its time to expiriment and make use of our structure, quickly gather up some of your starlight liquid and let\u0027s use this infusion altar for something useful \n\n§4Information: Dirt -\u003e Grass, Sand -\u003e Clay, be sure to check out all the possible recipies. This item is used a great deal in all future recipies. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 4
+            }
+          }
+        }
+      }
     },
     "243:10": {
       "questID:3": 243,
@@ -16520,12 +16665,54 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "All encompassing Celestial Power",
+          "desc:8": "Hmm... this stardust has all sorts of interesting properties. Apprentice you\u0027ve been trying to increase the size of your rock crystals by throwing them in Starlight Liquid right? Perhaps you can try throwing this in there with them! \n\n§4Information: By adding this to a rock crystal in starlight liquid, it will create a celestial crystal growth. These are larger, and more powerful. Much like Rock Crystals they can be grown in starlight liquid and once they reach maximum size they have a VERY small chance to double / split with one segment being more pure. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcelestialcrystal",
+              "Count:3": 1,
+              "tag:10": {
+                "astralsorcery:10": {
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "fract:3": 0,
+                    "purity:3": 100,
+                    "sizeOverride:3": -1
+                  }
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockcustomore",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "244:10": {
       "questID:3": 244,
@@ -16553,12 +16740,55 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Treesus",
+          "desc:8": "Perhaps we can expand the powers of the stars to help with some mundane task? Tell me  have you grown tired of chopping down trees? \n\n§4Information: Tree Beacons are one of those handy devices. Simply put the tree beacon down and then the saplings of the trees you wish to harvest. Given enough time the sapling will grow with exposure to the tree beacon and have a certain glow to it. From there anything that might have dropped off the tree will now occasionally just drop "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blocktreebeacon",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:wisdom_sapling",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:sapling",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "thaumcraft:sapling_silverwood",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "245:10": {
       "questID:3": 245,
@@ -16602,11 +16832,16 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Shepard! It\u0027s the collectors",
+          "desc:8": "I have a further idea for stabalizing our ritiuals and the like. Do you recall the crystal that you stumbled across in the temple? I believe that I may be able to recreate such  a thing. \n\n§4Information: Collector Crystals have a variety of purposes, from strengthening starlight to an altar, to strengthening a ritual all the way to being able to convert items (just like the orginal). "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "246:10": {
@@ -16635,12 +16870,53 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Burrowing",
+          "desc:8": "There may be items that are buried beneath the very foundations of the world itself. So cemeted in the bedrock that we will need a collasal drill to reach down into the depths. \n\n§4Information: Fed with liquid starlight and dumping it\u0027s contents into a chest or chalice, this device will  burrow its way down to the core of the earth (depending on which final form you give it) and start extracting materials. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockbore",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemchargedcrystalsword",
+              "Count:3": 1,
+              "tag:10": {
+                "astralsorcery:10": {
+                  "size:3": 1800,
+                  "fract:3": 0,
+                  "purity:3": 100,
+                  "sizeOverride:3": -1,
+                  "collect:3": 100,
+                  "chCount:3": 3
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "247:10": {
       "questID:3": 247,
@@ -16674,12 +16950,55 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Mantle of The Stars",
+          "desc:8": "Making tools is one matter, but what if we could attune a piece of armor, similar to the manner in which you have been attuned? \n\n§4Information: By attuning the alter a certain way you can create an armor that much like everything else that can be attuned, has certain unique properties based on what it is attuned with. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcape",
+              "Count:3": 1,
+              "tag:10": {
+                "astralsorcery:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemchargedcrystalpickaxe",
+              "Count:3": 1,
+              "tag:10": {
+                "astralsorcery:10": {
+                  "size:3": 2700,
+                  "fract:3": 0,
+                  "purity:3": 100,
+                  "sizeOverride:3": -1,
+                  "collect:3": 100
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "248:10": {
       "questID:3": 248,
@@ -16707,12 +17026,59 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "We have a containment Breach",
+          "desc:8": "Well if Lava and Liquid Starlight mix to make sand, perhaps we can put them both in a small container. What do you think apprentice? \n\n§4Information: Much like their real liquid counterparts, if two containment chalices with different liquids are close enough together they will begin to make the items that would normally be formed in collisions. In addition these can automatically draw liquids from a Liquid Starlight well. "
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockchalice",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:lava_bucket",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:water_bucket",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "astralsorcery.liquidstarlight",
+                "Amount:3": 1000
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
     "249:10": {
       "questID:3": 249,
@@ -17394,6 +17760,79 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "268:10": {
+      "questID:3": 268,
+      "preRequisites:11": [
+        242
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockmapdrawingtable",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Enchanting with the Stars",
+          "desc:8": "Well my young apprentice, it is time to truely harvest the power of the constellations that  you have discovered. Using this table I believe we can make enchantments and potions both! \n\n§4Information: This unique UI\u0027d device, so long as it is granted access to starlight, will with the right combintation of attunements create it\u0027s very own enchantments and potions. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:blockmapdrawingtable",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:iteminfusedglass",
+              "Count:3": 1,
+              "tag:10": {
+                "astralsorcery:10": {}
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 32,
+              "OreDict:8": "",
+              "Damage:3": 5
             }
           }
         }
@@ -18381,6 +18820,13 @@
           "x:3": -156,
           "y:3": 252,
           "id:3": 248,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": 186,
+          "id:3": 268,
           "sizeY:3": 24
         }
       },
