@@ -15,6 +15,8 @@ Issues:				https://github.com/fullphaser/WaySouls/issues
 
 Discord:			https://discord.gg/hZp7sfh
 
+Curseforge:		https://www.curseforge.com/minecraft/modpacks/wayward-souls
+
 ### Description
 ------------
 They say in a more ancient time that there were great and powerful spirits that guided the path of those who walked the square world. That there was a time when the very essence of magic is what controlled the living and the damned. Allow me to be your guide on an adventure to control the very nature of magic itself! We will walk amongst the stars and the depths of all the realms of hell. No land is without our touch! Join me as my apprentice as I teach you... the ways of magic
@@ -128,7 +130,7 @@ Changelog
 ============
 Patch 0.3.2 (InDev)
 --------------------
-This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected. To help cut down on conflicts, a few recipies have been altered (see full list below)
+This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected. To help cut down on conflicts, a few recipes have been altered (see full list below)
 
 ### Mods updated
 _Core_
@@ -137,6 +139,7 @@ _Core_
 	- Arcane Archives
 	- Blood Magic
 	- Immersive Engineering
+	- AbyssalCraft
 
 _Library_
 
@@ -151,6 +154,8 @@ _Helper_
 	- Netherex
 	- Reborn core
 	- Storage Drawers
+	- Animania
+	- Gravestone
 
 _Modpack_
 
@@ -163,6 +168,7 @@ _Modpack_
 	- "Magical Storage" now request a resonating table
 	- "To the Stars" Quest Line Expanded
 	- New Arcane Archives Questline added
+	- Quest in "The Basics of the World" have been altered to allow users to see which questlines lead to which mods. 
 
 ### Configuration
 	- Charms Bookshelf Chest now properly allows the storage of various modded books
@@ -179,6 +185,8 @@ _Modpack_
 	- Witchery Silver now only set to be Embers Silver
 	- AbyssalCraft iron plate and Immersive Engineering Iron Rod should no longer have conflicting Recipes
 	- Rustic Stake and Quark Vertical Wooden slabs should no longer be in conflict
+	- Copper, Lead, Silver, and Aluminum ore can now be used in the starlight infuser
+	- Animania Milks can now be used in the recipe for the Milk Jar  
 
 Patch 0.3.1
 --------------------
