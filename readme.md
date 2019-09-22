@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.3.1
+Current Version: 	0.3.2 - Hotfix 1
 
 Minecraft Version: 	1.1.12
 
@@ -128,13 +128,17 @@ Mods
 
 Changelog
 ============
+
 Patch 0.3.2 - Hotfix 1
+---------------------
 There were some quest in Chapter 1 that were left tied to now removed quest, this hotfix should correct that issues
 
 ### Quest
 - "The coal is [Multipart]", "Diamond in the Ruff" no long requires "Axe Away"
 - "All that glitters is gold", "Dusting off", "Crystal Edge" no longer require "Picking with Iron"
 - "Holy Cow" no longer requires "To battle"
+- "Legends of Mana" no longer requires "Mr. Bucket"
+
 
 Patch 0.3.2
 --------------------
