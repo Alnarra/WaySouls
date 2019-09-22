@@ -128,7 +128,15 @@ Mods
 
 Changelog
 ============
-Patch 0.3.2 (InDev)
+Patch 0.3.2 - Hotfix 1
+There were some quest in Chapter 1 that were left tied to now removed quest, this hotfix should correct that issues
+
+### Quest
+- "The coal is [Multipart]", "Diamond in the Ruff" no long requires "Axe Away"
+- "All that glitters is gold", "Dusting off", "Crystal Edge" no longer require "Picking with Iron"
+- "Holy Cow" no longer requires "To battle"
+
+Patch 0.3.2
 --------------------
 This is to clean up a few bugs and add a quest chain or two. As a not top Server Owners you will likely get warnings about /fml confirm for a number of Mystical World Items, so this is a notation that that is to be expected. To help cut down on conflicts, a few recipes have been altered (see full list below)
 
@@ -168,7 +176,7 @@ _Modpack_
 	- "Magical Storage" now request a resonating table
 	- "To the Stars" Quest Line Expanded
 	- New Arcane Archives Questline added
-	- Quest in "The Basics of the World" have been altered to allow users to see which questlines lead to which mods. 
+	- Quest in "The Basics of the World" have been altered to allow users to see which questlines lead to which mods.
 
 ### Configuration
 	- Charms Bookshelf Chest now properly allows the storage of various modded books
