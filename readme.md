@@ -7,7 +7,7 @@ Current Version: 	0.3.3
 
 Minecraft Version: 	1.1.12
 
-Forge Version: 		14.23.5.2831
+Forge Version: 		14.23.5.2854
 
 Modpack Author:		Alnarra
 
@@ -135,7 +135,7 @@ Patch 0.3.3
 It's been a while since I've been at this right? Well My friends and I were trying to find a modpack that we actually enjoyed. Problematically, we can't find a 1.16.5 version that  doesn't either crash or piss us off. As such I have been tasked with updating this one, to at least the the most recent versions in 1.12.2. So here we  are. Thus, I am updating the pack. 
 
 ### Modpack Core:
-	- Forge Updated to 14.23.5.2831
+	- Forge Updated to 14.23.5.2854
 
 ### Mods Updated
 _Core_
