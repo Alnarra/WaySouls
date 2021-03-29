@@ -26,8 +26,8 @@ mods.rustic.Condenser.removeRecipe(regenNormal);
 mods.rustic.Condenser.removeRecipe(regenLong);
 mods.rustic.Condenser.removeRecipe(regenTwo);
 mods.rustic.Condenser.addRecipe(regenNormal, <harvestcraft:honeycombitem>, <rustic:cohosh>);
-mods.rustic.Condenser.addRecipe(regenLong, <rustic:horsetail>, [<harvestcraft:honeycombitem>,<rustic:cohosh>]);
-mods.rustic.Condenser.addRecipe(regenTwo,<rustic:marsh_mallow>,[<harvestcraft:honeycombitem>,<rustic:cohosh>]);
+mods.rustic.Condenser.addRecipe(regenLong,[<rustic:cohosh>, <harvestcraft:honeycombitem>],<rustic:horsetail>);
+mods.rustic.Condenser.addRecipe(regenTwo,[<rustic:cohosh>, <harvestcraft:honeycombitem>],<rustic:marsh_mallow>);
 
 #remove Bee's from menu
 recipes.remove(<rustic:apiary>);

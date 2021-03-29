@@ -3,7 +3,7 @@ Wayward Souls
 
 Info
 ------------
-Current Version: 	0.3.2 - Hotfix 1
+Current Version: 	0.3.3
 
 Minecraft Version: 	1.1.12
 
@@ -128,6 +128,72 @@ Mods
 
 Changelog
 ============
+
+
+Patch 0.3.3 
+----
+It's been a while since I've been at this right? Well My friends and I were trying to find a modpack that we actually enjoyed. Problematically, we can't find a 1.16.5 version that  doesn't either crash or piss us off. As such I have been tasked with updating this one, to at least the the most recent versions in 1.12.2. So here we  are. Thus, I am updating the pack. 
+
+### Modpack Core:
+	- Forge Updated to 14.23.5.2831
+
+### Mods Updated
+_Core_
+
+	- Wizardry
+	- Abysallcraft
+	- Embers 
+	- Immersive Engineering
+	- Bewitchment
+	- Astral Sorcery
+	- Arcane Archives
+	- Roots
+
+_Library_
+
+	- MysticLib
+	- LibrarianLib
+	- LibraryEx
+	- Patchouli
+	- RebornCore
+	- FTBLib
+
+
+_Helper_
+
+	- NetherEx
+	- Animania
+	- Charm
+	- MysticWorld
+	- Storage Drawers
+	- Rustic
+	- Soot
+
+	
+_UI_
+
+	- Dynamic Surroundings
+	- AppleSkin
+	- JEI
+	- RPG Hud
+	- FoamFix
+
+_Modpack_
+
+	- Abysallcraft Integration
+	- BetterQuesting
+	- FTBUtilities
+	- Loottweaker
+	- CraftTweaker2
+
+### Configuration
+	- Mystical World no longer has the player spawn with a book 
+	- Disabled Garnet and Opal World Generation by Bewitchment
+	
+### Scripting
+	- Bewitchment Silver plates merged into Embers plates	
+	- Bewitchment recipies requiring Opal or Garnet had those items replaced with Amerthyst (Cuts down on the clutter) 
+
 
 Patch 0.3.2 - Hotfix 1
 ---------------------
