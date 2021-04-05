@@ -9,6 +9,10 @@ import loottweaker.vanilla.loot.Functions;
 LootTweaker.getTable("bewitchment:chests/materials").getPool("materials").removeEntry("bewitchment:silver_ingot");
 LootTweaker.getTable("bewitchment:chests/materials").getPool("materials").addItemEntryHelper(<embers:ingot_silver>, 1 , 1, [Functions.setCount(1,2)], []);
 
+#Clean out the Gems
+LootTweaker.getTable("bewitchment:chests/materials").getPool("materials").removeEntry("bewitchment:garnet");
+LootTweaker.getTable("bewitchment:chests/materials").getPool("materials").removeEntry("bewitchment:opal");
+
 #Clean abyssalcraft entries
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("abyssalcraft:tin_ingot");
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").removeEntry("abyssalcraft:copper_ingot");

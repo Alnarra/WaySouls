@@ -129,6 +129,35 @@ Mods
 Changelog
 ============
 
+Patch 0.3.4 
+---- 
+This is a small patch meant to address issues discovered on the PTR
+
+### Mods Updated
+	
+_Core_
+
+	- Bewitchment
+	
+### Configuration
+	- Mystical World asked to stop making quartz
+	- Silk Worms no longer Territorial 
+	- Silk worms don't drop from leaves nearly as often
+	- Minor WAILA and RPG-Hud GUI Tweaks 
+	
+### Quests
+	- A lot of the early game quest have been fixed to be retrieval rather then crafting
+	- Stovetop is best, reward fixed
+	- Mix it up, Fixed 
+	- Rare Earth Metals now ask for the correct amethyst 
+	- A number of quest were made retrieval rather then crafting
+	- The snooper booper removed
+	- Mystical world no longer makes frogs (let quark handle them) or owls (let bewitchment handle them) 
+	
+### Scripting
+	- Runic Shears can now properly shear Animania Horses
+	- Witchery asked not to add it's other gems to the loot table
+
 
 Patch 0.3.3 
 ----
