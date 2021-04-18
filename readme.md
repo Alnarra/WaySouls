@@ -41,6 +41,9 @@ Mods
 	- Bewitchment
 	- Arcane Archives
 	- Wizardry
+	- The Twighlight Forest
+	- The Aether
+
 
 ### Library Mods
 
@@ -91,6 +94,8 @@ Mods
 	- Iron Chest
 	- Mystic World
 	- Charms
+	- Dynamic Trees
+
 
 ### UI Mods
 
@@ -124,10 +129,63 @@ Mods
 	- ModTweaker
 	- Loottweaker
 	- AbyssalCraft Integration
+	- Dyanmic Trees - Mystical World
+	- Dynamic Trees - Natur's Aura
+	- Dynamic Trees - Pam's Harvescraft
+	- Dynamic Trees - Quark
+	- Dynamic Trees - Thaumcraft Compat
+	- Dynamic Trees - The Aether Legacy
+	- Dynamic Trees - The Twighlight Forest
+	- Dynamic Trees - Totemic
+	- Dyanmic Trees - Roots
 
 
 Changelog
 ============
+
+Patch 0.4.0 - Portals and Destinations
+---- 
+This will add two key mods: The Twighlight Forest and the Aether for those who like to explore other interesting dimensions. My hope is that Dynamic trees and the two dimensions mods adds some interesting exploration while not being too heavy an addition to the modpack (as the dimensions will be loaded in seperate instances). 
+
+
+### Mods Added
+
+_Core_
+
+	- The Twighlight Forest
+	- The Aether
+
+_Helper_ 
+	
+	- Dynamic Trees
+	
+_Modpack_
+
+	- Dyanmic Trees - Mystical World
+	- Dynamic Trees - Natur's Aura
+	- Dynamic Trees - Pam's Harvescraft
+	- Dynamic Trees - Quark
+	- Dynamic Trees - Thaumcraft Compat
+	- Dynamic Trees - The Aether Legacy
+	- Dynamic Trees - The Twighlight Forest
+	- Dynamic Trees - Totemic
+	- Dyanmic Trees - Roots
+	
+### Mods Updated 
+
+_Helper_
+	
+	- Mystic World 
+	
+### Configuration  
+	- Copper will now only spawn above Y = 20 to allow some of the rarer metals more spawning spots, Copper Max increased to Y = 100 
+	- Quark Trees told not to spawn (per Dynamic Trees suggestion) 
+	- Ressurect Complex Told not to generate it's trees 
+	
+### Quest
+	- Quest Lines  now include an icon to help make them easier to identify 
+	- Added starting quest line for Twighlight Forest and Aether 
+
 
 Patch 0.3.4 
 ---- 
